@@ -1,0 +1,20 @@
+services:
+  php:
+    build:
+      context: ./infrastructure/docker/php
+      dockerfile: Dockerfile
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+  db:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: raga_of_the_week
+  nginx:
+    image: nginx:1.25
+    ports:
+      - 8080:80
+    volumes:
+      - ./:/var/www
+      - ./infrastructure/docker/nginx:/etc/nginx/conf.d
