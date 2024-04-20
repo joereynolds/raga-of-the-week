@@ -61,6 +61,18 @@
                 {{$raga->notes->sixth}}
                 {{$raga->notes->seventh}}
             </p>
+
+            <p>
+                Similar ragas
+
+                <ul>
+                    @foreach($raga->similarRaga as $similarRaga)
+                            <li>
+                                <a>{{ App\Models\Raga::find($similarRaga->linked_raga_id)->name }}</a>
+                            </li>
+                    @endforeach
+                </ul>
+            </p>
         @endforeach
 
     </body>

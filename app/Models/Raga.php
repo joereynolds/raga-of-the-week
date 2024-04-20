@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Raga extends Model
@@ -28,5 +29,10 @@ class Raga extends Model
     public function avarohana(): HasOne
     {
         return $this->hasOne(Avarohana::class);
+    }
+
+    public function similarRaga(): HasMany
+    {
+        return $this->hasMany(SimilarRaga::class);
     }
 }

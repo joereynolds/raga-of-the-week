@@ -7,8 +7,8 @@ Included in this is a breakdown of the svaras and some useful equivalent things 
 ### Running it
 
 ```
-# populate the db
-docker-compose run --rm php php artisan migrate:fresh --seed
+# Run this to seed and link records
+./setup.sh
 
 # start the site
 docker-compose up

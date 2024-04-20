@@ -14,7 +14,7 @@ class RagaSeeder extends Seeder
         foreach ($ragas as $raga) {
             $config = json_decode(
                 file_get_contents(__DIR__ . "/data/ragas/$raga"),
-                flags: JSON_OBJECT_AS_ARRAY
+                flags: JSON_OBJECT_AS_ARRAY|JSON_THROW_ON_ERROR
             );
 
             DB::table('ragas')->insert($config['ragas']);
