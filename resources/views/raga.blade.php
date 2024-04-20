@@ -8,38 +8,40 @@
     </head>
 
     <body>
-        <h1>Raga of the week</h1>
 
-        <h2>{{ $raga->name }}</h2>
+        @foreach($ragas as $raga)
+            <h1>Raga of the week</h1>
 
-        {{$raga->name}} is number {{$raga->number}} of the Melakarta ragas.
+            <h2>{{ $raga->name }}</h2>
 
-        <h3>Western bit<h3>
+            {{$raga->name}} is number {{$raga->number}} of the Melakarta ragas.
 
+            <h3>Western bit<h3>
 
-        <p>Arohana
-            {{$raga->arohana->shadja}}
-            {{$raga->arohana->rishabha}}
-            {{$raga->arohana->gandhara}}
-            {{$raga->arohana->madhyama}}
-            {{$raga->arohana->panchama}}
-            {{$raga->arohana->dhaivata}}
-            {{$raga->arohana->nishada}}
-        </p>
+            <p>
+                Arohana
+                {{$raga->arohana->shadja}}
+                {{$raga->arohana->rishabha}}
+                {{$raga->arohana->gandhara}}
+                {{$raga->arohana->madhyama}}
+                {{$raga->arohana->panchama}}
+                {{$raga->arohana->dhaivata}}
+                {{$raga->arohana->nishada}}
+            </p>
 
-        <p>Avarohana
-            {{$raga->avarohana->shadja}}
-            {{$raga->avarohana->nishada}}
-            {{$raga->avarohana->dhaivata}}
-            {{$raga->avarohana->panchama}}
-            {{$raga->avarohana->madhyama}}
-            {{$raga->avarohana->gandhara}}
-            {{$raga->avarohana->rishabha}}
+            <p>
+                Avarohana
+                {{$raga->avarohana->shadja}}
+                {{$raga->avarohana->nishada}}
+                {{$raga->avarohana->dhaivata}}
+                {{$raga->avarohana->panchama}}
+                {{$raga->avarohana->madhyama}}
+                {{$raga->avarohana->gandhara}}
+                {{$raga->avarohana->rishabha}}
+            </p>
 
-        </p>
-
-        <p>
-            Formula
+            <p>
+                Formula
                 {{$raga->formula->first}}
                 {{$raga->formula->second}}
                 {{$raga->formula->third}}
@@ -47,10 +49,10 @@
                 {{$raga->formula->fifth}}
                 {{$raga->formula->sixth}}
                 {{$raga->formula->seventh}}
-        </p>
+            </p>
 
-        <p>
-            Notes
+            <p>
+                Notes
                 {{$raga->notes->first}}
                 {{$raga->notes->second}}
                 {{$raga->notes->third}}
@@ -58,7 +60,8 @@
                 {{$raga->notes->fifth}}
                 {{$raga->notes->sixth}}
                 {{$raga->notes->seventh}}
-        </p>
+            </p>
+        @endforeach
 
     </body>
 </html>

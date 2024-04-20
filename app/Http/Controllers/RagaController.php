@@ -9,6 +9,6 @@ class RagaController extends Controller
 {
     public function show(): View
     {
-        return view('raga', ['raga' => Raga::first()]);
+        return view('raga', ['ragas' => Raga::all()]);
     }
 }
