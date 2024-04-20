@@ -8,10 +8,6 @@
     </head>
 
     <body>
-        @php
-            $theory = json_decode($raga->theory);
-
-        @endphp
         <h1>Raga of the week</h1>
 
         <h2>{{ $raga->name }}</h2>
@@ -20,11 +16,49 @@
 
         <h3>Western bit<h3>
 
-        <p>Arohanam {{ json_encode($theory->arohanam) }}</p>
-        <p>Avarohanam {{ json_encode($theory->avarohanam) }}</p>
 
-        <p>Formula {{ json_encode($theory->formula) }}</p>
-        <p>Notes {{ json_encode($theory->notes) }}</p>
+        <p>Arohana
+            {{$raga->arohana->shadja}}
+            {{$raga->arohana->rishabha}}
+            {{$raga->arohana->gandhara}}
+            {{$raga->arohana->madhyama}}
+            {{$raga->arohana->panchama}}
+            {{$raga->arohana->dhaivata}}
+            {{$raga->arohana->nishada}}
+        </p>
+
+        <p>Avarohana
+            {{$raga->avarohana->shadja}}
+            {{$raga->avarohana->nishada}}
+            {{$raga->avarohana->dhaivata}}
+            {{$raga->avarohana->panchama}}
+            {{$raga->avarohana->madhyama}}
+            {{$raga->avarohana->gandhara}}
+            {{$raga->avarohana->rishabha}}
+
+        </p>
+
+        <p>
+            Formula
+                {{$raga->formula->first}}
+                {{$raga->formula->second}}
+                {{$raga->formula->third}}
+                {{$raga->formula->fourth}}
+                {{$raga->formula->fifth}}
+                {{$raga->formula->sixth}}
+                {{$raga->formula->seventh}}
+        </p>
+
+        <p>
+            Notes
+                {{$raga->notes->first}}
+                {{$raga->notes->second}}
+                {{$raga->notes->third}}
+                {{$raga->notes->fourth}}
+                {{$raga->notes->fifth}}
+                {{$raga->notes->sixth}}
+                {{$raga->notes->seventh}}
+        </p>
 
     </body>
 </html>

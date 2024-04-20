@@ -12,7 +12,6 @@ return new class extends Migration
             $table->id();
             $table->smallInteger('number');
             $table->string('name');
-            $table->json('theory');
         });
     }
 
