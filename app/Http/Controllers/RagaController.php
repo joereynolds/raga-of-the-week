@@ -12,9 +12,9 @@ class RagaController extends Controller
         return view('raga', ['ragas' => Raga::all()]);
     }
 
-    public function show(): View
+    public function show(int $id): View
     {
-        return view('raga', ['ragas' => Raga::all()]);
+        return view('raga', ['ragas' => Raga::where('number', $id)->get()]);
     }
 
     public function random()
