@@ -6,21 +6,25 @@
 
         <title>Raga Of The Week</title>
 
-        <script src="http://unpkg.com/tone"></script>
+        <script src="https://unpkg.com/tone"></script>
         <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
     </head>
 
     <body>
+        <h1>Raga of the week</h1>
+
+        <p>Welcome!</p>
+        <p>Raga of the week shows a different Melakarta raga each week*.</p>
+        <p>This week's <strong>raga of the week</strong> is...</p>
+        <small>*(Support for other ragas like Janyas is on the list)</small>
 
         @foreach($ragas as $raga)
-            <h1>Raga of the week</h1>
 
             <h2>{{ $raga->name }}</h2>
 
-            {{$raga->name}} is number {{$raga->number}} of the Melakarta ragas.
+            <p>{{$raga->name}} is number {{$raga->number}} of the Melakarta ragas.</p>
 
-            <h3>Western bit<h3>
 
             <button
                 data-notes='[
@@ -36,55 +40,55 @@
                 Play Raga
             </button>
 
-            <p>
-                Arohana
-                {{$raga->arohana->shadja}}
-                {{$raga->arohana->rishabha}}
-                {{$raga->arohana->gandhara}}
-                {{$raga->arohana->madhyama}}
-                {{$raga->arohana->panchama}}
-                {{$raga->arohana->dhaivata}}
-                {{$raga->arohana->nishada}}
-            </p>
+            <table>
+                <tr>
+                    <td>Arohana</td>
+                    <td>{{$raga->arohana->shadja}}</td>
+                    <td>{{$raga->arohana->rishabha}}</td>
+                    <td>{{$raga->arohana->gandhara}}</td>
+                    <td>{{$raga->arohana->madhyama}}</td>
+                    <td>{{$raga->arohana->panchama}}</td>
+                    <td>{{$raga->arohana->dhaivata}}</td>
+                    <td>{{$raga->arohana->nishada}}</td>
+                </tr>
+                <tr>
+                    <td>Avarohana</td>
+                    <td>{{$raga->avarohana->shadja}}</td>
+                    <td>{{$raga->avarohana->nishada}}</td>
+                    <td>{{$raga->avarohana->dhaivata}}</td>
+                    <td>{{$raga->avarohana->panchama}}</td>
+                    <td>{{$raga->avarohana->madhyama}}</td>
+                    <td>{{$raga->avarohana->gandhara}}</td>
+                    <td>{{$raga->avarohana->rishabha}}</td>
+                </tr>
+                <tr>
+                    <td>Notes</td>
+                    <td>{{$raga->notes->first}}</td>
+                    <td>{{$raga->notes->second}}</td>
+                    <td>{{$raga->notes->third}}</td>
+                    <td>{{$raga->notes->fourth}}</td>
+                    <td>{{$raga->notes->fifth}}</td>
+                    <td>{{$raga->notes->sixth}}</td>
+                    <td>{{$raga->notes->seventh}}</td>
+                </tr>
+                <tr>
+                    <td>Formula</td>
+                    <td>{{$raga->formula->first}}</td>
+                    <td>{{$raga->formula->second}}</td>
+                    <td>{{$raga->formula->third}}</td>
+                    <td>{{$raga->formula->fourth}}</td>
+                    <td>{{$raga->formula->fifth}}</td>
+                    <td>{{$raga->formula->sixth}}</td>
+                    <td>{{$raga->formula->seventh}}</td>
+                </tr>
 
-            <p>
-                Avarohana
-                {{$raga->avarohana->shadja}}
-                {{$raga->avarohana->nishada}}
-                {{$raga->avarohana->dhaivata}}
-                {{$raga->avarohana->panchama}}
-                {{$raga->avarohana->madhyama}}
-                {{$raga->avarohana->gandhara}}
-                {{$raga->avarohana->rishabha}}
-            </p>
-
-            <p>
-                Formula
-                {{$raga->formula->first}}
-                {{$raga->formula->second}}
-                {{$raga->formula->third}}
-                {{$raga->formula->fourth}}
-                {{$raga->formula->fifth}}
-                {{$raga->formula->sixth}}
-                {{$raga->formula->seventh}}
-            </p>
-
-            <p>
-                Notes
-                {{$raga->notes->first}}
-                {{$raga->notes->second}}
-                {{$raga->notes->third}}
-                {{$raga->notes->fourth}}
-                {{$raga->notes->fifth}}
-                {{$raga->notes->sixth}}
-                {{$raga->notes->seventh}}
-            </p>
+            </table>
 
             <p>
                 Similar ragas
 
                 <ul>
-                    @foreach($raga->similarRaga as $similarRaga)
+                    @forelse($raga->similarRaga as $similarRaga)
                         <li>
                             <a
                                 href=" {{
@@ -97,7 +101,9 @@
                                 {{ App\Models\Raga::find($similarRaga->linked_raga_id)->name }}
                             </a>
                         </li>
-                    @endforeach
+                    @empty
+                        <p>None found :(</p>
+                    @endforelse
                 </ul>
             </p>
         @endforeach
