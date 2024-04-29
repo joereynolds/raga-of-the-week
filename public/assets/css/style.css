@@ -24,11 +24,14 @@ tr:nth-child(odd) {
     background: #eee;
 }
 
-
 a {
     color: var(--colour-primary);
 }
 
 button {
     margin-bottom: 15px;
+}
+
+.highlighted {
+    background: var(--colour-primary);
 }
