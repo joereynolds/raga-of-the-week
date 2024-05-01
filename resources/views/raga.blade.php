@@ -109,7 +109,9 @@
         @endforeach
 
         <footer>
-            <a href="{{ route('random') }}">Random Raga</a>
+            <div>
+                <a href="{{ route('random') }}">Random Raga</a>
+            </div>
             <small>Corrections? Please <a>Email me</a></small>
         </footer>
 

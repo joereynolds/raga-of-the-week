@@ -19,6 +19,9 @@ class RagaController extends Controller
 
     public function random()
     {
-        return view('raga', ['ragas' => Raga::all()->random(1)]);
+        return redirect()->action(
+            [RagaController::class, 'show'],
+            ['id' => Raga::all()->random(1)->first()->number]
+        );
     }
 }
