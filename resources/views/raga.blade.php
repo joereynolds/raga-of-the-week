@@ -60,13 +60,9 @@
                     </tr>
                     <tr>
                         <td>Formula</td>
-                        <td>{{$raga->formula->first}}</td>
-                        <td>{{$raga->formula->second}}</td>
-                        <td>{{$raga->formula->third}}</td>
-                        <td>{{$raga->formula->fourth}}</td>
-                        <td>{{$raga->formula->fifth}}</td>
-                        <td>{{$raga->formula->sixth}}</td>
-                        <td>{{$raga->formula->seventh}}</td>
+                        @foreach ($raga->formula->list as $interval)
+                            <td>{{$interval}}</td>
+                        @endforeach
                     </tr>
 
                 </table>
@@ -101,8 +97,6 @@
                         @endforelse
                     </ul>
                 @endif
-
-
 
                 <h3>Similar Ragas</h3>
                 <p>A similar raga is one that differs by only one note</p>
