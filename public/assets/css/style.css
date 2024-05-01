@@ -1,15 +1,16 @@
 :root {
     --colour-primary: orange;
     --spacing-small: 5px;
+    --spacing-medium: 15px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 td {
@@ -29,9 +30,21 @@ a {
 }
 
 button {
-    margin-bottom: 15px;
+    margin-bottom: var(--spacing-medium);
+    width: 100%;
 }
 
 .highlighted {
     background: var(--colour-primary);
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 400px;
+        margin: auto;
+    }
+
+    table, button {
+        width:auto;
+    }
 }
