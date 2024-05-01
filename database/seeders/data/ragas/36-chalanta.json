@@ -1,12 +1,11 @@
 {
     "ragas": {
-        "id": 5,
-        "number": 36,
+        "id": 36,
         "name": "Chalanta"
     },
 
     "arohanas": {
-        "raga_id": 5,
+        "raga_id": 36,
         "shadja": "S",
         "rishabha": "R3",
         "gandhara": "G3",
@@ -17,7 +16,7 @@
     },
 
     "avarohanas": {
-        "raga_id": 5,
+        "raga_id": 36,
         "shadja": "S",
         "nishada": "N3",
         "dhaivata": "D3",
@@ -28,7 +27,7 @@
     },
 
     "notes": {
-        "raga_id": 5,
+        "raga_id": 36,
         "first": "C",
         "second": "D#",
         "third": "E",
@@ -39,7 +38,7 @@
     },
 
     "formulas": {
-        "raga_id": 5,
+        "raga_id": 36,
         "first": "1",
         "second": "#2",
         "third": "3",

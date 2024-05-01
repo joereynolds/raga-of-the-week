@@ -1,13 +1,12 @@
 
 {
     "ragas": {
-        "id": 2,
-        "number": 65,
+        "id": 65,
         "name": "Kalyani"
     },
 
     "notes": {
-        "raga_id": 2,
+        "raga_id": 65,
         "first": "C",
         "second": "D",
         "third": "E",
@@ -18,7 +17,7 @@
     },
 
     "arohanas": {
-        "raga_id": 2,
+        "raga_id": 65,
         "shadja": "S",
         "rishabha": "R2",
         "gandhara": "G3",
@@ -29,7 +28,7 @@
     },
 
     "avarohanas": {
-        "raga_id": 2,
+        "raga_id": 65,
         "shadja": "S",
         "nishada": "N3",
         "dhaivata": "D2",
@@ -40,7 +39,7 @@
     },
 
     "formulas": {
-        "raga_id": 2,
+        "raga_id": 65,
         "first": "1",
         "second": "2",
         "third": "3",

@@ -1,12 +1,11 @@
 {
     "ragas": {
-        "id": 4,
-        "number": 28,
+        "id": 28,
         "name": "Harikambhoji"
     },
 
     "notes": {
-        "raga_id": 4,
+        "raga_id": 28,
         "first": "C",
         "second": "D",
         "third": "E",
@@ -17,7 +16,7 @@
     },
 
     "arohanas": {
-        "raga_id": 4,
+        "raga_id": 28,
         "shadja": "S",
         "rishabha": "R2",
         "gandhara": "G3",
@@ -28,7 +27,7 @@
     },
 
     "avarohanas": {
-        "raga_id": 4,
+        "raga_id": 28,
         "shadja": "S",
         "nishada": "N2",
         "dhaivata": "D2",
@@ -39,7 +38,7 @@
     },
 
     "formulas": {
-        "raga_id": 4,
+        "raga_id": 28,
         "first": "1",
         "second": "2",
         "third": "3",

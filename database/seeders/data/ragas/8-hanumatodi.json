@@ -1,12 +1,11 @@
 {
     "ragas": {
-        "id": 3,
-        "number": 8,
+        "id": 8,
         "name": "Hanumatodi"
     },
 
     "notes": {
-        "raga_id": 3,
+        "raga_id": 8,
         "first": "C",
         "second": "Db",
         "third": "Eb",
@@ -17,7 +16,7 @@
     },
 
     "arohanas": {
-        "raga_id": 3,
+        "raga_id": 8,
         "shadja": "S",
         "rishabha": "R1",
         "gandhara": "G2",
@@ -28,7 +27,7 @@
     },
 
     "avarohanas": {
-        "raga_id": 3,
+        "raga_id": 8,
         "shadja": "S",
         "nishada": "N2",
         "dhaivata": "D1",
@@ -39,7 +38,7 @@
     },
 
     "formulas": {
-        "raga_id": 3,
+        "raga_id": 8,
         "first": "1",
         "second": "b2",
         "third": "b3",

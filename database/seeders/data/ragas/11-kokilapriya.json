@@ -1,15 +1,14 @@
 {
     "ragas": {
-        "id": 7,
-        "number": 5,
-        "name": "Manavati"
+        "id": 11,
+        "name": "Kokilapriya"
     },
 
     "arohanas": {
-        "raga_id": 7,
+        "raga_id": 11,
         "shadja": "S",
         "rishabha": "R1",
-        "gandhara": "G1",
+        "gandhara": "G2",
         "madhyama": "M1",
         "panchama": "P",
         "dhaivata": "D2",
@@ -17,21 +16,21 @@
     },
 
     "avarohanas": {
-        "raga_id": 7,
+        "raga_id": 11,
         "shadja": "S",
         "nishada": "N3",
         "dhaivata": "D2",
         "panchama": "P",
         "madhyama": "M1",
-        "gandhara": "G1",
+        "gandhara": "G2",
         "rishabha": "R1"
     },
 
     "notes": {
-        "raga_id": 7,
+        "raga_id": 11,
         "first": "C",
         "second": "Db",
-        "third": "Ebb",
+        "third": "Eb",
         "fourth": "F",
         "fifth": "G",
         "sixth": "A",
@@ -39,10 +38,10 @@
     },
 
     "formulas": {
-        "raga_id": 7,
+        "raga_id": 11,
         "first": "1",
         "second": "b2",
-        "third": "bb3",
+        "third": "b3",
         "fourth": "4",
         "fifth": "5",
         "sixth": "6",

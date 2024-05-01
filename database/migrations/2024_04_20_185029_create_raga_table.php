@@ -10,7 +10,6 @@ return new class extends Migration
     {
         Schema::create('ragas', function (Blueprint $table) {
             $table->id();
-            $table->smallInteger('number');
             $table->string('name');
         });
     }

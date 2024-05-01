@@ -16,15 +16,14 @@
             <h1>Raga of the week</h1>
 
             <p>Welcome!</p>
-            <p>Raga of the week shows a different Melakarta raga each week*.</p>
+            <p>Raga of the week shows a different Melakarta raga each week.</p>
             <p>This week's <strong>raga of the week</strong> is...</p>
 
             @foreach($ragas as $raga)
 
                 <h2>{{ $raga->name }}</h2>
 
-                <p>{{$raga->name}} is number {{$raga->number}} of the Melakarta ragas.</p>
-
+                <p>{{$raga->name}} is number {{$raga->id}} of the Melakarta ragas.</p>
 
                 <button
                     data-notes='[
@@ -84,8 +83,33 @@
 
                 </table>
 
-                <p>
-                    Similar ragas
+                <h3>Janya Ragas</h3>
+                <p>Janya ragas are ragas that are derived from the parent raga (in this case {{$raga->name}}).</p>
+                <p>Here are the Janya ragas for {{$raga->name}}</p>
+                <ul>
+                    @forelse($raga->janya as $janya)
+                        <li>
+                            <a
+                                href=" {{
+                                    route(
+                                        'raga',
+                                        ['id' => App\Models\Raga::find($janya->janya_id)->id]
+                                    )
+                                }}"
+                            >
+                                {{ App\Models\Raga::find($janya->janya_id)->name }}
+                            </a>
+                        </li>
+                    @empty
+                        <p>None found :(</p>
+                    @endforelse
+                </ul>
+
+
+
+                <h3>Similar Ragas</h3>
+                <p>A similar raga is one that differs by only one note</p>
+                <p>Here's a list of closely related ragas</p>
 
                     <ul>
                         @forelse($raga->similarRaga as $similarRaga)
@@ -94,7 +118,7 @@
                                     href=" {{
                                         route(
                                             'raga',
-                                            ['id' => App\Models\Raga::find($similarRaga->linked_raga_id)->number]
+                                            ['id' => App\Models\Raga::find($similarRaga->linked_raga_id)->id]
                                         )
                                     }}"
                                 >
@@ -105,7 +129,6 @@
                             <p>None found :(</p>
                         @endforelse
                     </ul>
-                </p>
             @endforeach
 
         </main>
@@ -127,7 +150,6 @@
                 <small>Corrections? Please <a>Email me</a></small>
             </div>
 
-            <small>*(Support for other ragas like Janyas is on the list)</small>
         </footer>
 
     </body>

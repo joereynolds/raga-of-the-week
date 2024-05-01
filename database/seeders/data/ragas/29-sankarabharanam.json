@@ -1,12 +1,11 @@
 {
     "ragas": {
-        "id": 1,
-        "number": 29,
+        "id": 29,
         "name": "Śankarābharaṇaṃ"
     },
 
     "notes": {
-        "raga_id": 1,
+        "raga_id": 29,
         "first": "C",
         "second": "D",
         "third": "E",
@@ -17,7 +16,7 @@
     },
 
     "arohanas": {
-        "raga_id": 1,
+        "raga_id": 29,
         "shadja": "S",
         "rishabha": "R2",
         "gandhara": "G3",
@@ -28,7 +27,7 @@
     },
 
     "avarohanas": {
-        "raga_id": 1,
+        "raga_id": 29,
         "shadja": "S",
         "nishada": "N3",
         "dhaivata": "D2",
@@ -39,7 +38,7 @@
     },
 
     "formulas": {
-        "raga_id": 1,
+        "raga_id": 29,
         "first": "1",
         "second": "2",
         "third": "3",

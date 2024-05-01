@@ -14,14 +14,14 @@ class RagaController extends Controller
 
     public function show(int $id): View
     {
-        return view('raga', ['ragas' => Raga::where('number', $id)->get()]);
+        return view('raga', ['ragas' => Raga::where('id', $id)->get()]);
     }
 
     public function random()
     {
         return redirect()->action(
             [RagaController::class, 'show'],
-            ['id' => Raga::all()->random(1)->first()->number]
+            ['id' => Raga::all()->random(1)->first()->id]
         );
     }
 }

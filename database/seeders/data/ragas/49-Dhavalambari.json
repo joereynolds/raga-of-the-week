@@ -1,12 +1,11 @@
 {
     "ragas": {
-        "id": 6,
-        "number": 49,
+        "id": 49,
         "name": "Dhavalambari"
     },
 
     "arohanas": {
-        "raga_id": 6,
+        "raga_id": 49,
         "shadja": "S",
         "rishabha": "R1",
         "gandhara": "G3",
@@ -17,7 +16,7 @@
     },
 
     "avarohanas": {
-        "raga_id": 6,
+        "raga_id": 49,
         "shadja": "S",
         "nishada": "N1",
         "dhaivata": "D1",
@@ -28,7 +27,7 @@
     },
 
     "notes": {
-        "raga_id": 6,
+        "raga_id": 49,
         "first": "C",
         "second": "Db",
         "third": "E",
@@ -39,7 +38,7 @@
     },
 
     "formulas": {
-        "raga_id": 6,
+        "raga_id": 49,
         "first": "1",
         "second": "b2",
         "third": "3",

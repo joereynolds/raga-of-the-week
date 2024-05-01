@@ -1,34 +1,29 @@
 {
     "ragas": {
-        "id": 10,
-        "number": 10,
-        "name": "Natakapriya"
+        "id": 1000,
+        "name": "Ambhojini"
     },
 
     "arohanas": {
-        "raga_id": 10,
+        "raga_id": 1000,
         "shadja": "S",
-        "rishabha": "R1",
-        "gandhara": "G2",
+        "rishabha": "R2",
+        "gandhara": "G3",
         "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D2",
-        "nishada": "N2"
+        "dhaivata": "D2"
     },
 
     "avarohanas": {
-        "raga_id": 10,
+        "raga_id": 1000,
         "shadja": "S",
-        "nishada": "N2",
         "dhaivata": "D2",
-        "panchama": "P",
         "madhyama": "M1",
-        "gandhara": "G2",
-        "rishabha": "R1"
+        "gandhara": "G3",
+        "rishabha": "R2"
     },
 
     "notes": {
-        "raga_id": 10,
+        "raga_id": 1000,
         "first": "C",
         "second": "Db",
         "third": "Eb",
@@ -39,7 +34,7 @@
     },
 
     "formulas": {
-        "raga_id": 10,
+        "raga_id": 1000,
         "first": "1",
         "second": "b2",
         "third": "b3",
@@ -47,5 +42,10 @@
         "fifth": "5",
         "sixth": "6",
         "seventh": "b7"
+    },
+
+    "melakarta_janya_links": {
+        "raga_id": 28,
+        "janya_id": 1000
     }
 }
