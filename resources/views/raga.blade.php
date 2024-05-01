@@ -83,6 +83,13 @@
 
                 </table>
 
+                @if ($raga->isJanya)
+                    <p>This particular raga is a janya meaning it is a descendant of a parent raga</p>
+                    <p>
+                        Its parent is... TODO
+                    </p>
+                @endif
+
                 @if (!$raga->isJanya)
                     <h3>Janya Ragas</h3>
                     <p>Janya ragas are ragas that are derived from the parent raga ({{$raga->name}}).</p>
