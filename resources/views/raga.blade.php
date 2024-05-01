@@ -42,33 +42,21 @@
                 <table>
                     <tr>
                         <td>Arohana</td>
-                        <td>{{$raga->arohana->shadja}}</td>
-                        <td>{{$raga->arohana->rishabha}}</td>
-                        <td>{{$raga->arohana->gandhara}}</td>
-                        <td>{{$raga->arohana->madhyama}}</td>
-                        <td>{{$raga->arohana->panchama}}</td>
-                        <td>{{$raga->arohana->dhaivata}}</td>
-                        <td>{{$raga->arohana->nishada}}</td>
+                        @foreach ($raga->arohana->list as $swara)
+                            <td>{{$swara}}</td>
+                        @endforeach
                     </tr>
                     <tr>
                         <td>Avarohana</td>
-                        <td>{{$raga->avarohana->shadja}}</td>
-                        <td>{{$raga->avarohana->nishada}}</td>
-                        <td>{{$raga->avarohana->dhaivata}}</td>
-                        <td>{{$raga->avarohana->panchama}}</td>
-                        <td>{{$raga->avarohana->madhyama}}</td>
-                        <td>{{$raga->avarohana->gandhara}}</td>
-                        <td>{{$raga->avarohana->rishabha}}</td>
+                        @foreach ($raga->avarohana->list as $swara)
+                            <td>{{$swara}}</td>
+                        @endforeach
                     </tr>
                     <tr>
                         <td>Notes</td>
-                        <td>{{$raga->notes->first}}</td>
-                        <td>{{$raga->notes->second}}</td>
-                        <td>{{$raga->notes->third}}</td>
-                        <td>{{$raga->notes->fourth}}</td>
-                        <td>{{$raga->notes->fifth}}</td>
-                        <td>{{$raga->notes->sixth}}</td>
-                        <td>{{$raga->notes->seventh}}</td>
+                        @foreach ($raga->notes->list as $note)
+                            <td>{{$note}}</td>
+                        @endforeach
                     </tr>
                     <tr>
                         <td>Formula</td>
