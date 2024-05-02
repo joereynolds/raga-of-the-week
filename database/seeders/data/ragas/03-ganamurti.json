@@ -1,0 +1,50 @@
+{
+    "ragas": {
+        "id": 3,
+        "name": "Ganamurti"
+    },
+
+    "arohanas": {
+        "raga_id": 3,
+        "shadja": "S",
+        "rishabha": "R1",
+        "gandhara": "G1",
+        "madhyama": "M1",
+        "panchama": "P",
+        "dhaivata": "D1",
+        "nishada": "N3"
+    },
+
+    "avarohanas": {
+        "raga_id": 3,
+        "shadja": "S",
+        "nishada": "N3",
+        "dhaivata": "D1",
+        "panchama": "P",
+        "madhyama": "M1",
+        "gandhara": "G1",
+        "rishabha": "R1"
+    },
+
+    "notes": {
+        "raga_id": 3,
+        "first": "C",
+        "second": "Db",
+        "third": "Ebb",
+        "fourth": "F",
+        "fifth": "G",
+        "sixth": "Ab",
+        "seventh": "B"
+    },
+
+    "formulas": {
+        "raga_id": 3,
+        "first": "1",
+        "second": "b2",
+        "third": "bb3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "b6",
+        "seventh": "7"
+    }
+}
