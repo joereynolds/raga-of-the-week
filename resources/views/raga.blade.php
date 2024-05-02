@@ -1,199 +1,110 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<x-layout>
+    <h1>Raga of the week</h1>
 
-        <title>Raga Of The Week</title>
+    <p>Welcome!</p>
+    <p>Raga of the week shows a different Melakarta raga each week.</p>
+    <p>This week's <strong>raga of the week</strong> is...</p>
 
-        <script src="https://unpkg.com/tone"></script>
-        <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+    @foreach($ragas as $raga)
 
-    </head>
+        <h2>{{ $raga->name }}</h2>
 
-    <body>
-        <main>
-            <h1>Raga of the week</h1>
+        <p>{{$raga->name}} is number {{$raga->id}} of the Melakarta ragas.</p>
 
-            <p>Welcome!</p>
-            <p>Raga of the week shows a different Melakarta raga each week.</p>
-            <p>This week's <strong>raga of the week</strong> is...</p>
+        <button
+            data-notes='[
+                "{{$raga->notes->first}}",
+                "{{$raga->notes->second}}",
+                "{{$raga->notes->third}}",
+                "{{$raga->notes->fourth}}",
+                "{{$raga->notes->fifth}}",
+                "{{$raga->notes->sixth}}",
+                "{{$raga->notes->seventh}}"
+            ]'
+        >
+            Play Raga
+        </button>
 
-            @foreach($ragas as $raga)
+        <table>
+            <tr>
+                <td>Arohana</td>
+                @foreach ($raga->arohana->list as $swara)
+                    <td>{{$swara}}</td>
+                @endforeach
+            </tr>
+            <tr>
+                <td>Avarohana</td>
+                @foreach ($raga->avarohana->list as $swara)
+                    <td>{{$swara}}</td>
+                @endforeach
+            </tr>
+            <tr>
+                <td>Notes</td>
+                @foreach ($raga->notes->list as $note)
+                    <td>{{$note}}</td>
+                @endforeach
+            </tr>
+            <tr>
+                <td>Formula</td>
+                @foreach ($raga->formula->list as $interval)
+                    <td>{{$interval}}</td>
+                @endforeach
+            </tr>
 
-                <h2>{{ $raga->name }}</h2>
+        </table>
 
-                <p>{{$raga->name}} is number {{$raga->id}} of the Melakarta ragas.</p>
+        @if ($raga->isJanya)
+            <p>This particular raga is a janya meaning it is a descendant of a parent raga</p>
+            <p>
+                Its parent is... TODO
+            </p>
+        @endif
 
-                <button
-                    data-notes='[
-                        "{{$raga->notes->first}}",
-                        "{{$raga->notes->second}}",
-                        "{{$raga->notes->third}}",
-                        "{{$raga->notes->fourth}}",
-                        "{{$raga->notes->fifth}}",
-                        "{{$raga->notes->sixth}}",
-                        "{{$raga->notes->seventh}}"
-                    ]'
-                >
-                    Play Raga
-                </button>
+        @if (!$raga->isJanya)
+            <h3>Janya Ragas</h3>
+            <p>Janya ragas are ragas that are derived from the parent raga ({{$raga->name}}).</p>
+            <p>Here are the Janya ragas for {{$raga->name}}</p>
+            <ul>
+                @forelse($raga->janya as $janya)
+                    <li>
+                        <a
+                            href=" {{
+                                route(
+                                    'raga',
+                                    ['id' => App\Models\Raga::find($janya->janya_id)->id]
+                                )
+                            }}"
+                        >
+                            {{ App\Models\Raga::find($janya->janya_id)->name }}
+                        </a>
+                    </li>
+                @empty
+                    <p>None found :(</p>
+                @endforelse
+            </ul>
+        @endif
 
-                <table>
-                    <tr>
-                        <td>Arohana</td>
-                        @foreach ($raga->arohana->list as $swara)
-                            <td>{{$swara}}</td>
-                        @endforeach
-                    </tr>
-                    <tr>
-                        <td>Avarohana</td>
-                        @foreach ($raga->avarohana->list as $swara)
-                            <td>{{$swara}}</td>
-                        @endforeach
-                    </tr>
-                    <tr>
-                        <td>Notes</td>
-                        @foreach ($raga->notes->list as $note)
-                            <td>{{$note}}</td>
-                        @endforeach
-                    </tr>
-                    <tr>
-                        <td>Formula</td>
-                        @foreach ($raga->formula->list as $interval)
-                            <td>{{$interval}}</td>
-                        @endforeach
-                    </tr>
+        <h3>Similar Ragas</h3>
+        <p>A similar raga is one that differs by only one note</p>
+        <p>Here's a list of closely related ragas</p>
 
-                </table>
-
-                @if ($raga->isJanya)
-                    <p>This particular raga is a janya meaning it is a descendant of a parent raga</p>
-                    <p>
-                        Its parent is... TODO
-                    </p>
-                @endif
-
-                @if (!$raga->isJanya)
-                    <h3>Janya Ragas</h3>
-                    <p>Janya ragas are ragas that are derived from the parent raga ({{$raga->name}}).</p>
-                    <p>Here are the Janya ragas for {{$raga->name}}</p>
-                    <ul>
-                        @forelse($raga->janya as $janya)
-                            <li>
-                                <a
-                                    href=" {{
-                                        route(
-                                            'raga',
-                                            ['id' => App\Models\Raga::find($janya->janya_id)->id]
-                                        )
-                                    }}"
-                                >
-                                    {{ App\Models\Raga::find($janya->janya_id)->name }}
-                                </a>
-                            </li>
-                        @empty
-                            <p>None found :(</p>
-                        @endforelse
-                    </ul>
-                @endif
-
-                <h3>Similar Ragas</h3>
-                <p>A similar raga is one that differs by only one note</p>
-                <p>Here's a list of closely related ragas</p>
-
-                    <ul>
-                        @forelse($raga->similarRaga as $similarRaga)
-                            <li>
-                                <a
-                                    href=" {{
-                                        route(
-                                            'raga',
-                                            ['id' => App\Models\Raga::find($similarRaga->linked_raga_id)->id]
-                                        )
-                                    }}"
-                                >
-                                    {{ App\Models\Raga::find($similarRaga->linked_raga_id)->name }}
-                                </a>
-                            </li>
-                        @empty
-                            <p>None found :(</p>
-                        @endforelse
-                    </ul>
-            @endforeach
-
-        </main>
-
-        <footer>
-            <div>
-                <a href="">Previous</a>
-            </div>
-
-            <div>
-                <a href="">Next</a>
-            </div>
-
-            <div>
-                <a href="{{ route('random') }}">Random Raga</a>
-            </div>
-
-            <div>
-                <small>Corrections? Please <a>Email me</a></small>
-            </div>
-
-        </footer>
-
-    </body>
-
-<script defer>
-
-(function() {
-  // I am sorry for appropriating your culture badly
-  function playRaga(notes) {
-      Tone.Transport.stop().start();
-      highlightTableColumn(1)
-      const synth = new Tone.PolySynth().toDestination();
-      synth.triggerAttackRelease('C2', 4);
-
-      index = 1
-      loop = new Tone.Loop(time => {
-          highlightTableColumn(index);
-          index++
-          console.log(index);
-      }, 0.5);
-
-      loop.start().stop(5);
-
-      let delay = Tone.now();
-      for(let i = 0; i < notes.length; i++) {
-          synth.triggerAttackRelease(notes[i] + '4', '8n', delay);
-          delay += 0.5
-      }
-
-      // Play the first note an octave higher to simulate the 8th note
-      synth.triggerAttackRelease(notes[0] + '5', '8n', delay);
-  }
-
-  function highlightTableColumn(columnNumber) {
-      document.querySelectorAll('table').forEach(table => {
-
-          table.querySelectorAll('td').forEach(td => {
-              td.classList.remove('highlighted');
-              console.log('here')
-              let index = [].indexOf.call(td.parentElement.children, td);
-              if (index === columnNumber) {
-                  td.classList.add('highlighted');
-              }
-          });
-      });
-  }
-
-  document.querySelectorAll("button").forEach(button => {
-      button.addEventListener('click', () => {
-        playRaga(JSON.parse(button.dataset.notes))
-      });
-  });
-})();
-</script>
-
-</html>
+            <ul>
+                @forelse($raga->similarRaga as $similarRaga)
+                    <li>
+                        <a
+                            href=" {{
+                                route(
+                                    'raga',
+                                    ['id' => App\Models\Raga::find($similarRaga->linked_raga_id)->id]
+                                )
+                            }}"
+                        >
+                            {{ App\Models\Raga::find($similarRaga->linked_raga_id)->name }}
+                        </a>
+                    </li>
+                @empty
+                    <p>None found :(</p>
+                @endforelse
+            </ul>
+    @endforeach
+</x-layout>
