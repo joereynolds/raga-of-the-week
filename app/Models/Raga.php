@@ -12,6 +12,8 @@ class Raga extends Model
 {
     use HasFactory;
 
+    public const MELAKARTA_LIMIT = 72;
+
     public function notes(): HasOne
     {
         return $this->hasOne(Note::class);
@@ -45,7 +47,7 @@ class Raga extends Model
     protected function isJanya(): Attribute
     {
         return Attribute::make(
-            get: fn () => $this->id > 72
+            get: fn () => $this->id > self::MELAKARTA_LIMIT
         );
     }
 

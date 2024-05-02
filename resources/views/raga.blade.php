@@ -50,17 +50,27 @@
 
             <ul>
                 @forelse($raga->similarRaga as $similarRaga)
+                    @php
+                        $similarRagaModel = App\Models\Raga::find($similarRaga->linked_raga_id);
+                    @endphp
                     <li>
                         <a
                             href=" {{
                                 route(
                                     'raga',
-                                    ['id' => App\Models\Raga::find($similarRaga->linked_raga_id)->id]
+                                    ['id' => $similarRagaModel->id]
                                 )
                             }}"
                         >
-                            {{ App\Models\Raga::find($similarRaga->linked_raga_id)->name }}
+                            {{ $similarRagaModel->name }}
+
+
                         </a>
+                            @php
+                                $thisRagaDiff =  current(array_diff($raga->notes->list, $similarRagaModel->notes->list));
+                                $otherRagaDiff =  current(array_diff($similarRagaModel->notes->list, $raga->notes->list));
+                            @endphp
+                            (Has <strong>{{ $otherRagaDiff }}</strong> instead of <strong>{{ $thisRagaDiff}}</strong>)
                     </li>
                 @empty
                     <p>None found :(</p>
