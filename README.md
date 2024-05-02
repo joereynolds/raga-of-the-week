@@ -3,7 +3,12 @@
 Raga of the week displays a random [carnatic raga](https://en.wikipedia.org/wiki/Raga) every week.
 
 <img src="https://i.imgur.com/xuDlfAQ.png"/>
-Included in this is a breakdown of the svaras and some useful equivalent things for westerners who don't know this kind of thing.
+
+### Features
+
+- An audio player to play the raga
+- A link through to janya (descendant ragas)
+- A list of ragas close in sound to the current raga
 
 ### Running it
 
@@ -20,10 +25,14 @@ docker-compose up
 #### Artisan
 
 ```
-docker-compose run --rm php php artisan
+./artisan.sh <command>
 ```
 
+Or 
 
+```
+docker-compose run --rm php php artisan <command>
+```
 
 ### Composer commands
 
