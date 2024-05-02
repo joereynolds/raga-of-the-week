@@ -14,10 +14,15 @@ class RagaController extends Controller
 
     public function show(int $id): View
     {
+        $previous = Raga::where('id', '<', $id)->max('id');
+        $next = Raga::where('id', '>', $id)->min('id');
+
         return view(
             'raga',
             [
-                'ragas' => Raga::where('id', $id)->get()
+                'ragas' => Raga::where('id', $id)->get(),
+                'previous' => $previous,
+                'next' => $next
             ]
         );
     }
