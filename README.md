@@ -2,8 +2,7 @@
 
 Raga of the week displays a random [carnatic raga](https://en.wikipedia.org/wiki/Raga) every week.
 
-<img src="https://i.imgur.com/ExckNmR.png">
-
+<img src="https://i.imgur.com/xuDlfAQ.png"/>
 Included in this is a breakdown of the svaras and some useful equivalent things for westerners who don't know this kind of thing.
 
 ### Running it
