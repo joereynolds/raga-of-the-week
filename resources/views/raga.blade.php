@@ -14,9 +14,16 @@
         <x-raga-table :raga="$raga"/>
 
         @if ($raga->isJanya)
+            @php
+                $id = App\Models\MelakartaJanyaLink::where('janya_id', $raga->id)->first()->raga_id;
+                $parent = App\Models\Raga::find($id);
+            @endphp
             <p>This particular raga is a janya meaning it is a descendant of a parent raga</p>
             <p>
-                Its parent is... TODO
+                Its parent is
+                <a href=" {{ route('raga', ['id' => $id]) }}">
+                    {{ $parent->name }}
+                </a>
             </p>
         @endif
 
