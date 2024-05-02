@@ -2,20 +2,19 @@
 
 namespace App\View\Components;
 
+use App\Models\Raga;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Footer extends Component
+class RagaTable extends Component
 {
-    public function __construct(
-        public ?int $previousRagaId,
-        public ?int $nextRagaId,
-    ) {
+    public function __construct(public Raga $raga)
+    {
     }
 
     public function render(): View|Closure|string
     {
-        return view('components.footer');
+        return view('components.raga-table');
     }
 }

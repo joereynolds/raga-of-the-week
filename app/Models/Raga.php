@@ -48,4 +48,18 @@ class Raga extends Model
             get: fn () => $this->id > 72
         );
     }
+
+    protected function previous(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => Raga::where('id', '<', $this->id)->max('id')
+        );
+    }
+
+    protected function next(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => Raga::where('id', '>', $this->id)->min('id')
+        );
+    }
 }

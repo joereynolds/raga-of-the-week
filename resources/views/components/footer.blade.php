@@ -1,11 +1,24 @@
 <footer>
-    <div>
-        <a href="">Previous</a>
-    </div>
 
-    <div>
-        <a href="">Next</a>
-    </div>
+    @if ($previousRagaId)
+        <div>
+            <a
+                href="{{ route('raga', ['id' => $previousRagaId])}}"
+            >
+                Previous
+            </a>
+        </div>
+    @endif
+
+    @if ($nextRagaId)
+        <div>
+            <a
+                href="{{ route('raga', ['id' => $nextRagaId])}}"
+            >
+                Next
+            </a>
+        </div>
+    @endif
 
     <div>
         <a href="{{ route('random') }}">Random Raga</a>

@@ -14,6 +14,5 @@
 
     <body>
         <main>{{ $slot }}</main>
-        <x-footer></x-footer>
     </body>
 </html>
