@@ -39,6 +39,22 @@ button {
     background: var(--colour-primary);
 }
 
+.flex-container {
+    display: flex
+}
+
+.flex-container * {
+    flex: 1;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
 @media (min-width: 768px) {
     body {
         width: 400px;
