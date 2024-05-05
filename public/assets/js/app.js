@@ -8,7 +8,6 @@ class Raga {
     play(notes) {
 
       Tone.Transport.stop().start();
-      highlightTableColumn(1)
       const synth = new Tone.PolySynth().toDestination();
       synth.triggerAttackRelease(
           Tone.Frequency('C2').transpose(this.transposition_amount),
@@ -50,16 +49,14 @@ class Raga {
 const raga = new Raga();
 
 function highlightTableColumn(columnNumber) {
-  document.querySelectorAll('table').forEach(table => {
+  document.querySelectorAll('table td').forEach(td => {
+      td.classList.remove('highlighted');
+      console.log('here')
+      let index = [].indexOf.call(td.parentElement.children, td);
 
-      table.querySelectorAll('td').forEach(td => {
-          td.classList.remove('highlighted');
-          console.log('here')
-          let index = [].indexOf.call(td.parentElement.children, td);
-          if (index === columnNumber) {
-              td.classList.add('highlighted');
-          }
-      });
+      if (index === columnNumber) {
+          td.classList.add('highlighted');
+      }
   });
 }
 
