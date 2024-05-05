@@ -30,7 +30,7 @@
     <tr>
         <td>Notes</td>
         @foreach ($raga->notes->list as $note)
-            <td>{{$note}}</td>
+            <td class="note">{{$note}}3</td>
         @endforeach
     </tr>
     <tr>

@@ -32,7 +32,6 @@ a {
 
 button {
     margin-bottom: var(--spacing-medium);
-    width: 100%;
 }
 
 .highlighted {

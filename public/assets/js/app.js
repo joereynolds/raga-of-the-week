@@ -43,9 +43,8 @@ class Raga {
 
     transpose(amount) {
         this.transposition_amount += parseInt(amount)
-        updateNotesInTable()
+        updateNotesInTable(amount)
     }
-
 }
 
 const raga = new Raga();
@@ -64,19 +63,15 @@ function highlightTableColumn(columnNumber) {
   });
 }
 
-function updateNotesInTable() {
+function updateNotesInTable(amount) {
     document.querySelectorAll('.note').forEach(note => {
-        // console.log('called');
-        // const original_value = note.innerText;
-        // const new_value = Tone.Frequency(
-        //     original_value
-        // ).transpose(raga.transposition_amount).toNote();
-        // console.log(raga.transposition_amount);
+        const original_value = note.innerText;
+        const new_value = Tone.Frequency(
+            original_value
+        ).transpose(amount).toNote();
 
-        // note.innerText = new_value
-
+        note.innerText = new_value
     });
-
 }
 
 document.querySelectorAll("[data-notes]").forEach(button => {
