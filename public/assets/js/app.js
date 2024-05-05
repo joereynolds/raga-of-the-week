@@ -1,13 +1,21 @@
-(function() {
-  // I am sorry for appropriating your culture badly
-  function playRaga(notes) {
+
+class Raga {
+
+    constructor() {
+        this.transposition_amount = 0
+    }
+
+    play(notes) {
+
       Tone.Transport.stop().start();
       highlightTableColumn(1)
       const synth = new Tone.PolySynth().toDestination();
-      synth.triggerAttackRelease('C2', 4);
+      synth.triggerAttackRelease(
+          Tone.Frequency('C2').transpose(this.transposition_amount),
+          4);
 
-      index = 1
-      loop = new Tone.Loop(time => {
+      let index = 1
+      let loop = new Tone.Loop(time => {
           highlightTableColumn(index);
           index++
       }, 0.5);
@@ -16,31 +24,69 @@
 
       let delay = Tone.now();
       for(let i = 0; i < notes.length; i++) {
-          synth.triggerAttackRelease(notes[i] + '4', '8n', delay);
+          synth.triggerAttackRelease(
+              Tone.Frequency(notes[i] + '4').transpose(this.transposition_amount),
+              '8n',
+              delay
+
+          );
           delay += 0.5
       }
 
       // Play the first note an octave higher to simulate the 8th note
-      synth.triggerAttackRelease(notes[0] + '5', '8n', delay);
-  }
+      synth.triggerAttackRelease(
+          Tone.Frequency(notes[0] + '5').transpose(this.transposition_amount),
+          '8n',
+          delay
+      );
+    }
 
-  function highlightTableColumn(columnNumber) {
-      document.querySelectorAll('table').forEach(table => {
+    transpose(amount) {
+        this.transposition_amount += parseInt(amount)
+        updateNotesInTable()
+    }
 
-          table.querySelectorAll('td').forEach(td => {
-              td.classList.remove('highlighted');
-              console.log('here')
-              let index = [].indexOf.call(td.parentElement.children, td);
-              if (index === columnNumber) {
-                  td.classList.add('highlighted');
-              }
-          });
-      });
-  }
+}
 
-  document.querySelectorAll("button").forEach(button => {
-      button.addEventListener('click', () => {
-        playRaga(JSON.parse(button.dataset.notes))
+const raga = new Raga();
+
+function highlightTableColumn(columnNumber) {
+  document.querySelectorAll('table').forEach(table => {
+
+      table.querySelectorAll('td').forEach(td => {
+          td.classList.remove('highlighted');
+          console.log('here')
+          let index = [].indexOf.call(td.parentElement.children, td);
+          if (index === columnNumber) {
+              td.classList.add('highlighted');
+          }
       });
   });
-})();
+}
+
+function updateNotesInTable() {
+    document.querySelectorAll('.note').forEach(note => {
+        // console.log('called');
+        // const original_value = note.innerText;
+        // const new_value = Tone.Frequency(
+        //     original_value
+        // ).transpose(raga.transposition_amount).toNote();
+        // console.log(raga.transposition_amount);
+
+        // note.innerText = new_value
+
+    });
+
+}
+
+document.querySelectorAll("[data-notes]").forEach(button => {
+  button.addEventListener('click', () => {
+    raga.play(JSON.parse(button.dataset.notes))
+  });
+});
+
+document.querySelectorAll("[data-transpose]").forEach(button => {
+  button.addEventListener('click', () => {
+    raga.transpose(button.dataset.transpose);
+  });
+});

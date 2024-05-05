@@ -11,6 +11,8 @@
 >
     Play Raga
 </button>
+<button data-transpose="-1">-</button>
+<button data-transpose="1">+</button>
 
 <table>
     <tr>
