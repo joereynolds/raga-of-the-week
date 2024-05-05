@@ -1,0 +1,50 @@
+{
+    "ragas": {
+        "id": 14,
+        "name": "Vakulabharanam"
+    },
+
+    "arohanas": {
+        "raga_id": 14,
+        "shadja": "S",
+        "rishabha": "R1",
+        "gandhara": "G3",
+        "madhyama": "M1",
+        "panchama": "P",
+        "dhaivata": "D1",
+        "nishada": "N2"
+    },
+
+    "avarohanas": {
+        "raga_id": 14,
+        "shadja": "S",
+        "nishada": "N2",
+        "dhaivata": "D1",
+        "panchama": "P",
+        "madhyama": "M1",
+        "gandhara": "G3",
+        "rishabha": "R1"
+    },
+
+    "notes": {
+        "raga_id": 14,
+        "first": "C",
+        "second": "Db",
+        "third": "E",
+        "fourth": "F",
+        "fifth": "G",
+        "sixth": "Ab",
+        "seventh": "Bb"
+    },
+
+    "formulas": {
+        "raga_id": 14,
+        "first": "1",
+        "second": "b2",
+        "third": "3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "b6",
+        "seventh": "b7"
+    }
+}
