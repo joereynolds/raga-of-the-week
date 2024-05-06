@@ -7,8 +7,11 @@ Raga of the week displays a random [carnatic raga](https://en.wikipedia.org/wiki
 ### Features
 
 - An audio player to play the raga
+- Transpose ragas to different keys
 - A link through to janya (descendant ragas)
 - A list of ragas close in sound to the current raga
+- Intervallic formulas for the ragas
+- Shows the western equivalent of the raga if there is one
 
 ### Running it
 
