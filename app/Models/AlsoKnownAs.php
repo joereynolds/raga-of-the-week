@@ -6,16 +6,16 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class SimilarRaga extends Model
+class AlsoKnownAs extends Model
 {
     use HasFactory;
 
     public $timestamps = false;
 
-    protected $fillable = ['raga_id', 'linked_raga_id'];
+    protected $fillable = ['raga_id', 'western_scale_id'];
 
-    public function raga(): BelongsTo
+    public function westernScale(): BelongsTo
     {
-        return $this->belongsTo(Raga::class, 'linked_raga_id');
+        return $this->belongsTo(WesternScale::class);
     }
 }

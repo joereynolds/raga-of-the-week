@@ -13,6 +13,11 @@
 
         <x-raga-table :raga="$raga"/>
 
+        @isset ($raga->alsoKnownAs->westernScale)
+            <p>In the western world it is known as the <strong>{{ $raga->alsoKnownAs->westernScale->name}}</strong> scale/mode.
+
+        @endisset
+
         @if ($raga->isJanya)
             @php
                 $id = App\Models\MelakartaJanyaLink::where('janya_id', $raga->id)->first()->raga_id;

@@ -39,6 +39,11 @@ class Raga extends Model
         return $this->hasMany(SimilarRaga::class);
     }
 
+    public function alsoKnownAs(): HasOne
+    {
+        return $this->hasOne(AlsoKnownAs::class);
+    }
+
     public function janya(): HasMany
     {
         return $this->hasMany(MelakartaJanyaLink::class);
