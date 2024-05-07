@@ -1,6 +1,6 @@
 @foreach($ragas as $raga)
 
-    <h2 class="border-bottom">{{ $raga->name }}</h2>
+    <h2>{{ $raga->name }}</h2>
 
     <p>{{$raga->name}} is number {{$raga->id}} of the Melakarta ragas.</p>
 
