@@ -1,50 +1,50 @@
 {
     "ragas": {
-        "id": 17,
-        "name": "Suryakantam"
+        "id": 25,
+        "name": "Mararajnani"
     },
 
     "arohanas": {
-        "raga_id": 17,
+        "raga_id": 25,
         "shadja": "S",
-        "rishabha": "R1",
+        "rishabha": "R2",
         "gandhara": "G3",
         "madhyama": "M1",
         "panchama": "P",
-        "dhaivata": "D2",
-        "nishada": "N3"
+        "dhaivata": "D1",
+        "nishada": "N1"
     },
 
     "avarohanas": {
-        "raga_id": 17,
+        "raga_id": 25,
         "shadja": "S",
-        "nishada": "N3",
-        "dhaivata": "D2",
+        "nishada": "N1",
+        "dhaivata": "D1",
         "panchama": "P",
         "madhyama": "M1",
         "gandhara": "G3",
-        "rishabha": "R1"
+        "rishabha": "R2"
     },
 
     "notes": {
-        "raga_id": 17,
+        "raga_id": 25,
         "first": "C",
-        "second": "Db",
+        "second": "D",
         "third": "E",
         "fourth": "F",
         "fifth": "G",
-        "sixth": "A",
-        "seventh": "B"
+        "sixth": "Ab",
+        "seventh": "Bbb"
     },
 
     "formulas": {
-        "raga_id": 17,
+        "raga_id": 25,
         "first": "1",
-        "second": "b2",
+        "second": "2",
         "third": "3",
         "fourth": "4",
         "fifth": "5",
-        "sixth": "6",
-        "seventh": "7"
+        "sixth": "b6",
+        "seventh": "bb7"
     }
 }

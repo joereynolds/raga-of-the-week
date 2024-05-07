@@ -79,9 +79,77 @@
         "fifth": "5",
         "sixth": "b6",
         "seventh": "7"
+    },
+
+    {
+        "name": "Dorian #11",
+        "first": "1",
+        "second": "2",
+        "third": "b3",
+        "fourth": "#4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Phrygian Dominant",
+        "first": "1",
+        "second": "b2",
+        "third": "3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "b6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Lydian #2",
+        "first": "1",
+        "second": "#2",
+        "third": "3",
+        "fourth": "#4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "7"
+    },
+
+    {
+        "name": "Melodic Minor",
+        "first": "1",
+        "second": "2",
+        "third": "b3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "7"
+    },
+    {
+        "name": "Dorian b2 (Phrygian ♮6)",
+        "first": "1",
+        "second": "b2",
+        "third": "b3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Lydian Augmented",
+        "first": "1",
+        "second": "2",
+        "third": "3",
+        "fourth": "#4",
+        "fifth": "#5",
+        "sixth": "6",
+        "seventh": "7"
+    },
+    {
+        "name": "Lydian Dominant (Mixolydian #4)",
+        "first": "1",
+        "second": "2",
+        "third": "3",
+        "fourth": "#4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "b7"
     }
-
-
-
-
 ]

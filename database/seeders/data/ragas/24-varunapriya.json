@@ -1,50 +1,50 @@
 {
     "ragas": {
-        "id": 17,
-        "name": "Suryakantam"
+        "id": 24,
+        "name": "Varunapriya"
     },
 
     "arohanas": {
-        "raga_id": 17,
+        "raga_id": 24,
         "shadja": "S",
-        "rishabha": "R1",
-        "gandhara": "G3",
+        "rishabha": "R2",
+        "gandhara": "G2",
         "madhyama": "M1",
         "panchama": "P",
-        "dhaivata": "D2",
+        "dhaivata": "D3",
         "nishada": "N3"
     },
 
     "avarohanas": {
-        "raga_id": 17,
+        "raga_id": 24,
         "shadja": "S",
         "nishada": "N3",
-        "dhaivata": "D2",
+        "dhaivata": "D3",
         "panchama": "P",
         "madhyama": "M1",
-        "gandhara": "G3",
-        "rishabha": "R1"
+        "gandhara": "G2",
+        "rishabha": "R2"
     },
 
     "notes": {
-        "raga_id": 17,
+        "raga_id": 24,
         "first": "C",
-        "second": "Db",
-        "third": "E",
+        "second": "D",
+        "third": "Eb",
         "fourth": "F",
         "fifth": "G",
-        "sixth": "A",
+        "sixth": "A#",
         "seventh": "B"
     },
 
     "formulas": {
-        "raga_id": 17,
+        "raga_id": 24,
         "first": "1",
-        "second": "b2",
-        "third": "3",
+        "second": "2",
+        "third": "b3",
         "fourth": "4",
         "fifth": "5",
-        "sixth": "6",
+        "sixth": "#6",
         "seventh": "7"
     }
 }
