@@ -9,7 +9,7 @@ class RagaController extends Controller
 {
     public function index(): View
     {
-        return view('raga', ['ragas' => Raga::all()]);
+        return view('ragas', ['ragas' => Raga::all()]);
     }
 
     public function show(int $id): View
@@ -25,6 +25,12 @@ class RagaController extends Controller
                 'next' => $next
             ]
         );
+    }
+
+    // Shows all ragas on one very big page
+    public function debug()
+    {
+        return view('raga', ['ragas' => Raga::all()]);
     }
 
     public function random()

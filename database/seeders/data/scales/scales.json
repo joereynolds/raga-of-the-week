@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Ionian",
+        "first": "1",
+        "second": "2",
+        "third": "3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "7"
+    },
+    {
+        "name": "Dorian",
+        "first": "1",
+        "second": "2",
+        "third": "b3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Phrygian",
+        "first": "1",
+        "second": "b2",
+        "third": "b3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "b6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Lydian",
+        "first": "1",
+        "second": "2",
+        "third": "3",
+        "fourth": "#4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "7"
+    },
+    {
+        "name": "Mixolydian",
+        "first": "1",
+        "second": "2",
+        "third": "3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Aeolian",
+        "first": "1",
+        "second": "2",
+        "third": "b3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "b6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Locrian",
+        "first": "1",
+        "second": "b2",
+        "third": "b3",
+        "fourth": "4",
+        "fifth": "b5",
+        "sixth": "b6",
+        "seventh": "b7"
+    },
+
+    {
+        "name": "Harmonic Minor",
+        "first": "1",
+        "second": "2",
+        "third": "b3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "b6",
+        "seventh": "7"
+    }
+
+
+
+
+]

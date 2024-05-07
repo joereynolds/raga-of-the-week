@@ -13,6 +13,12 @@
     </head>
 
     <body>
+        <header class="flex-container">
+            <a href="{{ route('debug') }}">ROTW</a>
+            <a href="{{ route('index') }}">Ragas</a>
+            <a href="{{ route('scales') }}">Scales</a>
+        </header>
+
         <main>{{ $slot }}</main>
     </body>
 </html>
