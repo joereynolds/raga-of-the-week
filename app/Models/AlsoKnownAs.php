@@ -18,4 +18,9 @@ class AlsoKnownAs extends Model
     {
         return $this->belongsTo(WesternScale::class);
     }
+
+    public function raga(): BelongsTo
+    {
+        return $this->belongsTo(Raga::class);
+    }
 }
