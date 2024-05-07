@@ -14,9 +14,9 @@
 
     <body>
         <header class="flex-container">
-            <a href="{{ route('debug') }}">ROTW</a>
-            <a href="{{ route('index') }}">Ragas</a>
-            <a href="{{ route('scales') }}">Scales</a>
+            <a href="{{ route('weekly') }}">ROTW</a>
+            <a class="text-align-center" href="{{ route('index') }}">Ragas</a>
+            <a class="text-align-right" href="{{ route('scales') }}">Scales</a>
         </header>
 
         <main>{{ $slot }}</main>

@@ -1,4 +1,4 @@
-<h3>Similar Ragas</h3>
+<h3 class="border-bottom">Similar Ragas</h3>
 <p>A similar raga is one that differs by only one note</p>
 <p>Here's a list of closely related ragas</p>
 

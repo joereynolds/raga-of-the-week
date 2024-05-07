@@ -151,5 +151,60 @@
         "fifth": "5",
         "sixth": "6",
         "seventh": "b7"
+    },
+
+
+
+
+
+    {
+        "name": "Harmonic Major",
+        "first": "1",
+        "second": "2",
+        "third": "3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "b6",
+        "seventh": "7"
+    },
+    {
+        "name": "Phrygian b4 (Altered Dominant ♮5)",
+        "first": "1",
+        "second": "b2",
+        "third": "b3",
+        "fourth": "b4",
+        "fifth": "5",
+        "sixth": "b6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Lydian b3 (Melodic Minor #4)",
+        "first": "1",
+        "second": "2",
+        "third": "b3",
+        "fourth": "#4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "7"
+    },
+    {
+        "name": "Mixolydian b2",
+        "first": "1",
+        "second": "b2",
+        "third": "3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Lydian Augmented #2",
+        "first": "1",
+        "second": "#2",
+        "third": "3",
+        "fourth": "#4",
+        "fifth": "#5",
+        "sixth": "6",
+        "seventh": "7"
     }
 ]

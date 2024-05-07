@@ -7,6 +7,11 @@ use Illuminate\View\View;
 
 class RagaController extends Controller
 {
+    public function weekly(): View
+    {
+        return view('weekly', ['ragas' => Raga::all()]);
+    }
+
     public function index(): View
     {
         return view('ragas', ['ragas' => Raga::all()]);
@@ -18,7 +23,7 @@ class RagaController extends Controller
         $next = Raga::where('id', '>', $id)->min('id');
 
         return view(
-            'raga',
+            'raga-page',
             [
                 'ragas' => Raga::where('id', $id)->get(),
                 'previous' => $previous,

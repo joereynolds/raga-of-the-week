@@ -1,17 +1,13 @@
 <x-layout>
     <h1>All Ragas</h1>
 
-    <ul>
     @foreach($ragas as $raga)
-        <li>
-            <a
-                href="{{ route('raga', ['id' => $raga->id]) }}"
-            >
+        <div>{{ $raga->id }}.
+            <a href="{{ route('raga', ['id' => $raga->id]) }}" >
                 {{ $raga->name }}
             </a>
-        </li>
+        </div>
 
     @endforeach
-    </ul>
 
 </x-layout>
