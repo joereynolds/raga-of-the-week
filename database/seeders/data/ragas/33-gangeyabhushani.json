@@ -1,0 +1,50 @@
+{
+    "ragas": {
+        "id": 33,
+        "name": "Gangeyabhushani"
+    },
+
+    "arohanas": {
+        "raga_id": 33,
+        "shadja": "S",
+        "rishabha": "R3",
+        "gandhara": "G3",
+        "madhyama": "M1",
+        "panchama": "P",
+        "dhaivata": "D1",
+        "nishada": "N3"
+    },
+
+    "avarohanas": {
+        "raga_id": 33,
+        "shadja": "S",
+        "nishada": "N3",
+        "dhaivata": "D1",
+        "panchama": "P",
+        "madhyama": "M1",
+        "gandhara": "G3",
+        "rishabha": "R3"
+    },
+
+    "notes": {
+        "raga_id": 33,
+        "first": "C",
+        "second": "D#",
+        "third": "E",
+        "fourth": "F",
+        "fifth": "G",
+        "sixth": "Ab",
+        "seventh": "B"
+    },
+
+    "formulas": {
+        "raga_id": 33,
+        "first": "1",
+        "second": "#2",
+        "third": "3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "b6",
+        "seventh": "7"
+    }
+}

@@ -206,5 +206,27 @@
         "fifth": "#5",
         "sixth": "6",
         "seventh": "7"
+    },
+
+
+    {
+        "name": "Mixolydian #2",
+        "first": "1",
+        "second": "#2",
+        "third": "3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "b7"
+    },
+    {
+        "name": "Ionian #2",
+        "first": "1",
+        "second": "#2",
+        "third": "3",
+        "fourth": "4",
+        "fifth": "5",
+        "sixth": "6",
+        "seventh": "7"
     }
 ]
