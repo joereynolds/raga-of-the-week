@@ -3,7 +3,6 @@
         "id": 21,
         "name": "Keeravani"
     },
-
     "arohanas": {
         "raga_id": 21,
         "shadja": "S",
@@ -14,7 +13,6 @@
         "dhaivata": "D1",
         "nishada": "N3"
     },
-
     "avarohanas": {
         "raga_id": 21,
         "shadja": "S",
@@ -25,7 +23,6 @@
         "gandhara": "G2",
         "rishabha": "R2"
     },
-
     "notes": {
         "raga_id": 21,
         "first": "C",
@@ -36,7 +33,6 @@
         "sixth": "Ab",
         "seventh": "B"
     },
-
     "formulas": {
         "raga_id": 21,
         "first": "1",
@@ -46,5 +42,42 @@
         "fifth": "5",
         "sixth": "b6",
         "seventh": "7"
-    }
+    },
+    "new-arohanas": [
+        {
+            "raga_id": 21,
+            "swara_id": 1,
+            "order": 1
+        },
+        {
+            "raga_id": 21,
+            "swara_id": 3,
+            "order": 1
+        },
+        {
+            "raga_id": 21,
+            "swara_id": 6,
+            "order": 1
+        },
+        {
+            "raga_id": 21,
+            "swara_id": 8,
+            "order": 1
+        },
+        {
+            "raga_id": 21,
+            "swara_id": 10,
+            "order": 1
+        },
+        {
+            "raga_id": 21,
+            "swara_id": 11,
+            "order": 1
+        },
+        {
+            "raga_id": 21,
+            "swara_id": 16,
+            "order": 1
+        }
+    ]
 }

@@ -3,7 +3,6 @@
         "id": 30,
         "name": "Naganandini"
     },
-
     "arohanas": {
         "raga_id": 30,
         "shadja": "S",
@@ -14,7 +13,6 @@
         "dhaivata": "D3",
         "nishada": "N3"
     },
-
     "avarohanas": {
         "raga_id": 30,
         "shadja": "S",
@@ -25,7 +23,6 @@
         "gandhara": "G3",
         "rishabha": "R2"
     },
-
     "notes": {
         "raga_id": 30,
         "first": "C",
@@ -36,7 +33,6 @@
         "sixth": "A#",
         "seventh": "B"
     },
-
     "formulas": {
         "raga_id": 30,
         "first": "1",
@@ -46,5 +42,42 @@
         "fifth": "5",
         "sixth": "#6",
         "seventh": "7"
-    }
+    },
+    "new-arohanas": [
+        {
+            "raga_id": 30,
+            "swara_id": 1,
+            "order": 1
+        },
+        {
+            "raga_id": 30,
+            "swara_id": 3,
+            "order": 1
+        },
+        {
+            "raga_id": 30,
+            "swara_id": 7,
+            "order": 1
+        },
+        {
+            "raga_id": 30,
+            "swara_id": 8,
+            "order": 1
+        },
+        {
+            "raga_id": 30,
+            "swara_id": 10,
+            "order": 1
+        },
+        {
+            "raga_id": 30,
+            "swara_id": 13,
+            "order": 1
+        },
+        {
+            "raga_id": 30,
+            "swara_id": 16,
+            "order": 1
+        }
+    ]
 }

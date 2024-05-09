@@ -3,7 +3,6 @@
         "id": 28,
         "name": "Harikambhoji"
     },
-
     "notes": {
         "raga_id": 28,
         "first": "C",
@@ -14,7 +13,6 @@
         "sixth": "A",
         "seventh": "Bb"
     },
-
     "arohanas": {
         "raga_id": 28,
         "shadja": "S",
@@ -25,7 +23,6 @@
         "dhaivata": "D2",
         "nishada": "N2"
     },
-
     "avarohanas": {
         "raga_id": 28,
         "shadja": "S",
@@ -36,7 +33,6 @@
         "gandhara": "G3",
         "rishabha": "R2"
     },
-
     "formulas": {
         "raga_id": 28,
         "first": "1",
@@ -46,5 +42,42 @@
         "fifth": "5",
         "sixth": "6",
         "seventh": "b7"
-    }
+    },
+    "new-arohanas": [
+        {
+            "raga_id": 28,
+            "swara_id": 1,
+            "order": 1
+        },
+        {
+            "raga_id": 28,
+            "swara_id": 3,
+            "order": 1
+        },
+        {
+            "raga_id": 28,
+            "swara_id": 7,
+            "order": 1
+        },
+        {
+            "raga_id": 28,
+            "swara_id": 8,
+            "order": 1
+        },
+        {
+            "raga_id": 28,
+            "swara_id": 10,
+            "order": 1
+        },
+        {
+            "raga_id": 28,
+            "swara_id": 12,
+            "order": 1
+        },
+        {
+            "raga_id": 28,
+            "swara_id": 15,
+            "order": 1
+        }
+    ]
 }
