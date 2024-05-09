@@ -52,32 +52,69 @@
         {
             "raga_id": 9,
             "swara_id": 2,
-            "order": 1
+            "order": 2
         },
         {
             "raga_id": 9,
             "swara_id": 6,
-            "order": 1
+            "order": 3
         },
         {
             "raga_id": 9,
             "swara_id": 8,
-            "order": 1
+            "order": 4
         },
         {
             "raga_id": 9,
             "swara_id": 10,
-            "order": 1
+            "order": 5
         },
         {
             "raga_id": 9,
             "swara_id": 11,
-            "order": 1
+            "order": 6
         },
         {
             "raga_id": 9,
             "swara_id": 16,
+            "order": 7
+        }
+    ],
+    "new-avarohanas": [
+        {
+            "raga_id": 9,
+            "swara_id": 1,
             "order": 1
+        },
+        {
+            "raga_id": 9,
+            "swara_id": 2,
+            "order": 2
+        },
+        {
+            "raga_id": 9,
+            "swara_id": 6,
+            "order": 3
+        },
+        {
+            "raga_id": 9,
+            "swara_id": 8,
+            "order": 4
+        },
+        {
+            "raga_id": 9,
+            "swara_id": 10,
+            "order": 5
+        },
+        {
+            "raga_id": 9,
+            "swara_id": 11,
+            "order": 6
+        },
+        {
+            "raga_id": 9,
+            "swara_id": 16,
+            "order": 7
         }
     ]
 }

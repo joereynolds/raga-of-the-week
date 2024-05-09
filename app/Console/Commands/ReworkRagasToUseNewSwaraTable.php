@@ -23,6 +23,7 @@ class ReworkRagasToUseNewSwaraTable extends Command
 
         foreach ($ragas as $raga) {
 
+
             $this->line("reworking $raga...");
             $config = json_decode(
                 file_get_contents(database_path(). "/seeders/data/ragas/$raga"),
@@ -40,6 +41,9 @@ class ReworkRagasToUseNewSwaraTable extends Command
             ];
 
             $newArohana = [];
+            $newAvarohana = [];
+
+            $i = 1;
 
             foreach ($swaras as $swara) {
                 $newArohana[] = [
@@ -47,11 +51,21 @@ class ReworkRagasToUseNewSwaraTable extends Command
                     'swara_id' => Swara::where(
                         'notation', $config['arohanas'][$swara]
                     )->first()->id,
-                    'order' => 1,
+                    'order' => $i,
                 ];
+                $newAvarohana[] = [
+                    'raga_id' => $config['ragas']['id'],
+                    'swara_id' => Swara::where(
+                        'notation', $config['avarohanas'][$swara]
+                    )->first()->id,
+                    'order' => $i,
+                ];
+
+                $i++;
             }
 
             $config['new-arohanas'] = $newArohana;
+            $config['new-avarohanas'] = $newAvarohana;
             file_put_contents(
                 database_path(). "/seeders/data/ragas/$raga",
 
