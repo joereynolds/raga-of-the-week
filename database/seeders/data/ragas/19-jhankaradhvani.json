@@ -3,46 +3,6 @@
         "id": 19,
         "name": "Jhankaradhvani"
     },
-    "arohanas": {
-        "raga_id": 19,
-        "shadja": "S",
-        "rishabha": "R2",
-        "gandhara": "G2",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D1",
-        "nishada": "N1"
-    },
-    "avarohanas": {
-        "raga_id": 19,
-        "shadja": "S",
-        "nishada": "N1",
-        "dhaivata": "D1",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G2",
-        "rishabha": "R2"
-    },
-    "notes": {
-        "raga_id": 19,
-        "first": "C",
-        "second": "D",
-        "third": "Eb",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "Ab",
-        "seventh": "Bbb"
-    },
-    "formulas": {
-        "raga_id": 19,
-        "first": "1",
-        "second": "2",
-        "third": "b3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "b6",
-        "seventh": "bb7"
-    },
     "new-arohanas": [
         {
             "raga_id": 19,

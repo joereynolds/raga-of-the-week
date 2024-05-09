@@ -3,46 +3,6 @@
         "id": 18,
         "name": "H\u0101tak\u0101mbari"
     },
-    "arohanas": {
-        "raga_id": 18,
-        "shadja": "S",
-        "rishabha": "R1",
-        "gandhara": "G3",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D3",
-        "nishada": "N3"
-    },
-    "avarohanas": {
-        "raga_id": 18,
-        "shadja": "S",
-        "nishada": "N3",
-        "dhaivata": "D3",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G3",
-        "rishabha": "R1"
-    },
-    "notes": {
-        "raga_id": 18,
-        "first": "C",
-        "second": "Db",
-        "third": "E",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "A#",
-        "seventh": "B"
-    },
-    "formulas": {
-        "raga_id": 18,
-        "first": "1",
-        "second": "b2",
-        "third": "3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "#6",
-        "seventh": "7"
-    },
     "new-arohanas": [
         {
             "raga_id": 18,

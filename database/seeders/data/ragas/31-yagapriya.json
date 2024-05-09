@@ -3,46 +3,6 @@
         "id": 31,
         "name": "Yagapriya"
     },
-    "arohanas": {
-        "raga_id": 31,
-        "shadja": "S",
-        "rishabha": "R3",
-        "gandhara": "G3",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D1",
-        "nishada": "N1"
-    },
-    "avarohanas": {
-        "raga_id": 31,
-        "shadja": "S",
-        "nishada": "N1",
-        "dhaivata": "D1",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G3",
-        "rishabha": "R3"
-    },
-    "notes": {
-        "raga_id": 31,
-        "first": "C",
-        "second": "D#",
-        "third": "E",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "Ab",
-        "seventh": "Bbb"
-    },
-    "formulas": {
-        "raga_id": 31,
-        "first": "1",
-        "second": "#2",
-        "third": "3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "b6",
-        "seventh": "bb7"
-    },
     "new-arohanas": [
         {
             "raga_id": 31,

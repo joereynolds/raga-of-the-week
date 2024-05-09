@@ -3,46 +3,6 @@
         "id": 24,
         "name": "Varunapriya"
     },
-    "arohanas": {
-        "raga_id": 24,
-        "shadja": "S",
-        "rishabha": "R2",
-        "gandhara": "G2",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D3",
-        "nishada": "N3"
-    },
-    "avarohanas": {
-        "raga_id": 24,
-        "shadja": "S",
-        "nishada": "N3",
-        "dhaivata": "D3",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G2",
-        "rishabha": "R2"
-    },
-    "notes": {
-        "raga_id": 24,
-        "first": "C",
-        "second": "D",
-        "third": "Eb",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "A#",
-        "seventh": "B"
-    },
-    "formulas": {
-        "raga_id": 24,
-        "first": "1",
-        "second": "2",
-        "third": "b3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "#6",
-        "seventh": "7"
-    },
     "new-arohanas": [
         {
             "raga_id": 24,

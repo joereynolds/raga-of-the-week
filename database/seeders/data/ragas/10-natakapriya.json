@@ -3,46 +3,6 @@
         "id": 10,
         "name": "Natakapriya"
     },
-    "arohanas": {
-        "raga_id": 10,
-        "shadja": "S",
-        "rishabha": "R1",
-        "gandhara": "G2",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D2",
-        "nishada": "N2"
-    },
-    "avarohanas": {
-        "raga_id": 10,
-        "shadja": "S",
-        "nishada": "N2",
-        "dhaivata": "D2",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G2",
-        "rishabha": "R1"
-    },
-    "notes": {
-        "raga_id": 10,
-        "first": "C",
-        "second": "Db",
-        "third": "Eb",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "A",
-        "seventh": "Bb"
-    },
-    "formulas": {
-        "raga_id": 10,
-        "first": "1",
-        "second": "b2",
-        "third": "b3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "6",
-        "seventh": "b7"
-    },
     "new-arohanas": [
         {
             "raga_id": 10,

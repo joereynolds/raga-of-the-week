@@ -3,46 +3,6 @@
         "id": 2,
         "name": "Ratnangi"
     },
-    "arohanas": {
-        "raga_id": 2,
-        "shadja": "S",
-        "rishabha": "R1",
-        "gandhara": "G1",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D1",
-        "nishada": "N2"
-    },
-    "avarohanas": {
-        "raga_id": 2,
-        "shadja": "S",
-        "nishada": "N2",
-        "dhaivata": "D1",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G1",
-        "rishabha": "R1"
-    },
-    "notes": {
-        "raga_id": 2,
-        "first": "C",
-        "second": "Db",
-        "third": "Ebb",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "Ab",
-        "seventh": "Bb"
-    },
-    "formulas": {
-        "raga_id": 2,
-        "first": "1",
-        "second": "b2",
-        "third": "bb3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "6",
-        "seventh": "7"
-    },
     "new-arohanas": [
         {
             "raga_id": 2,

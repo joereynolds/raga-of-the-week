@@ -3,46 +3,6 @@
         "id": 35,
         "name": "Shulini"
     },
-    "arohanas": {
-        "raga_id": 35,
-        "shadja": "S",
-        "rishabha": "R3",
-        "gandhara": "G3",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D2",
-        "nishada": "N3"
-    },
-    "avarohanas": {
-        "raga_id": 35,
-        "shadja": "S",
-        "nishada": "N3",
-        "dhaivata": "D2",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G3",
-        "rishabha": "R3"
-    },
-    "notes": {
-        "raga_id": 35,
-        "first": "C",
-        "second": "D#",
-        "third": "E",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "A",
-        "seventh": "B"
-    },
-    "formulas": {
-        "raga_id": 35,
-        "first": "1",
-        "second": "#2",
-        "third": "3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "6",
-        "seventh": "7"
-    },
     "new-arohanas": [
         {
             "raga_id": 35,

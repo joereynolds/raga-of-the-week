@@ -4,46 +4,6 @@
         "name": "Ambhojini"
     },
 
-    "arohanas": {
-        "raga_id": 1000,
-        "shadja": "S",
-        "rishabha": "R2",
-        "gandhara": "G3",
-        "madhyama": "M1",
-        "dhaivata": "D2"
-    },
-
-    "avarohanas": {
-        "raga_id": 1000,
-        "shadja": "S",
-        "dhaivata": "D2",
-        "madhyama": "M1",
-        "gandhara": "G3",
-        "rishabha": "R2"
-    },
-
-    "notes": {
-        "raga_id": 1000,
-        "first": "C",
-        "second": "Db",
-        "third": "Eb",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "A",
-        "seventh": "Bb"
-    },
-
-    "formulas": {
-        "raga_id": 1000,
-        "first": "1",
-        "second": "b2",
-        "third": "b3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "6",
-        "seventh": "b7"
-    },
-
     "melakarta_janya_links": {
         "raga_id": 28,
         "janya_id": 1000

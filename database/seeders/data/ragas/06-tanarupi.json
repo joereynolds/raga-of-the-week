@@ -3,46 +3,6 @@
         "id": 6,
         "name": "Tanarupi"
     },
-    "arohanas": {
-        "raga_id": 6,
-        "shadja": "S",
-        "rishabha": "R1",
-        "gandhara": "G1",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D3",
-        "nishada": "N3"
-    },
-    "avarohanas": {
-        "raga_id": 6,
-        "shadja": "S",
-        "nishada": "N3",
-        "dhaivata": "D3",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G1",
-        "rishabha": "R1"
-    },
-    "notes": {
-        "raga_id": 6,
-        "first": "C",
-        "second": "Db",
-        "third": "Ebb",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "A#",
-        "seventh": "B"
-    },
-    "formulas": {
-        "raga_id": 6,
-        "first": "1",
-        "second": "b2",
-        "third": "bb3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "#6",
-        "seventh": "7"
-    },
     "new-arohanas": [
         {
             "raga_id": 6,
