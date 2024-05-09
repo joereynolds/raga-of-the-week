@@ -11,33 +11,39 @@ class Raga {
       const synth = new Tone.PolySynth().toDestination();
       synth.triggerAttackRelease(
           Tone.Frequency('C2').transpose(this.transposition_amount),
-          4);
-
-      let index = 1
-      let loop = new Tone.Loop(time => {
-          highlightTableColumn(index);
-          index++
-      }, 0.5);
-
-      loop.start().stop(5);
-
-      let delay = Tone.now();
-      for(let i = 0; i < notes.length; i++) {
-          synth.triggerAttackRelease(
-              Tone.Frequency(notes[i] + '4').transpose(this.transposition_amount),
-              '8n',
-              delay
-
-          );
-          delay += 0.5
-      }
-
-      // Play the first note an octave higher to simulate the 8th note
-      synth.triggerAttackRelease(
-          Tone.Frequency(notes[0] + '5').transpose(this.transposition_amount),
-          '8n',
-          delay
+          4
       );
+
+      let i = 1;
+      let j = notes.avarohana.length;
+      const arohanaDuration = notes.arohana.length / 2;
+      const avarohanaDuration = notes.avarohana.length / 2;
+
+      const pattern = new Tone.Pattern((time, note) => {
+          console.log(note + '4');
+          console.log(this.transposition_amount);
+          synth.triggerAttackRelease(
+              Tone.Frequency(note + '4').transpose(this.transposition_amount),
+              '8n',
+              time
+          )
+
+          Tone.Draw.schedule(() => {
+              highlightTableColumn(i++);
+          }, time);
+      }, notes.arohana, "up").start(0).stop(arohanaDuration);
+
+        const reversePattern = new Tone.Pattern((time, note) => {
+          synth.triggerAttackRelease(
+              Tone.Frequency(note + '4').transpose(this.transposition_amount),
+              '8n',
+              time
+          )
+
+          Tone.Draw.schedule(() => {
+              highlightTableColumn(j--);
+          }, time);
+        }, notes.avarohana, "up").start(arohanaDuration).stop(arohanaDuration + avarohanaDuration);
     }
 
     transpose(amount) {

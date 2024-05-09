@@ -1,9 +1,16 @@
 <button
-    data-notes='[
+    data-notes='{
+        "arohana": [
         @foreach ($raga->arohana as $arohana)
             "{{ $arohana->swara->note }}"{{ $loop->last ? '' : ',' }}
         @endforeach
-    ]'
+        ],
+        "avarohana": [
+        @foreach ($raga->avarohana as $avarohana)
+            "{{ $avarohana->swara->note }}"{{ $loop->last ? '' : ',' }}
+        @endforeach
+        ]
+    }'
 >
     Play Raga
 </button>
