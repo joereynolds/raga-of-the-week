@@ -47,74 +47,74 @@
         {
             "raga_id": 35,
             "swara_id": 1,
-            "order": 1
+            "order": 0
         },
         {
             "raga_id": 35,
             "swara_id": 4,
-            "order": 2
+            "order": 1
         },
         {
             "raga_id": 35,
             "swara_id": 7,
-            "order": 3
+            "order": 2
         },
         {
             "raga_id": 35,
             "swara_id": 8,
-            "order": 4
+            "order": 3
         },
         {
             "raga_id": 35,
             "swara_id": 10,
-            "order": 5
+            "order": 4
         },
         {
             "raga_id": 35,
             "swara_id": 12,
-            "order": 6
+            "order": 5
         },
         {
             "raga_id": 35,
             "swara_id": 16,
-            "order": 7
+            "order": 6
         }
     ],
     "new-avarohanas": [
         {
             "raga_id": 35,
-            "swara_id": 1,
-            "order": 1
-        },
-        {
-            "raga_id": 35,
-            "swara_id": 4,
-            "order": 2
-        },
-        {
-            "raga_id": 35,
-            "swara_id": 7,
-            "order": 3
-        },
-        {
-            "raga_id": 35,
-            "swara_id": 8,
-            "order": 4
-        },
-        {
-            "raga_id": 35,
-            "swara_id": 10,
-            "order": 5
+            "swara_id": 16,
+            "order": 0
         },
         {
             "raga_id": 35,
             "swara_id": 12,
-            "order": 6
+            "order": 1
         },
         {
             "raga_id": 35,
-            "swara_id": 16,
-            "order": 7
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 35,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 35,
+            "swara_id": 7,
+            "order": 4
+        },
+        {
+            "raga_id": 35,
+            "swara_id": 4,
+            "order": 5
+        },
+        {
+            "raga_id": 35,
+            "swara_id": 1,
+            "order": 6
         }
     ]
 }

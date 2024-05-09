@@ -12,24 +12,8 @@ class Arohana extends Model
 {
     use HasFactory;
 
-    public function swara(): HasMany
+    public function swara(): BelongsTo
     {
-        die('test');
-        return $this->hasMany(Swara::class);
-    }
-
-    public function list(): Attribute
-    {
-        return Attribute::make(
-            get: fn () => [
-                $this->shadja,
-                $this->rishabha,
-                $this->gandhara,
-                $this->madhyama,
-                $this->panchama,
-                $this->dhaivata,
-                $this->nishada,
-            ]
-        );
+        return $this->belongsTo(Swara::class);
     }
 }

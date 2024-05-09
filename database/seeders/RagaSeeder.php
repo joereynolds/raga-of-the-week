@@ -20,8 +20,6 @@ class RagaSeeder extends Seeder
             );
 
             DB::table('ragas')->insert($config['ragas']);
-            DB::table('notes')->insert($config['notes']);
-            DB::table('formulas')->insert($config['formulas']);
             DB::table('arohanas')->insert($config['new-arohanas']);
             DB::table('avarohanas')->insert($config['new-avarohanas']);
         }
@@ -37,10 +35,8 @@ class RagaSeeder extends Seeder
             );
 
             DB::table('ragas')->insert($config['ragas']);
-            DB::table('notes')->insert($config['notes']);
-            DB::table('formulas')->insert($config['formulas']);
-            DB::table('arohanas')->insert($config['arohanas']);
-            DB::table('avarohanas')->insert($config['avarohanas']);
+            DB::table('arohanas')->insert($config['new-arohanas']);
+            DB::table('avarohanas')->insert($config['new-avarohanas']);
 
             DB::table('melakarta_janya_links')->insert(
                 $config['melakarta_janya_links']

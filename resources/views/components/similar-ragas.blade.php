@@ -9,10 +9,9 @@
                 {{ $similarRaga->raga->name }}
             </a>
             @php
-                $thisRagaDiff  = current(array_diff($raga->notes->list, $similarRaga->raga->notes->list));
-                $otherRagaDiff = current(array_diff($similarRaga->raga->notes->list, $raga->notes->list));
+                /* $thisRagaDiff  = current(array_diff($raga->notes->list, $similarRaga->raga->notes->list)); */
+                /* $otherRagaDiff = current(array_diff($similarRaga->raga->notes->list, $raga->notes->list)); */
             @endphp
-            (Has <strong>{{ $otherRagaDiff }}</strong> instead of <strong>{{ $thisRagaDiff}}</strong>)
         </li>
     @empty
         <p>None found :(</p>

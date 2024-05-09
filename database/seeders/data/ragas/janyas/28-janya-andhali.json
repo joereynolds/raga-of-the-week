@@ -1,118 +1,104 @@
 {
     "ragas": {
-        "id": 28,
-        "name": "Harikambhoji"
+        "id": 1000,
+        "name": "Ambhojini"
     },
+
+    "arohanas": {
+        "raga_id": 1000,
+        "shadja": "S",
+        "rishabha": "R2",
+        "gandhara": "G3",
+        "madhyama": "M1",
+        "dhaivata": "D2"
+    },
+
+    "avarohanas": {
+        "raga_id": 1000,
+        "shadja": "S",
+        "dhaivata": "D2",
+        "madhyama": "M1",
+        "gandhara": "G3",
+        "rishabha": "R2"
+    },
+
     "notes": {
-        "raga_id": 28,
+        "raga_id": 1000,
         "first": "C",
-        "second": "D",
-        "third": "E",
+        "second": "Db",
+        "third": "Eb",
         "fourth": "F",
         "fifth": "G",
         "sixth": "A",
         "seventh": "Bb"
     },
-    "arohanas": {
-        "raga_id": 28,
-        "shadja": "S",
-        "rishabha": "R2",
-        "gandhara": "G3",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D2",
-        "nishada": "N2"
-    },
-    "avarohanas": {
-        "raga_id": 28,
-        "shadja": "S",
-        "nishada": "N2",
-        "dhaivata": "D2",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G3",
-        "rishabha": "R2"
-    },
+
     "formulas": {
-        "raga_id": 28,
+        "raga_id": 1000,
         "first": "1",
-        "second": "2",
-        "third": "3",
+        "second": "b2",
+        "third": "b3",
         "fourth": "4",
         "fifth": "5",
         "sixth": "6",
         "seventh": "b7"
     },
+
+    "melakarta_janya_links": {
+        "raga_id": 28,
+        "janya_id": 1000
+    },
+
     "new-arohanas": [
         {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 1,
             "order": 0
         },
         {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 3,
             "order": 1
         },
         {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 7,
             "order": 2
         },
         {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 8,
             "order": 3
         },
         {
-            "raga_id": 28,
-            "swara_id": 10,
-            "order": 4
-        },
-        {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 12,
-            "order": 5
-        },
-        {
-            "raga_id": 28,
-            "swara_id": 15,
-            "order": 6
+            "order": 4
         }
     ],
     "new-avarohanas": [
         {
-            "raga_id": 28,
-            "swara_id": 15,
-            "order": 0
-        },
-        {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 12,
             "order": 1
         },
         {
-            "raga_id": 28,
-            "swara_id": 10,
-            "order": 2
-        },
-        {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 8,
             "order": 3
         },
         {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 7,
             "order": 4
         },
         {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 3,
             "order": 5
         },
         {
-            "raga_id": 28,
+            "raga_id": 1000,
             "swara_id": 1,
             "order": 6
         }

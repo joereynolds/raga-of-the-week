@@ -29,9 +29,9 @@ class Raga extends Model
         return $this->hasMany(Arohana::class);
     }
 
-    public function avarohana(): HasOne
+    public function avarohana(): HasMany
     {
-        return $this->hasOne(Avarohana::class);
+        return $this->hasMany(Avarohana::class);
     }
 
     public function similarRaga(): HasMany
