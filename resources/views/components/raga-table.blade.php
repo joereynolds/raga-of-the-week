@@ -1,12 +1,8 @@
 <button
     data-notes='[
-        "{{$raga->notes->first}}",
-        "{{$raga->notes->second}}",
-        "{{$raga->notes->third}}",
-        "{{$raga->notes->fourth}}",
-        "{{$raga->notes->fifth}}",
-        "{{$raga->notes->sixth}}",
-        "{{$raga->notes->seventh}}"
+        @foreach ($raga->arohana as $arohana)
+            "{{ $arohana->swara->note }}"{{ $loop->last ? '' : ',' }}
+        @endforeach
     ]'
 >
     Play Raga
@@ -17,26 +13,26 @@
 <table>
     <tr>
         <td>Arohana</td>
-        @foreach ($raga->arohana->list as $swara)
-            <td>{{$swara}}</td>
+        @foreach ($raga->arohana as $arohana)
+            <td>{{ $arohana->swara->notation }}</td>
         @endforeach
     </tr>
     <tr>
         <td>Avarohana</td>
-        @foreach ($raga->avarohana->list as $swara)
-            <td>{{$swara}}</td>
+        @foreach ($raga->avarohana as $avarohana)
+            <td>{{ $avarohana->swara->notation }}</td>
         @endforeach
     </tr>
     <tr>
         <td>Notes</td>
-        @foreach ($raga->notes->list as $note)
-            <td class="note">{{$note}}3</td>
+        @foreach ($raga->arohana as $arohana)
+            <td class="note">{{ $arohana->swara->note }}3</td>
         @endforeach
     </tr>
     <tr>
         <td>Formula</td>
-        @foreach ($raga->formula->list as $interval)
-            <td>{{$interval}}</td>
+        @foreach ($raga->arohana as $arohana)
+            <td >{{ $arohana->swara->interval }}</td>
         @endforeach
     </tr>
 

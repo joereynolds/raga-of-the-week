@@ -3,118 +3,78 @@
         "id": 32,
         "name": "Ragavardhini"
     },
-    "arohanas": {
-        "raga_id": 32,
-        "shadja": "S",
-        "rishabha": "R3",
-        "gandhara": "G3",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D1",
-        "nishada": "N2"
-    },
-    "avarohanas": {
-        "raga_id": 32,
-        "shadja": "S",
-        "nishada": "N2",
-        "dhaivata": "D1",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G3",
-        "rishabha": "R3"
-    },
-    "notes": {
-        "raga_id": 32,
-        "first": "C",
-        "second": "D#",
-        "third": "E",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "Ab",
-        "seventh": "Bb"
-    },
-    "formulas": {
-        "raga_id": 32,
-        "first": "1",
-        "second": "#2",
-        "third": "3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "b6",
-        "seventh": "b7"
-    },
-    "new-arohanas": [
+    "arohanas": [
         {
             "raga_id": 32,
             "swara_id": 1,
-            "order": 1
+            "order": 0
         },
         {
             "raga_id": 32,
             "swara_id": 4,
-            "order": 2
+            "order": 1
         },
         {
             "raga_id": 32,
             "swara_id": 7,
-            "order": 3
+            "order": 2
         },
         {
             "raga_id": 32,
             "swara_id": 8,
-            "order": 4
+            "order": 3
         },
         {
             "raga_id": 32,
             "swara_id": 10,
-            "order": 5
+            "order": 4
         },
         {
             "raga_id": 32,
             "swara_id": 11,
-            "order": 6
+            "order": 5
         },
         {
             "raga_id": 32,
             "swara_id": 15,
-            "order": 7
+            "order": 6
         }
     ],
-    "new-avarohanas": [
+    "avarohanas": [
         {
             "raga_id": 32,
-            "swara_id": 1,
-            "order": 1
-        },
-        {
-            "raga_id": 32,
-            "swara_id": 4,
-            "order": 2
-        },
-        {
-            "raga_id": 32,
-            "swara_id": 7,
-            "order": 3
-        },
-        {
-            "raga_id": 32,
-            "swara_id": 8,
-            "order": 4
-        },
-        {
-            "raga_id": 32,
-            "swara_id": 10,
-            "order": 5
+            "swara_id": 15,
+            "order": 0
         },
         {
             "raga_id": 32,
             "swara_id": 11,
-            "order": 6
+            "order": 1
         },
         {
             "raga_id": 32,
-            "swara_id": 15,
-            "order": 7
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 32,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 32,
+            "swara_id": 7,
+            "order": 4
+        },
+        {
+            "raga_id": 32,
+            "swara_id": 4,
+            "order": 5
+        },
+        {
+            "raga_id": 32,
+            "swara_id": 1,
+            "order": 6
         }
     ]
 }

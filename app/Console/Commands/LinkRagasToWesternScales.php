@@ -11,7 +11,7 @@ class LinkRagasToWesternScales extends Command
 {
     protected $signature = 'app:link-ragas-to-western-scales';
 
-    protected $description = 'Command description';
+    protected $description = 'Links western scales to ragas by their formula';
 
     /**
      * Execute the console command.
@@ -23,7 +23,12 @@ class LinkRagasToWesternScales extends Command
         foreach (Raga::all() as $raga) {
             foreach (WesternScale::all() as $scale) {
 
-                if ($raga->formula->list == $scale->list) {
+                $ragaformula = [];
+                foreach ($raga->arohana as $arohana) {
+                    $ragaformula[] = $arohana->swara->interval;
+                }
+
+                if ($ragaformula === $scale->list) {
                     /* $this->line("$raga->name is also known as $scale->name"); */
 
                     AlsoKnownAs::create([
@@ -31,7 +36,6 @@ class LinkRagasToWesternScales extends Command
                         'western_scale_id' => $scale->id,
                     ]);
                 }
-
             }
         }
     }

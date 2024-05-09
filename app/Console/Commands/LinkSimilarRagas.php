@@ -5,21 +5,12 @@ namespace App\Console\Commands;
 use App\Models\Raga;
 use Illuminate\Console\Command;
 
-class FindSimilarRagas extends Command
+class LinkSimilarRagas extends Command
 {
-    /**
-     * @var string
-     */
-    protected $signature = 'app:find-similar-ragas';
+    protected $signature = 'app:link-similar-ragas';
 
-    /**
-     * @var string
-     */
     protected $description = 'Links ragas that differ by one note in their formulas';
 
-    /**
-     * Execute the console command.
-     */
     public function handle()
     {
         $this->line("Linking similar ragas...");
@@ -31,25 +22,15 @@ class FindSimilarRagas extends Command
 
                 /* $this->line("Comparing $raga->name against $otherRaga->name"); */
 
-                $formula = [
-                    $raga->formula->first,
-                    $raga->formula->second,
-                    $raga->formula->third,
-                    $raga->formula->fourth,
-                    $raga->formula->fifth,
-                    $raga->formula->sixth,
-                    $raga->formula->seventh,
-                ];
+                $formula = [];
+                foreach ($raga->arohana as $arohana) {
+                    $formula[] = $arohana->swara->interval;
+                }
 
-                $otherFormula = [
-                    $otherRaga->formula->first,
-                    $otherRaga->formula->second,
-                    $otherRaga->formula->third,
-                    $otherRaga->formula->fourth,
-                    $otherRaga->formula->fifth,
-                    $otherRaga->formula->sixth,
-                    $otherRaga->formula->seventh,
-                ];
+                $otherFormula = [];
+                foreach ($otherRaga->arohana as $arohana) {
+                    $otherFormula[] = $arohana->swara->interval;
+                }
 
                 $diff = array_diff($formula, $otherFormula);
 

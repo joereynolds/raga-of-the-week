@@ -20,8 +20,6 @@ class RagaSeeder extends Seeder
             );
 
             DB::table('ragas')->insert($config['ragas']);
-            DB::table('notes')->insert($config['notes']);
-            DB::table('formulas')->insert($config['formulas']);
             DB::table('arohanas')->insert($config['arohanas']);
             DB::table('avarohanas')->insert($config['avarohanas']);
         }
@@ -37,8 +35,6 @@ class RagaSeeder extends Seeder
             );
 
             DB::table('ragas')->insert($config['ragas']);
-            DB::table('notes')->insert($config['notes']);
-            DB::table('formulas')->insert($config['formulas']);
             DB::table('arohanas')->insert($config['arohanas']);
             DB::table('avarohanas')->insert($config['avarohanas']);
 

@@ -24,14 +24,14 @@ class Raga extends Model
         return $this->hasOne(Formula::class);
     }
 
-    public function arohana(): HasOne
+    public function arohana(): HasMany
     {
-        return $this->hasOne(Arohana::class);
+        return $this->hasMany(Arohana::class);
     }
 
-    public function avarohana(): HasOne
+    public function avarohana(): HasMany
     {
-        return $this->hasOne(Avarohana::class);
+        return $this->hasMany(Avarohana::class);
     }
 
     public function similarRaga(): HasMany

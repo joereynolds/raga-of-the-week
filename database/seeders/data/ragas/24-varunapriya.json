@@ -3,118 +3,78 @@
         "id": 24,
         "name": "Varunapriya"
     },
-    "arohanas": {
-        "raga_id": 24,
-        "shadja": "S",
-        "rishabha": "R2",
-        "gandhara": "G2",
-        "madhyama": "M1",
-        "panchama": "P",
-        "dhaivata": "D3",
-        "nishada": "N3"
-    },
-    "avarohanas": {
-        "raga_id": 24,
-        "shadja": "S",
-        "nishada": "N3",
-        "dhaivata": "D3",
-        "panchama": "P",
-        "madhyama": "M1",
-        "gandhara": "G2",
-        "rishabha": "R2"
-    },
-    "notes": {
-        "raga_id": 24,
-        "first": "C",
-        "second": "D",
-        "third": "Eb",
-        "fourth": "F",
-        "fifth": "G",
-        "sixth": "A#",
-        "seventh": "B"
-    },
-    "formulas": {
-        "raga_id": 24,
-        "first": "1",
-        "second": "2",
-        "third": "b3",
-        "fourth": "4",
-        "fifth": "5",
-        "sixth": "#6",
-        "seventh": "7"
-    },
-    "new-arohanas": [
+    "arohanas": [
         {
             "raga_id": 24,
             "swara_id": 1,
-            "order": 1
+            "order": 0
         },
         {
             "raga_id": 24,
             "swara_id": 3,
-            "order": 2
+            "order": 1
         },
         {
             "raga_id": 24,
             "swara_id": 6,
-            "order": 3
+            "order": 2
         },
         {
             "raga_id": 24,
             "swara_id": 8,
-            "order": 4
+            "order": 3
         },
         {
             "raga_id": 24,
             "swara_id": 10,
-            "order": 5
+            "order": 4
         },
         {
             "raga_id": 24,
             "swara_id": 13,
-            "order": 6
+            "order": 5
         },
         {
             "raga_id": 24,
             "swara_id": 16,
-            "order": 7
+            "order": 6
         }
     ],
-    "new-avarohanas": [
+    "avarohanas": [
         {
             "raga_id": 24,
-            "swara_id": 1,
-            "order": 1
-        },
-        {
-            "raga_id": 24,
-            "swara_id": 3,
-            "order": 2
-        },
-        {
-            "raga_id": 24,
-            "swara_id": 6,
-            "order": 3
-        },
-        {
-            "raga_id": 24,
-            "swara_id": 8,
-            "order": 4
-        },
-        {
-            "raga_id": 24,
-            "swara_id": 10,
-            "order": 5
+            "swara_id": 16,
+            "order": 0
         },
         {
             "raga_id": 24,
             "swara_id": 13,
-            "order": 6
+            "order": 1
         },
         {
             "raga_id": 24,
-            "swara_id": 16,
-            "order": 7
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 24,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 24,
+            "swara_id": 6,
+            "order": 4
+        },
+        {
+            "raga_id": 24,
+            "swara_id": 3,
+            "order": 5
+        },
+        {
+            "raga_id": 24,
+            "swara_id": 1,
+            "order": 6
         }
     ]
 }
