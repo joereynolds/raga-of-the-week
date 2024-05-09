@@ -3,7 +3,7 @@
         "id": 20,
         "name": "Natabhairavi"
     },
-    "new-arohanas": [
+    "arohanas": [
         {
             "raga_id": 20,
             "swara_id": 1,
@@ -40,7 +40,7 @@
             "order": 6
         }
     ],
-    "new-avarohanas": [
+    "avarohanas": [
         {
             "raga_id": 20,
             "swara_id": 15,

@@ -20,8 +20,8 @@ class RagaSeeder extends Seeder
             );
 
             DB::table('ragas')->insert($config['ragas']);
-            DB::table('arohanas')->insert($config['new-arohanas']);
-            DB::table('avarohanas')->insert($config['new-avarohanas']);
+            DB::table('arohanas')->insert($config['arohanas']);
+            DB::table('avarohanas')->insert($config['avarohanas']);
         }
 
         $janyas = array_diff(scandir(__DIR__ . '/data/ragas/janyas'), [
@@ -35,8 +35,8 @@ class RagaSeeder extends Seeder
             );
 
             DB::table('ragas')->insert($config['ragas']);
-            DB::table('arohanas')->insert($config['new-arohanas']);
-            DB::table('avarohanas')->insert($config['new-avarohanas']);
+            DB::table('arohanas')->insert($config['arohanas']);
+            DB::table('avarohanas')->insert($config['avarohanas']);
 
             DB::table('melakarta_janya_links')->insert(
                 $config['melakarta_janya_links']

@@ -68,8 +68,8 @@ class ReworkRagasToUseNewSwaraTable extends Command
                 ];
             }
 
-            $config['new-arohanas'] = $newArohana;
-            $config['new-avarohanas'] = $newAvarohana;
+            $config['arohanas'] = $newArohana;
+            $config['avarohanas'] = $newAvarohana;
             file_put_contents(
                 database_path(). "/seeders/data/ragas/$raga",
 

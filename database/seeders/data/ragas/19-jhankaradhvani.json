@@ -3,7 +3,7 @@
         "id": 19,
         "name": "Jhankaradhvani"
     },
-    "new-arohanas": [
+    "arohanas": [
         {
             "raga_id": 19,
             "swara_id": 1,
@@ -40,7 +40,7 @@
             "order": 6
         }
     ],
-    "new-avarohanas": [
+    "avarohanas": [
         {
             "raga_id": 19,
             "swara_id": 14,

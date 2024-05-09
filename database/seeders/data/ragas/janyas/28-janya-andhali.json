@@ -9,7 +9,7 @@
         "janya_id": 1000
     },
 
-    "new-arohanas": [
+    "arohanas": [
         {
             "raga_id": 1000,
             "swara_id": 1,
@@ -36,7 +36,7 @@
             "order": 4
         }
     ],
-    "new-avarohanas": [
+    "avarohanas": [
         {
             "raga_id": 1000,
             "swara_id": 12,

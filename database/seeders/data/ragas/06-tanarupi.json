@@ -3,7 +3,7 @@
         "id": 6,
         "name": "Tanarupi"
     },
-    "new-arohanas": [
+    "arohanas": [
         {
             "raga_id": 6,
             "swara_id": 1,
@@ -40,7 +40,7 @@
             "order": 6
         }
     ],
-    "new-avarohanas": [
+    "avarohanas": [
         {
             "raga_id": 6,
             "swara_id": 16,
