@@ -1,7 +1,7 @@
 <button
     data-notes='[
         @foreach ($raga->arohana as $arohana)
-            "{{ $arohana->swara->note }}3"{{ $loop->last ? '' : ',' }}
+            "{{ $arohana->swara->note }}"{{ $loop->last ? '' : ',' }}
         @endforeach
     ]'
 >
@@ -9,7 +9,6 @@
 </button>
 <button data-transpose="-1">-</button>
 <button data-transpose="1">+</button>
-
 
 <table>
     <tr>
