@@ -9,9 +9,21 @@
                 {{ $similarRaga->raga->name }}
             </a>
             @php
-                /* $thisRagaDiff  = current(array_diff($raga->notes->list, $similarRaga->raga->notes->list)); */
-                /* $otherRagaDiff = current(array_diff($similarRaga->raga->notes->list, $raga->notes->list)); */
+                $thisRagasNotes = [];
+                foreach ($raga->arohana as $arohana) {
+                    $thisRagasNotes[] = $arohana->swara->note;
+                }
+
+                $otherRagasNotes = [];
+                foreach ($similarRaga->raga->arohana as $arohana) {
+                    $otherRagasNotes[] = $arohana->swara->note;
+                }
+
+                $thisRagaDiff  = current(array_diff($thisRagasNotes, $otherRagasNotes));
+                $otherRagaDiff = current(array_diff($otherRagasNotes, $thisRagasNotes));
+
             @endphp
+            (Has <strong>{{ $otherRagaDiff }}</strong> instead of <strong>{{ $thisRagaDiff}}</strong>)
         </li>
     @empty
         <p>None found :(</p>
