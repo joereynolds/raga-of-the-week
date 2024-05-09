@@ -1,0 +1,114 @@
+[
+    {
+        "notation": "Sa",
+        "name_short": "Sa",
+        "name_full": "Shadja",
+        "note": "C",
+        "interval": "1"
+    },
+    {
+        "notation": "R1",
+        "name_short": "Ri",
+        "name_full": "Shuddha Rishabha",
+        "note": "Db",
+        "interval": "b2"
+    },
+    {
+        "notation": "R2",
+        "name_short": "Ri",
+        "name_full": "Chatushruti Rishabha",
+        "note": "D",
+        "interval": "2"
+    },
+    {
+        "notation": "R3",
+        "name_short": "Ri",
+        "name_full": "Shatshruti Rishabha",
+        "note": "D#",
+        "interval": "#2"
+    },
+    {
+        "notation": "G1",
+        "name_short": "Ga",
+        "name_full": "Shuddha Gandhara",
+        "note": "Ebb",
+        "interval": "bb3"
+    },
+    {
+        "notation": "G2",
+        "name_short": "Ga",
+        "name_full": "Sadharana Gandhara",
+        "note": "Eb",
+        "interval": "b3"
+    },
+    {
+        "notation": "G3",
+        "name_short": "Ga",
+        "name_full": "Antara Gandhara",
+        "note": "E",
+        "interval": "3"
+    },
+    {
+        "notation": "M1",
+        "name_short": "Ga",
+        "name_full": "Shuddha Madhyama",
+        "note": "F",
+        "interval": "4"
+    },
+    {
+        "notation": "M2",
+        "name_short": "Ma",
+        "name_full": "Prati Madhyama",
+        "note": "F#",
+        "interval": "#4"
+    },
+    {
+        "notation": "P",
+        "name_short": "Pa",
+        "name_full": "Panchama",
+        "note": "G",
+        "interval": "5"
+    },
+    {
+        "notation": "D1",
+        "name_short": "Dha",
+        "name_full": "Shuddha Dhaivata",
+        "note": "Ab",
+        "interval": "b6"
+    },
+    {
+        "notation": "D2",
+        "name_short": "Dha",
+        "name_full": "Chatushruti Dhaivata",
+        "note": "A",
+        "interval": "6"
+    },
+    {
+        "notation": "D3",
+        "name_short": "Dha",
+        "name_full": "Shatshruti Dhaivata",
+        "note": "A#",
+        "interval": "#6"
+    },
+    {
+        "notation": "N1",
+        "name_short": "Ni",
+        "name_full": "Shuddha Nishada",
+        "note": "Bbb",
+        "interval": "bb7"
+    },
+    {
+        "notation": "N2",
+        "name_short": "Ni",
+        "name_full": "Kaishiki Nishada",
+        "note": "Bb",
+        "interval": "b7"
+    },
+    {
+        "notation": "N3",
+        "name_short": "Ni",
+        "name_full": "Kakali Nishada",
+        "note": "B",
+        "interval": "7"
+    }
+]

@@ -22,13 +22,14 @@ class FindSimilarRagas extends Command
      */
     public function handle()
     {
+        $this->line("Linking similar ragas...");
         foreach (Raga::all() as $raga) {
             foreach (Raga::all() as $otherRaga) {
                 if ($raga->name === $otherRaga->name) {
                     continue;
                 }
 
-                $this->line("Comparing $raga->name against $otherRaga->name");
+                /* $this->line("Comparing $raga->name against $otherRaga->name"); */
 
                 $formula = [
                     $raga->formula->first,
@@ -53,7 +54,7 @@ class FindSimilarRagas extends Command
                 $diff = array_diff($formula, $otherFormula);
 
                 if (count($diff) === 1) {
-                    $this->line("Linking $raga->name and $otherRaga->name together");
+                    /* $this->line("Linking $raga->name and $otherRaga->name together"); */
 
                     $raga->similarRaga()->create([
                         'raga_id' => $raga->id,

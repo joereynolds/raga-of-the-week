@@ -18,12 +18,13 @@ class LinkRagasToWesternScales extends Command
      */
     public function handle()
     {
+        $this->line("Linking ragas to scales...");
 
         foreach (Raga::all() as $raga) {
             foreach (WesternScale::all() as $scale) {
 
                 if ($raga->formula->list == $scale->list) {
-                    $this->line("$raga->name is also known as $scale->name");
+                    /* $this->line("$raga->name is also known as $scale->name"); */
 
                     AlsoKnownAs::create([
                         'raga_id' => $raga->id,
