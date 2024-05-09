@@ -20,6 +20,13 @@ class LinkSimilarRagas extends Command
                     continue;
                 }
 
+                $ragaSwaraCount = count($raga->arohana);
+                $otherRagaSwaraCount = count($otherRaga->arohana);
+
+                if ($ragaSwaraCount !== $otherRagaSwaraCount) {
+                    continue;
+                }
+
                 /* $this->line("Comparing $raga->name against $otherRaga->name"); */
 
                 $formula = [];
