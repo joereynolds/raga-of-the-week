@@ -14,12 +14,13 @@
 <button data-transpose="-1">-</button>
 <button data-transpose="1">+</button>
 
+@foreach ($raga->arohana as $arohana)
+    {{ dump($arohana) }}
+@endforeach
+
 <table>
     <tr>
         <td>Arohana</td>
-        @foreach ($raga->arohana->list as $swara)
-            <td>{{$swara}}</td>
-        @endforeach
     </tr>
     <tr>
         <td>Avarohana</td>

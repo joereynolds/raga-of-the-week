@@ -24,9 +24,9 @@ class Raga extends Model
         return $this->hasOne(Formula::class);
     }
 
-    public function arohana(): HasOne
+    public function arohana(): HasMany
     {
-        return $this->hasOne(Arohana::class);
+        return $this->hasMany(Arohana::class);
     }
 
     public function avarohana(): HasOne
