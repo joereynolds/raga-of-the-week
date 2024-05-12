@@ -10,8 +10,6 @@ Route::get('/raga', [RagaController::class, 'index'])->name('index');
 
 Route::get('/raga/random', [RagaController::class, 'random'])->name('random');
 
-Route::get('/raga/debug', [RagaController::class, 'debug'])->name('debug');
-
 Route::get('/raga/{id}', [RagaController::class, 'show'])->name('raga');
 
 Route::get('/scales', [ScalesController::class, 'index'])->name('scales');

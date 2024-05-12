@@ -32,12 +32,6 @@ class RagaController extends Controller
         );
     }
 
-    // Shows all ragas on one very big page
-    public function debug()
-    {
-        return view('raga', ['ragas' => Raga::all()]);
-    }
-
     public function random()
     {
         return redirect()->action(
