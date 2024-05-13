@@ -3,11 +3,12 @@
 namespace App\Console\Commands;
 
 use App\Models\Swara;
+use Exception;
 use Illuminate\Console\Command;
 
 /**
  * @example
- * ./artisan.sh app:add-raga --id=37 --name="Salagam" --arohana="S,R1,G1,M2,P,D1,N1,S" --avarohana="S,N1,D1,P,M2,G1,R1,S"
+ * ./artisan.sh app:add-raga --id=37 --name="Salagam" --arohana="S,R1,G1,M2,P,D1,N1,S" --avarohana="S,N1,D1,P,M2,G1,R1,S" --relates-to-raga=3000
  */
 class AddRaga extends Command
 {
@@ -16,7 +17,7 @@ class AddRaga extends Command
      *
      * @var string
      */
-    protected $signature = 'app:add-raga {--id=} {--name=} {--arohana=} {--avarohana=}';
+    protected $signature = 'app:add-raga {--id=} {--name=} {--arohana=} {--avarohana=} {--relates-to-raga=}';
 
     /**
      * The console command description.
@@ -64,10 +65,15 @@ class AddRaga extends Command
             ];
         }
 
+        $ragaFileContent['melakarta_janya_links'] = [
+            'raga_id' => $this->option('relates-to-raga'),
+            'janya_id' => $ragaId
+        ];
+
         $file = json_encode($ragaFileContent, JSON_PRETTY_PRINT);
 
         $fileRagaName = strtolower($ragaName);
         $filename = "$ragaId-$fileRagaName.json";
-        file_put_contents(database_path() . "/seeders/data/ragas/$filename", $file);
+        file_put_contents(database_path() . "/seeders/data/ragas/janyas/$filename", $file);
     }
 }
