@@ -1,0 +1,84 @@
+{
+    "ragas": {
+        "id": 11800,
+        "name": "S\u0101ranga T\u0101rangini"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11800,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 3,
+            "order": 1
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 9,
+            "order": 2
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 12,
+            "order": 4
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 16,
+            "order": 5
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11800,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 16,
+            "order": 1
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 12,
+            "order": 2
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 9,
+            "order": 4
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 3,
+            "order": 5
+        },
+        {
+            "raga_id": 11800,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 65,
+        "janya_id": 11800
+    }
+}

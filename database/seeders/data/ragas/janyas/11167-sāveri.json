@@ -1,0 +1,84 @@
+{
+    "ragas": {
+        "id": 11167,
+        "name": "S\u0101veri"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11167,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 2,
+            "order": 1
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 8,
+            "order": 2
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 11,
+            "order": 4
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 1,
+            "order": 5
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11167,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 16,
+            "order": 1
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 11,
+            "order": 2
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 8,
+            "order": 4
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 7,
+            "order": 5
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 2,
+            "order": 6
+        },
+        {
+            "raga_id": 11167,
+            "swara_id": 1,
+            "order": 7
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 15,
+        "janya_id": 11167
+    }
+}

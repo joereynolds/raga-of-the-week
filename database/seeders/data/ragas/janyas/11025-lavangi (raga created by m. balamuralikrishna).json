@@ -1,0 +1,64 @@
+{
+    "ragas": {
+        "id": 11025,
+        "name": "Lavangi (Raga created by M. Balamuralikrishna)"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11025,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11025,
+            "swara_id": 2,
+            "order": 1
+        },
+        {
+            "raga_id": 11025,
+            "swara_id": 8,
+            "order": 2
+        },
+        {
+            "raga_id": 11025,
+            "swara_id": 11,
+            "order": 3
+        },
+        {
+            "raga_id": 11025,
+            "swara_id": 1,
+            "order": 4
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11025,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11025,
+            "swara_id": 11,
+            "order": 1
+        },
+        {
+            "raga_id": 11025,
+            "swara_id": 8,
+            "order": 2
+        },
+        {
+            "raga_id": 11025,
+            "swara_id": 2,
+            "order": 3
+        },
+        {
+            "raga_id": 11025,
+            "swara_id": 1,
+            "order": 4
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 1,
+        "janya_id": 11025
+    }
+}

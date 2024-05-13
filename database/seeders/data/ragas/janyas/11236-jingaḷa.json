@@ -1,0 +1,104 @@
+{
+    "ragas": {
+        "id": 11236,
+        "name": "Jinga\u1e37a"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11236,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 3,
+            "order": 1
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 6,
+            "order": 2
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 11,
+            "order": 5
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 15,
+            "order": 6
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 11,
+            "order": 7
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 10,
+            "order": 8
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 1,
+            "order": 9
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11236,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 15,
+            "order": 1
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 11,
+            "order": 2
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 8,
+            "order": 4
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 6,
+            "order": 5
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 3,
+            "order": 6
+        },
+        {
+            "raga_id": 11236,
+            "swara_id": 1,
+            "order": 7
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 20,
+        "janya_id": 11236
+    }
+}

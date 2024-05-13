@@ -1,0 +1,149 @@
+{
+    "ragas": {
+        "id": 11606,
+        "name": "Raghuleela"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11606,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 9,
+            "order": 1
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 2,
+            "order": 2
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 9,
+            "order": 4
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 5,
+            "order": 5
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 9,
+            "order": 6
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 10,
+            "order": 7
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 9,
+            "order": 8
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 2,
+            "order": 9
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 9,
+            "order": 10
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 10,
+            "order": 11
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 16,
+            "order": 12
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 1,
+            "order": 13
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11606,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 16,
+            "order": 1
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 13,
+            "order": 2
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 16,
+            "order": 3
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 9,
+            "order": 5
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 5,
+            "order": 6
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 9,
+            "order": 7
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 2,
+            "order": 8
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 9,
+            "order": 9
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 5,
+            "order": 10
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 2,
+            "order": 11
+        },
+        {
+            "raga_id": 11606,
+            "swara_id": 1,
+            "order": 12
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 42,
+        "janya_id": 11606
+    }
+}

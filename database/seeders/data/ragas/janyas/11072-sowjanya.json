@@ -1,0 +1,64 @@
+{
+    "ragas": {
+        "id": 11072,
+        "name": "Sowjanya"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11072,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11072,
+            "swara_id": 2,
+            "order": 1
+        },
+        {
+            "raga_id": 11072,
+            "swara_id": 8,
+            "order": 2
+        },
+        {
+            "raga_id": 11072,
+            "swara_id": 11,
+            "order": 3
+        },
+        {
+            "raga_id": 11072,
+            "swara_id": 1,
+            "order": 4
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11072,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11072,
+            "swara_id": 11,
+            "order": 1
+        },
+        {
+            "raga_id": 11072,
+            "swara_id": 8,
+            "order": 2
+        },
+        {
+            "raga_id": 11072,
+            "swara_id": 2,
+            "order": 3
+        },
+        {
+            "raga_id": 11072,
+            "swara_id": 1,
+            "order": 4
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 8,
+        "janya_id": 11072
+    }
+}

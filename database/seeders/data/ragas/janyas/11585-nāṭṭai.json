@@ -1,0 +1,84 @@
+{
+    "ragas": {
+        "id": 11585,
+        "name": "N\u0101\u1e6d\u1e6dai"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11585,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 4,
+            "order": 1
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 7,
+            "order": 2
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 16,
+            "order": 5
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11585,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 16,
+            "order": 1
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 7,
+            "order": 4
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 4,
+            "order": 5
+        },
+        {
+            "raga_id": 11585,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 36,
+        "janya_id": 11585
+    }
+}

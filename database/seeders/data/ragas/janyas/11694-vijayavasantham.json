@@ -1,0 +1,74 @@
+{
+    "ragas": {
+        "id": 11694,
+        "name": "Vijayavasantham"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11694,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 9,
+            "order": 1
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 13,
+            "order": 3
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 16,
+            "order": 4
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 1,
+            "order": 5
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11694,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 16,
+            "order": 1
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 9,
+            "order": 3
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 7,
+            "order": 4
+        },
+        {
+            "raga_id": 11694,
+            "swara_id": 1,
+            "order": 5
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 54,
+        "janya_id": 11694
+    }
+}

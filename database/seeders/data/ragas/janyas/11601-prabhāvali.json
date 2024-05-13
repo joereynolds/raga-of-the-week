@@ -1,0 +1,99 @@
+{
+    "ragas": {
+        "id": 11601,
+        "name": "Prabh\u0101vali"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11601,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 2,
+            "order": 1
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 9,
+            "order": 2
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 12,
+            "order": 4
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 16,
+            "order": 5
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11601,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 16,
+            "order": 1
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 12,
+            "order": 2
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 9,
+            "order": 3
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 9,
+            "order": 5
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 2,
+            "order": 6
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 5,
+            "order": 7
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 2,
+            "order": 8
+        },
+        {
+            "raga_id": 11601,
+            "swara_id": 1,
+            "order": 9
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 41,
+        "janya_id": 11601
+    }
+}

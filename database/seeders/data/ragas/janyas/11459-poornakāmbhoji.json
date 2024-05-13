@@ -1,0 +1,84 @@
+{
+    "ragas": {
+        "id": 11459,
+        "name": "Poornak\u0101mbhoji"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11459,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 3,
+            "order": 1
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 7,
+            "order": 2
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 15,
+            "order": 5
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11459,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 12,
+            "order": 1
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 7,
+            "order": 4
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 3,
+            "order": 5
+        },
+        {
+            "raga_id": 11459,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 28,
+        "janya_id": 11459
+    }
+}

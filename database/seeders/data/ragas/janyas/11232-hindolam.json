@@ -1,0 +1,74 @@
+{
+    "ragas": {
+        "id": 11232,
+        "name": "Hindolam"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11232,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 6,
+            "order": 1
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 8,
+            "order": 2
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 11,
+            "order": 3
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 15,
+            "order": 4
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 1,
+            "order": 5
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11232,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 15,
+            "order": 1
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 11,
+            "order": 2
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 6,
+            "order": 4
+        },
+        {
+            "raga_id": 11232,
+            "swara_id": 1,
+            "order": 5
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 20,
+        "janya_id": 11232
+    }
+}

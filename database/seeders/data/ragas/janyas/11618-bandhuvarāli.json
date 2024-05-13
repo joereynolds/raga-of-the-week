@@ -1,0 +1,74 @@
+{
+    "ragas": {
+        "id": 11618,
+        "name": "Bandhuvar\u0101li"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11618,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 9,
+            "order": 1
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 1,
+            "order": 2
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 16,
+            "order": 3
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 11,
+            "order": 4
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 10,
+            "order": 5
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 9,
+            "order": 6
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11618,
+            "swara_id": 11,
+            "order": 0
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 9,
+            "order": 1
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 6,
+            "order": 2
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 2,
+            "order": 3
+        },
+        {
+            "raga_id": 11618,
+            "swara_id": 1,
+            "order": 4
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 45,
+        "janya_id": 11618
+    }
+}

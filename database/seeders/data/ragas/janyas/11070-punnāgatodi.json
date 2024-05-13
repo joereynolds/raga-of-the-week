@@ -1,0 +1,79 @@
+{
+    "ragas": {
+        "id": 11070,
+        "name": "Punn\u0101gatodi"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11070,
+            "swara_id": 14,
+            "order": 0
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 1,
+            "order": 1
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 2,
+            "order": 2
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 6,
+            "order": 3
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 8,
+            "order": 4
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 10,
+            "order": 5
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11070,
+            "swara_id": 10,
+            "order": 0
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 8,
+            "order": 1
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 6,
+            "order": 2
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 2,
+            "order": 3
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 1,
+            "order": 4
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 15,
+            "order": 5
+        },
+        {
+            "raga_id": 11070,
+            "swara_id": 11,
+            "order": 6
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 8,
+        "janya_id": 11070
+    }
+}
