@@ -69,4 +69,53 @@ class Raga extends Model
             get: fn () => Raga::where('id', '>', $this->id)->min('id')
         );
     }
+
+    public function shadja(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => $this->arohana->where('order', 0)->first()
+        );
+    }
+
+    public function rishabha(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => $this->arohana->where('order', 1)->first()
+        );
+    }
+
+    public function gandhara(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => $this->arohana->where('order', 2)->first()
+        );
+    }
+
+    public function madhyama(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => $this->arohana->where('order', 3)->first()
+        );
+    }
+
+    public function panchama(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => $this->arohana->where('order', 4)->first()
+        );
+    }
+
+    public function dhaivata(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => $this->arohana->where('order', 5)->first()
+        );
+    }
+
+    public function nishada(): Attribute
+    {
+        return Attribute::make(
+            get: fn () => $this->arohana->where('order', 6)->first()
+        );
+    }
 }
