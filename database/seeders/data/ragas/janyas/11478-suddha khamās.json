@@ -1,0 +1,94 @@
+{
+    "ragas": {
+        "id": 11478,
+        "name": "Suddha Kham\u0101s"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11478,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 8,
+            "order": 1
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 7,
+            "order": 2
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 12,
+            "order": 5
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 15,
+            "order": 6
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 1,
+            "order": 7
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11478,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 15,
+            "order": 1
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 12,
+            "order": 2
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 8,
+            "order": 4
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 7,
+            "order": 5
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 3,
+            "order": 6
+        },
+        {
+            "raga_id": 11478,
+            "swara_id": 1,
+            "order": 7
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 28,
+        "janya_id": 11478
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "ragas": {
+        "id": 11355,
+        "name": "Shree Manohari"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11355,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 6,
+            "order": 1
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 3,
+            "order": 2
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 6,
+            "order": 3
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 8,
+            "order": 4
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 10,
+            "order": 5
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 12,
+            "order": 6
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 1,
+            "order": 7
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11355,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 12,
+            "order": 1
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 6,
+            "order": 4
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 3,
+            "order": 5
+        },
+        {
+            "raga_id": 11355,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 22,
+        "janya_id": 11355
+    }
+}

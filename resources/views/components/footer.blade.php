@@ -1,6 +1,6 @@
 <footer>
 
-    <div class="flex-container">
+    <div class="link-container flex-container">
         @if ($previousRagaId)
             <div>
                 <a href="{{ route('raga', ['id' => $previousRagaId])}}" >

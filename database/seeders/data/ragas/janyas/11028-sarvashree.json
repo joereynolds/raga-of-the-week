@@ -1,0 +1,54 @@
+{
+    "ragas": {
+        "id": 11028,
+        "name": "Sarvashree"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11028,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11028,
+            "swara_id": 8,
+            "order": 1
+        },
+        {
+            "raga_id": 11028,
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 11028,
+            "swara_id": 1,
+            "order": 3
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11028,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11028,
+            "swara_id": 10,
+            "order": 1
+        },
+        {
+            "raga_id": 11028,
+            "swara_id": 8,
+            "order": 2
+        },
+        {
+            "raga_id": 11028,
+            "swara_id": 1,
+            "order": 3
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 1,
+        "janya_id": 11028
+    }
+}

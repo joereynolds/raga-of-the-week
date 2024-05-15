@@ -1,0 +1,69 @@
+{
+    "ragas": {
+        "id": 11587,
+        "name": "Bhogas\u0101veri"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11587,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11587,
+            "swara_id": 2,
+            "order": 1
+        },
+        {
+            "raga_id": 11587,
+            "swara_id": 9,
+            "order": 2
+        },
+        {
+            "raga_id": 11587,
+            "swara_id": 11,
+            "order": 3
+        },
+        {
+            "raga_id": 11587,
+            "swara_id": 14,
+            "order": 4
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11587,
+            "swara_id": 11,
+            "order": 0
+        },
+        {
+            "raga_id": 11587,
+            "swara_id": 10,
+            "order": 1
+        },
+        {
+            "raga_id": 11587,
+            "swara_id": 9,
+            "order": 2
+        },
+        {
+            "raga_id": 11587,
+            "swara_id": 5,
+            "order": 3
+        },
+        {
+            "raga_id": 11587,
+            "swara_id": 2,
+            "order": 4
+        },
+        {
+            "raga_id": 11587,
+            "swara_id": 1,
+            "order": 5
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 37,
+        "janya_id": 11587
+    }
+}

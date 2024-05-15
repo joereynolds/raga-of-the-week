@@ -1,0 +1,129 @@
+{
+    "ragas": {
+        "id": 11467,
+        "name": "Sah\u0101na"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11467,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 3,
+            "order": 1
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 7,
+            "order": 2
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 8,
+            "order": 3
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 8,
+            "order": 5
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 12,
+            "order": 6
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 15,
+            "order": 7
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 1,
+            "order": 8
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11467,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 15,
+            "order": 1
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 1,
+            "order": 2
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 12,
+            "order": 3
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 15,
+            "order": 4
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 12,
+            "order": 5
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 10,
+            "order": 6
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 8,
+            "order": 7
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 7,
+            "order": 8
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 8,
+            "order": 9
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 3,
+            "order": 10
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 7,
+            "order": 11
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 3,
+            "order": 12
+        },
+        {
+            "raga_id": 11467,
+            "swara_id": 1,
+            "order": 13
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 28,
+        "janya_id": 11467
+    }
+}

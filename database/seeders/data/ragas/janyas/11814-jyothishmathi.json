@@ -1,0 +1,89 @@
+{
+    "ragas": {
+        "id": 11814,
+        "name": "Jyothishmathi"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11814,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 4,
+            "order": 1
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 7,
+            "order": 2
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 9,
+            "order": 3
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 1,
+            "order": 5
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11814,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 15,
+            "order": 1
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 11,
+            "order": 2
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 9,
+            "order": 3
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 9,
+            "order": 5
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 7,
+            "order": 6
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 4,
+            "order": 7
+        },
+        {
+            "raga_id": 11814,
+            "swara_id": 1,
+            "order": 8
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 68,
+        "janya_id": 11814
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "ragas": {
+        "id": 11776,
+        "name": "Mangalakari"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11776,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 3,
+            "order": 1
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 9,
+            "order": 3
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 12,
+            "order": 5
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 15,
+            "order": 6
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 1,
+            "order": 7
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11776,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 15,
+            "order": 1
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 12,
+            "order": 2
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 7,
+            "order": 4
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 3,
+            "order": 5
+        },
+        {
+            "raga_id": 11776,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 64,
+        "janya_id": 11776
+    }
+}

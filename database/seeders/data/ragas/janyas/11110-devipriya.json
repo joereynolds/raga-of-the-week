@@ -1,0 +1,79 @@
+{
+    "ragas": {
+        "id": 11110,
+        "name": "Devipriya"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11110,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 7,
+            "order": 1
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 15,
+            "order": 3
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 1,
+            "order": 4
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11110,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 15,
+            "order": 1
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 11,
+            "order": 2
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 8,
+            "order": 4
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 7,
+            "order": 5
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 2,
+            "order": 6
+        },
+        {
+            "raga_id": 11110,
+            "swara_id": 1,
+            "order": 7
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 14,
+        "janya_id": 11110
+    }
+}

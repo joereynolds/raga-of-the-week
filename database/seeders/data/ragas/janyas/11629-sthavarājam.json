@@ -1,0 +1,74 @@
+{
+    "ragas": {
+        "id": 11629,
+        "name": "Sthavar\u0101jam"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11629,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 2,
+            "order": 1
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 9,
+            "order": 2
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 12,
+            "order": 4
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 1,
+            "order": 5
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11629,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 15,
+            "order": 1
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 12,
+            "order": 2
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 9,
+            "order": 3
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 6,
+            "order": 4
+        },
+        {
+            "raga_id": 11629,
+            "swara_id": 1,
+            "order": 5
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 46,
+        "janya_id": 11629
+    }
+}

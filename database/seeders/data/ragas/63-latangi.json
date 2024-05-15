@@ -1,0 +1,90 @@
+{
+    "ragas": {
+        "id": 63,
+        "name": "Latangi"
+    },
+    "arohanas": [
+        {
+            "raga_id": 63,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 3,
+            "order": 1
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 7,
+            "order": 2
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 9,
+            "order": 3
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 11,
+            "order": 5
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 16,
+            "order": 6
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 1,
+            "order": 7
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 63,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 16,
+            "order": 1
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 11,
+            "order": 2
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 10,
+            "order": 3
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 9,
+            "order": 4
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 7,
+            "order": 5
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 3,
+            "order": 6
+        },
+        {
+            "raga_id": 63,
+            "swara_id": 1,
+            "order": 7
+        }
+    ]
+}

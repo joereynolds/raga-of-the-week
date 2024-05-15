@@ -1,0 +1,84 @@
+{
+    "ragas": {
+        "id": 11611,
+        "name": "Suvarnadeepakam"
+    },
+    "arohanas": [
+        {
+            "raga_id": 11611,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 2,
+            "order": 1
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 6,
+            "order": 2
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 9,
+            "order": 3
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 10,
+            "order": 4
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 11,
+            "order": 5
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "avarohanas": [
+        {
+            "raga_id": 11611,
+            "swara_id": 1,
+            "order": 0
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 11,
+            "order": 1
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 10,
+            "order": 2
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 9,
+            "order": 3
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 6,
+            "order": 4
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 2,
+            "order": 5
+        },
+        {
+            "raga_id": 11611,
+            "swara_id": 1,
+            "order": 6
+        }
+    ],
+    "melakarta_janya_links": {
+        "raga_id": 43,
+        "janya_id": 11611
+    }
+}

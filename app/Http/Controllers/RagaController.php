@@ -3,18 +3,32 @@
 namespace App\Http\Controllers;
 
 use App\Models\Raga;
+use App\Models\Week;
 use Illuminate\View\View;
 
 class RagaController extends Controller
 {
     public function weekly(): View
     {
-        return view('weekly', ['ragas' => Raga::all()]);
+        $week = Week::latest('week')->first();
+        $raga = Raga::find($week->raga_id);
+
+        $melakartas = Raga::query()->isMelakarta()->get();
+        return view('weekly', ['ragas' => [$raga]]);
     }
 
     public function index(): View
     {
-        return view('ragas', ['ragas' => Raga::all()]);
+        $janyas = Raga::query()->isJanya()->orderBy('name')->get();
+        $melakartas = Raga::query()->isMelakarta()->get();
+
+        return view(
+            'ragas',
+            [
+                'janyas' => $janyas,
+                'melakartas' => $melakartas,
+            ]
+        );
     }
 
     public function show(int $id): View
