@@ -17,7 +17,10 @@
                     <small>({{ $scale->alsoKnownAs->raga->name }})</small>
             </div>
         @else
-            <div class="link-container">{{ $scale->name }} (no aliases found)</div>
+            <div class="display-flex space-between link-container">
+                <span>{{ $scale->name }}</span>
+                <small>(no aliases found)</small>
+            </div>
         @endisset
 
     @endforeach
