@@ -38,9 +38,19 @@
             "raga_id": 29,
             "swara_id": 16,
             "order": 6
+        },
+        {
+            "raga_id": 29,
+            "swara_id": 17,
+            "order": 7
         }
     ],
     "avarohanas": [
+        {
+            "raga_id": 29,
+            "swara_id": 17,
+            "order": 7
+        },
         {
             "raga_id": 29,
             "swara_id": 16,

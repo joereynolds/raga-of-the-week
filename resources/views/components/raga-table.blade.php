@@ -2,12 +2,12 @@
     data-notes='{
         "arohana": [
         @foreach ($raga->arohana as $arohana)
-            "{{ $arohana->swara->note }}"{{ $loop->last ? '' : ',' }}
+            "{{ $arohana->swara->note }}{{ $arohana->swara->scientific_pitch }}"{{ $loop->last ? '' : ',' }}
         @endforeach
         ],
         "avarohana": [
         @foreach ($raga->avarohana as $avarohana)
-            "{{ $avarohana->swara->note }}"{{ $loop->last ? '' : ',' }}
+            "{{ $avarohana->swara->note }}{{ $avarohana->swara->scientific_pitch }}"{{ $loop->last ? '' : ',' }}
         @endforeach
         ]
     }'
@@ -33,7 +33,7 @@
     <tr>
         <td>Notes</td>
         @foreach ($raga->arohana as $arohana)
-            <td class="note">{{ $arohana->swara->note }}3</td>
+            <td class="note">{{ $arohana->swara->note }}{{ $arohana->swara->scientific_pitch }}</td>
         @endforeach
     </tr>
     <tr>

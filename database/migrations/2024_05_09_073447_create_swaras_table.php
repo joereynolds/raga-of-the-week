@@ -15,6 +15,7 @@ return new class extends Migration
             $table->string('name_full')->nullable();
             $table->string('note');
             $table->string('interval');
+            $table->integer('scientific_pitch');
         });
     }
 

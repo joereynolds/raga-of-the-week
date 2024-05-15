@@ -23,7 +23,7 @@ class Raga {
           console.log(note + '4');
           console.log(this.transposition_amount);
           synth.triggerAttackRelease(
-              Tone.Frequency(note + '4').transpose(this.transposition_amount),
+              Tone.Frequency(note).transpose(this.transposition_amount),
               '8n',
               time
           )
@@ -35,7 +35,7 @@ class Raga {
 
         const reversePattern = new Tone.Pattern((time, note) => {
           synth.triggerAttackRelease(
-              Tone.Frequency(note + '4').transpose(this.transposition_amount),
+              Tone.Frequency(note).transpose(this.transposition_amount),
               '8n',
               time
           )
