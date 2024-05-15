@@ -40,12 +40,21 @@ button {
     background: var(--colour-primary);
 }
 
+.display-flex {
+    display:flex;
+}
+
 .flex-container {
     display: flex
 }
 
 .flex-container * {
     flex: 1;
+}
+
+.space-between {
+    justify-content: space-between;
+
 }
 
 .text-align-center {

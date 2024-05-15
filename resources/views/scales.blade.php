@@ -1,11 +1,9 @@
 <x-layout>
     <h1>Scales</h1>
 
-    <ul>
-
     @foreach ($scales as $scale)
         @isset($scale->alsoKnownAs)
-            <li>
+            <div class="display-flex space-between link-container">
                 <a
                     href=" {{
                         route(
@@ -16,9 +14,10 @@
                 >
                     {{ $scale->name }}
                 </a>
-            </li>
+                    <small>({{ $scale->alsoKnownAs->raga->name }})</small>
+            </div>
         @else
-            <li>{{ $scale->name }} (no aliases found)</li>
+            <div class="link-container">{{ $scale->name }} (no aliases found)</div>
         @endisset
 
     @endforeach
