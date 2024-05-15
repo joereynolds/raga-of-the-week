@@ -12,6 +12,16 @@
         <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
     </head>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JYLQ9SLPVN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-JYLQ9SLPVN');
+    </script>
+
     <body>
         <header class="flex-container">
             <a href="{{ route('weekly') }}">ROTW</a>
