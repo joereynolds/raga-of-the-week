@@ -8,11 +8,11 @@
                 href=" {{
                     route(
                         'raga',
-                        ['id' => App\Models\Raga::find($janya->janya_id)->id]
+                        ['id' => $janya->raga->id]
                     )
                 }}"
             >
-                {{ App\Models\Raga::find($janya->janya_id)->name }}
+                {{ $janya->raga->name }}
             </a>
         </li>
     @empty

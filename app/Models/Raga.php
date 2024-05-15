@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -54,6 +55,16 @@ class Raga extends Model
         return Attribute::make(
             get: fn () => $this->id > self::MELAKARTA_LIMIT
         );
+    }
+
+    public function scopeIsMelakarta(Builder $query): Builder
+    {
+        return $query->where('id', '<=', self::MELAKARTA_LIMIT);
+    }
+
+    public function scopeIsJanya(Builder $query): Builder
+    {
+        return $query->where('id', '>', self::MELAKARTA_LIMIT);
     }
 
     protected function previous(): Attribute

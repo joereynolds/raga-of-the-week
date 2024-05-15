@@ -14,7 +14,16 @@ class RagaController extends Controller
 
     public function index(): View
     {
-        return view('ragas', ['ragas' => Raga::all()]);
+        $janyas = Raga::query()->isJanya()->orderBy('name')->get();
+        $melakartas = Raga::query()->isMelakarta()->get();
+
+        return view(
+            'ragas',
+            [
+                'janyas' => $janyas,
+                'melakartas' => $melakartas,
+            ]
+        );
     }
 
     public function show(int $id): View
@@ -30,12 +39,6 @@ class RagaController extends Controller
                 'next' => $next
             ]
         );
-    }
-
-    // Shows all ragas on one very big page
-    public function debug()
-    {
-        return view('raga', ['ragas' => Raga::all()]);
     }
 
     public function random()
