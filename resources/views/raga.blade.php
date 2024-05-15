@@ -2,7 +2,9 @@
 
     <h2>{{ $raga->name }}</h2>
 
-    <p>{{$raga->name}} is number {{$raga->id}} of the Melakarta ragas.</p>
+    @if (!$raga->isJanya)
+        <p>{{$raga->name}} is number {{$raga->id}} of the Melakarta ragas.</p>
+    @endif
 
     <x-raga-table :raga="$raga"/>
 
