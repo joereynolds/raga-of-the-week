@@ -1,5 +1,5 @@
 <x-layout>
-    <h1 class="text-3xl">Raga of the week</h1>
+    <h1>Raga of the week</h1>
 
     <p>Welcome!</p>
     <p>Raga of the week shows a different carnatic raga each week.</p>

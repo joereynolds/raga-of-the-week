@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1 {
+        @apply text-3xl font-bold
+    }
+    h2 {
+        @apply text-2xl font-bold
+    }
+    a {
+        @apply text-orange-500 underline;
+    }
+
+}
+
 :root {
     --colour-primary: orange;
     --colour-background-primary: #fff6e7;
@@ -32,22 +45,12 @@ tr:nth-child(odd) {
     background: #eee;
 }
 
-a {
-    color: var(--colour-primary);
-}
-
 button {
     margin-bottom: var(--spacing-medium);
 }
 
 .highlighted {
     background: var(--colour-primary);
-}
-
-.link-container {
-    margin-bottom: var(--spacing-medium);
-    padding: var(--spacing-medium);
-    background: var(--colour-background-primary);
 }
 
 @media (min-width: 768px) {
