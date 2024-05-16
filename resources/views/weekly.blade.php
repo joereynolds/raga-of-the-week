@@ -2,7 +2,7 @@
     <h1>Raga of the week</h1>
 
     <p>Welcome!</p>
-    <p>Raga of the week shows a different Melakarta raga each week.</p>
+    <p>Raga of the week shows a different carnatic raga each week.</p>
     <p>This week's <strong>raga of the week</strong> is...</p>
 
 
