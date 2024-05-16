@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
     --colour-primary: orange;
     --colour-background-primary: #fff6e7;
@@ -38,31 +42,6 @@ button {
 
 .highlighted {
     background: var(--colour-primary);
-}
-
-.display-flex {
-    display:flex;
-}
-
-.flex-container {
-    display: flex
-}
-
-.flex-container * {
-    flex: 1;
-}
-
-.space-between {
-    justify-content: space-between;
-
-}
-
-.text-align-center {
-    text-align: center;
-}
-
-.text-align-right {
-    text-align: right;
 }
 
 .link-container {

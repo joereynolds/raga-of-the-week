@@ -29,7 +29,7 @@
     <h2>Janya Ragas</h2>
 
     @foreach($janyas as $raga)
-        <div class="display-flex space-between link-container">
+        <div class="flex justify-between link-container">
             <a href="{{ route('raga', ['id' => $raga->id]) }}" >
                 {{ $raga->name }}
             </a>
