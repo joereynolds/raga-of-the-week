@@ -1,7 +1,7 @@
 {
     "ragas": {
         "id": 11785,
-        "name": "Amritha Kalyani"
+        "name": "Amritha Kalyani (Raga created by Mahesh Mahadev)\n"
     },
     "arohanas": [
         {
@@ -31,14 +31,14 @@
         },
         {
             "raga_id": 11785,
-            "swara_id": 1,
+            "swara_id": 17,
             "order": 5
         }
     ],
     "avarohanas": [
         {
             "raga_id": 11785,
-            "swara_id": 1,
+            "swara_id": 17,
             "order": 0
         },
         {

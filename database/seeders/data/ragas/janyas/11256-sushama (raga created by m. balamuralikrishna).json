@@ -1,74 +1,74 @@
 {
     "ragas": {
-        "id": 11799,
-        "name": "Rajasadhaka"
+        "id": 11256,
+        "name": "Sushama (Raga created by M. Balamuralikrishna)"
     },
     "arohanas": [
         {
-            "raga_id": 11799,
+            "raga_id": 11256,
             "swara_id": 1,
             "order": 0
         },
         {
-            "raga_id": 11799,
+            "raga_id": 11256,
             "swara_id": 3,
             "order": 1
         },
         {
-            "raga_id": 11799,
-            "swara_id": 7,
+            "raga_id": 11256,
+            "swara_id": 8,
             "order": 2
         },
         {
-            "raga_id": 11799,
+            "raga_id": 11256,
             "swara_id": 10,
             "order": 3
         },
         {
-            "raga_id": 11799,
-            "swara_id": 12,
+            "raga_id": 11256,
+            "swara_id": 11,
             "order": 4
         },
         {
-            "raga_id": 11799,
-            "swara_id": 1,
+            "raga_id": 11256,
+            "swara_id": 17,
             "order": 5
         }
     ],
     "avarohanas": [
         {
-            "raga_id": 11799,
-            "swara_id": 1,
+            "raga_id": 11256,
+            "swara_id": 17,
             "order": 0
         },
         {
-            "raga_id": 11799,
-            "swara_id": 16,
+            "raga_id": 11256,
+            "swara_id": 11,
             "order": 1
         },
         {
-            "raga_id": 11799,
+            "raga_id": 11256,
             "swara_id": 10,
             "order": 2
         },
         {
-            "raga_id": 11799,
-            "swara_id": 9,
+            "raga_id": 11256,
+            "swara_id": 8,
             "order": 3
         },
         {
-            "raga_id": 11799,
+            "raga_id": 11256,
             "swara_id": 3,
             "order": 4
         },
         {
-            "raga_id": 11799,
+            "raga_id": 11256,
             "swara_id": 1,
             "order": 5
         }
     ],
     "melakarta_janya_links": {
-        "raga_id": 65,
-        "janya_id": 11799
+        "raga_id": 20,
+        "janya_id": 11256
     }
 }
