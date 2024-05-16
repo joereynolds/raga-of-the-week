@@ -53,6 +53,11 @@
     "avarohanas": [
         {
             "raga_id": 54,
+            "swara_id": 17,
+            "order": -1
+        },
+        {
+            "raga_id": 54,
             "swara_id": 1,
             "order": 0
         },
