@@ -13,9 +13,6 @@ class LinkRagasToWesternScales extends Command
 
     protected $description = 'Links western scales to ragas by their formula';
 
-    /**
-     * Execute the console command.
-     */
     public function handle()
     {
         $this->line("Linking ragas to scales...");
@@ -28,7 +25,7 @@ class LinkRagasToWesternScales extends Command
                     $ragaformula[] = $arohana->swara->interval;
                 }
 
-                if ($ragaformula === $scale->list) {
+                if ($ragaformula === [...$scale->list, "8"]) {
                     /* $this->line("$raga->name is also known as $scale->name"); */
 
                     AlsoKnownAs::create([
