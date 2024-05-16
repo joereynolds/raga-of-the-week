@@ -24,7 +24,7 @@
     </div>
 
     <div class="flex-container space-between">
-        <small>Corrections? Please <a>Email me</a></small>
+        <small>Corrections? <a href="https://github.com/joereynolds/raga-of-the-week/issues">raise an issue</a></small>
 
         <small class="text-align-right">
             <a href="https://github.com/joereynolds/raga-of-the-week">See the code</a>
