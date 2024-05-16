@@ -1,6 +1,7 @@
 [
     {
         "notation": "S",
+        "display_notation": "S",
         "name_short": "Sa",
         "name_full": "Shadja",
         "note": "C",
@@ -9,6 +10,7 @@
     },
     {
         "notation": "R1",
+        "display_notation": "R1",
         "name_short": "Ri",
         "name_full": "Shuddha Rishabha",
         "note": "Db",
@@ -17,6 +19,7 @@
     },
     {
         "notation": "R2",
+        "display_notation": "R2",
         "name_short": "Ri",
         "name_full": "Chatushruti Rishabha",
         "note": "D",
@@ -25,6 +28,7 @@
     },
     {
         "notation": "R3",
+        "display_notation": "R3",
         "name_short": "Ri",
         "name_full": "Shatshruti Rishabha",
         "note": "D#",
@@ -33,6 +37,7 @@
     },
     {
         "notation": "G1",
+        "display_notation": "G1",
         "name_short": "Ga",
         "name_full": "Shuddha Gandhara",
         "note": "Ebb",
@@ -41,6 +46,7 @@
     },
     {
         "notation": "G2",
+        "display_notation": "G2",
         "name_short": "Ga",
         "name_full": "Sadharana Gandhara",
         "note": "Eb",
@@ -49,6 +55,7 @@
     },
     {
         "notation": "G3",
+        "display_notation": "G3",
         "name_short": "Ga",
         "name_full": "Antara Gandhara",
         "note": "E",
@@ -57,6 +64,7 @@
     },
     {
         "notation": "M1",
+        "display_notation": "M1",
         "name_short": "Ga",
         "name_full": "Shuddha Madhyama",
         "note": "F",
@@ -65,6 +73,7 @@
     },
     {
         "notation": "M2",
+        "display_notation": "M2",
         "name_short": "Ma",
         "name_full": "Prati Madhyama",
         "note": "F#",
@@ -73,6 +82,7 @@
     },
     {
         "notation": "P",
+        "display_notation": "P",
         "name_short": "Pa",
         "name_full": "Panchama",
         "note": "G",
@@ -81,6 +91,7 @@
     },
     {
         "notation": "D1",
+        "display_notation": "D1",
         "name_short": "Dha",
         "name_full": "Shuddha Dhaivata",
         "note": "Ab",
@@ -89,6 +100,7 @@
     },
     {
         "notation": "D2",
+        "display_notation": "D2",
         "name_short": "Dha",
         "name_full": "Chatushruti Dhaivata",
         "note": "A",
@@ -97,6 +109,7 @@
     },
     {
         "notation": "D3",
+        "display_notation": "D3",
         "name_short": "Dha",
         "name_full": "Shatshruti Dhaivata",
         "note": "A#",
@@ -105,6 +118,7 @@
     },
     {
         "notation": "N1",
+        "display_notation": "N1",
         "name_short": "Ni",
         "name_full": "Shuddha Nishada",
         "note": "Bbb",
@@ -113,6 +127,7 @@
     },
     {
         "notation": "N2",
+        "display_notation": "N2",
         "name_short": "Ni",
         "name_full": "Kaishiki Nishada",
         "note": "Bb",
@@ -121,6 +136,7 @@
     },
     {
         "notation": "N3",
+        "display_notation": "N3",
         "name_short": "Ni",
         "name_full": "Kakali Nishada",
         "note": "B",
@@ -129,6 +145,7 @@
     },
     {
         "notation": "$",
+        "display_notation": "Ṡ",
         "name_short": "Sa",
         "name_full": "Shadja",
         "note": "C",

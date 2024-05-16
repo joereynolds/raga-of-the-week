@@ -11,6 +11,7 @@ return new class extends Migration
         Schema::create('swaras', function (Blueprint $table) {
             $table->id();
             $table->string('notation');
+            $table->string('display_notation');
             $table->string('name_short');
             $table->string('name_full')->nullable();
             $table->string('note');

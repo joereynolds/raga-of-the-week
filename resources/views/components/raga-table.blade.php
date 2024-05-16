@@ -21,13 +21,13 @@
     <tr>
         <td>Arohana</td>
         @foreach ($raga->arohana as $arohana)
-            <td>{{ $arohana->swara->notation }}</td>
+            <td>{{ $arohana->swara->display_notation }}</td>
         @endforeach
     </tr>
     <tr>
         <td>Avarohana</td>
         @foreach ($raga->avarohana as $avarohana)
-            <td>{{ $avarohana->swara->notation }}</td>
+            <td>{{ $avarohana->swara->display_notation }}</td>
         @endforeach
     </tr>
     <tr>
