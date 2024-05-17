@@ -2,7 +2,13 @@
 export default {
   content: ["./resources/**/*.blade.php"],
   theme: {
-    extend: {},
+    extend: {
+        colors: {
+          orange: {
+              100: '#fff6e7',
+          }
+        }
+    },
   },
   plugins: [],
 }

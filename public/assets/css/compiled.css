@@ -446,6 +446,10 @@ video {
   display: none;
 }
 
+body {
+  padding: 1.25rem;
+}
+
 h1 {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -458,10 +462,33 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
 a {
   --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity));
+  color: rgb(245 158 11 / var(--tw-text-opacity));
   text-decoration-line: underline;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+li {
+  list-style: disc inside;
+}
+
+button {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 *, ::before, ::after {
@@ -576,8 +603,16 @@ a {
   margin-bottom: 1rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .table {
@@ -588,9 +623,19 @@ a {
   justify-content: space-between;
 }
 
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.rounded-r {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
 .bg-orange-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 237 213 / var(--tw-bg-opacity));
+  background-color: rgb(255 246 231 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -605,25 +650,13 @@ a {
   text-align: right;
 }
 
-:root {
-  --colour-primary: orange;
-  --colour-background-primary: #fff6e7;
-  --spacing-small: 5px;
-  --spacing-medium: 15px;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
-  padding: var(--spacing-medium);
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
-}
-
-td {
-  padding: var(--spacing-small);
 }
 
 tr:nth-child(even) {
@@ -634,17 +667,13 @@ tr:nth-child(odd) {
   background: #eee;
 }
 
-button {
-  margin-bottom: var(--spacing-medium);
-}
-
 .highlighted {
-  background: var(--colour-primary);
+  background: orange;
 }
 
 @media (min-width: 768px) {
   body {
-    width: 400px;
+    width: 420px;
     margin: auto;
   }
 

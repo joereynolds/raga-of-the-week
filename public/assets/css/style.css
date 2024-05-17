@@ -3,38 +3,40 @@
 @tailwind utilities;
 
 @layer base {
+    body {
+        @apply p-5
+
+    }
     h1 {
         @apply text-3xl font-bold
     }
     h2 {
         @apply text-2xl font-bold
     }
-    a {
-        @apply text-orange-500 underline;
+    h3 {
+        @apply text-xl font-bold
     }
-
-}
-
-:root {
-    --colour-primary: orange;
-    --colour-background-primary: #fff6e7;
-
-    --spacing-small: 5px;
-    --spacing-medium: 15px;
+    a {
+        @apply text-amber-500 underline;
+    }
+    td {
+        @apply p-2
+    }
+    li {
+        list-style: disc inside;
+    }
+    button {
+        @apply bg-orange-400 p-2 text-white font-bold
+    }
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    padding: var(--spacing-medium);
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
-}
-
-td {
-    padding: var(--spacing-small);
 }
 
 tr:nth-child(even) {
@@ -45,17 +47,13 @@ tr:nth-child(odd) {
     background: #eee;
 }
 
-button {
-    margin-bottom: var(--spacing-medium);
-}
-
 .highlighted {
-    background: var(--colour-primary);
+    background: orange;
 }
 
 @media (min-width: 768px) {
     body {
-        width: 400px;
+        width: 420px;
         margin: auto;
     }
 

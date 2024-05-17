@@ -23,7 +23,7 @@
     </script>
 
     <body>
-        <header class="flex justify-between">
+        <header class="flex justify-between mb-4">
             <a href="{{ route('weekly') }}">ROTW</a>
             <a href="{{ route('index') }}">Ragas</a>
             <a href="{{ route('scales') }}">Scales</a>
