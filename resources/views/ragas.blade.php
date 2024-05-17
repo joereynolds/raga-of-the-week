@@ -12,13 +12,15 @@
             </a>
 
             <details>
-                <summary>Janyas</summary>
+                <summary><small>Janyas</small></summary>
                 <ul>
                     @foreach ($raga->janya as $janya)
                         <li>
-                            <a href="{{ route('raga', ['id' => $janya->raga->id]) }}" >
-                                {{ $janya->raga->name }}
-                            </a>
+                            <small>
+                                <a href="{{ route('raga', ['id' => $janya->raga->id]) }}" >
+                                    {{ $janya->raga->name }}
+                                </a>
+                            </small>
                         </li>
                     @endforeach
                 </ul>
