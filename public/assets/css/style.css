@@ -53,7 +53,7 @@ tr:nth-child(odd) {
 
 @media (min-width: 768px) {
     body {
-        width: 420px;
+        width: 440px;
         margin: auto;
     }
 

@@ -603,10 +603,6 @@ button {
   margin-bottom: 1rem;
 }
 
-.ml-4 {
-  margin-left: 1rem;
-}
-
 .flex {
   display: flex;
 }
@@ -638,8 +634,16 @@ button {
   background-color: rgb(255 246 231 / var(--tw-bg-opacity));
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .p-4 {
   padding: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .text-center {
@@ -673,7 +677,7 @@ tr:nth-child(odd) {
 
 @media (min-width: 768px) {
   body {
-    width: 420px;
+    width: 440px;
     margin: auto;
   }
 
