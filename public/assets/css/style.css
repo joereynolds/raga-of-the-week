@@ -19,6 +19,9 @@
     a {
         @apply text-amber-500 underline;
     }
+    tr {
+        @apply even:bg-gray-200 odd:bg-gray-100 hover:bg-gray-300
+    }
     td {
         @apply p-2
     }
@@ -37,14 +40,6 @@ body {
 table {
     border-collapse: collapse;
     width: 100%;
-}
-
-tr:nth-child(even) {
-    background: #ddd;
-}
-
-tr:nth-child(odd) {
-    background: #eee;
 }
 
 .highlighted {

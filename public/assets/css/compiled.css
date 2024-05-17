@@ -474,6 +474,21 @@ a {
   text-decoration-line: underline;
 }
 
+tr:nth-child(odd) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+tr:nth-child(even) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+tr:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
 td {
   padding: 0.5rem;
 }
@@ -642,10 +657,6 @@ button {
   padding: 1rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -661,14 +672,6 @@ body {
 table {
   border-collapse: collapse;
   width: 100%;
-}
-
-tr:nth-child(even) {
-  background: #ddd;
-}
-
-tr:nth-child(odd) {
-  background: #eee;
 }
 
 .highlighted {
