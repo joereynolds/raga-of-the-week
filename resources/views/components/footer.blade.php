@@ -1,6 +1,6 @@
 <footer>
 
-    <div class="flex justify-between bg-orange-100 p-4">
+    <div class="flex justify-between bg-orange-100 p-3 px-4">
         @if ($previousRagaId)
             <div>
                 <a href="{{ route('raga', ['id' => $previousRagaId])}}" >

@@ -17,7 +17,7 @@
                     <small>({{ $scale->alsoKnownAs->raga->name }})</small>
             </div>
         @else
-            <div class="flex justify-between p-4 bg-orange-100 mb-4">
+            <div class="flex justify-between px-4 py-3 bg-orange-100 mb-4">
                 <span>{{ $scale->name }}</span>
                 <small>(no aliases found)</small>
             </div>

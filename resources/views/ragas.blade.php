@@ -4,7 +4,7 @@
     <h2>Melakarta Ragas</h2>
     @foreach($melakartas as $raga)
         <div
-            class="p-3 bg-orange-100 mb-4"
+            class="py-2 px-4 bg-orange-100 mb-4"
         >
             {{ $raga->id }}.
             <a href="{{ route('raga', ['id' => $raga->id]) }}" >
@@ -31,7 +31,7 @@
     <h2>Janya Ragas</h2>
 
     @foreach($janyas as $raga)
-        <div class="flex justify-between p-4 bg-orange-100 mb-4">
+        <div class="flex justify-between py-3 px-3 bg-orange-100 mb-4">
             <a href="{{ route('raga', ['id' => $raga->id]) }}" >
                 {{ $raga->name }}
             </a>

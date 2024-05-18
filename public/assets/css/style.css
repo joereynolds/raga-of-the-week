@@ -5,25 +5,29 @@
 @layer base {
     body {
         @apply p-5
-
     }
     h1 {
-        @apply text-3xl font-bold
+        @apply text-3xl font-bold my-4
     }
     h2 {
-        @apply text-2xl font-bold
+        @apply text-2xl font-bold my-4
     }
     h3 {
-        @apply text-xl font-bold
+        @apply text-lg font-bold my-4
+    }
+    p {
+        @apply my-2
     }
     a {
         @apply text-amber-500 underline;
+    }
+    table {
+        @apply w-full
     }
     tr {
         @apply even:bg-gray-200 odd:bg-gray-100 hover:bg-gray-300
     }
     td {
-        @apply p-2
     }
     li {
         list-style: disc inside;
@@ -37,22 +41,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
 .highlighted {
     background: orange;
-}
-
-@media (min-width: 768px) {
-    body {
-        width: 440px;
-        margin: auto;
-    }
-
-    table, button {
-        width:auto;
-    }
 }
