@@ -1,6 +1,6 @@
-<div class="inline-flex mb-4">
+<div class="mb-4">
     <button
-        class="rounded-l"
+        class="rounded-sm"
         data-notes='{
             "arohana": [
             @foreach ($raga->arohana as $arohana)
@@ -16,8 +16,8 @@
     >
         Play Raga
     </button>
-    <button data-transpose="-1">-</button>
-    <button class="rounded-r" data-transpose="1">+</button>
+    <button class="rounded-sm" data-transpose="-1">-</button>
+    <button class="rounded-sm" data-transpose="1">+</button>
 </div>
 
 <table>

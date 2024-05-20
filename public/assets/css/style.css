@@ -33,7 +33,7 @@
         list-style: disc inside;
     }
     button {
-        @apply bg-orange-400 p-2 text-white font-bold
+        @apply border border-gray-400 bg-gray-200 hover:bg-gray-300 px-2 py-1 font-bold text-sm
     }
 }
 
