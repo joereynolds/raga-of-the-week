@@ -1,21 +1,24 @@
-<button
-    data-notes='{
-        "arohana": [
-        @foreach ($raga->arohana as $arohana)
-            "{{ $arohana->swara->note }}{{ $arohana->swara->scientific_pitch }}"{{ $loop->last ? '' : ',' }}
-        @endforeach
-        ],
-        "avarohana": [
-        @foreach ($raga->avarohana as $avarohana)
-            "{{ $avarohana->swara->note }}{{ $avarohana->swara->scientific_pitch }}"{{ $loop->last ? '' : ',' }}
-        @endforeach
-        ]
-    }'
->
-    Play Raga
-</button>
-<button data-transpose="-1">-</button>
-<button data-transpose="1">+</button>
+<div class="mb-4">
+    <button
+        class="rounded-sm"
+        data-notes='{
+            "arohana": [
+            @foreach ($raga->arohana as $arohana)
+                "{{ $arohana->swara->note }}{{ $arohana->swara->scientific_pitch }}"{{ $loop->last ? '' : ',' }}
+            @endforeach
+            ],
+            "avarohana": [
+            @foreach ($raga->avarohana as $avarohana)
+                "{{ $avarohana->swara->note }}{{ $avarohana->swara->scientific_pitch }}"{{ $loop->last ? '' : ',' }}
+            @endforeach
+            ]
+        }'
+    >
+        Play Raga
+    </button>
+    <button class="rounded-sm" data-transpose="-1">-</button>
+    <button class="rounded-sm" data-transpose="1">+</button>
+</div>
 
 <table>
     <tr>

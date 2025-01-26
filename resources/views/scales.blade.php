@@ -3,7 +3,7 @@
 
     @foreach ($scales as $scale)
         @isset($scale->alsoKnownAs)
-            <div class="display-flex space-between link-container">
+            <div class="flex justify-between p-4 bg-orange-100 mb-4">
                 <a
                     href=" {{
                         route(
@@ -17,7 +17,7 @@
                     <small>({{ $scale->alsoKnownAs->raga->name }})</small>
             </div>
         @else
-            <div class="display-flex space-between link-container">
+            <div class="flex justify-between px-4 py-3 bg-orange-100 mb-4">
                 <span>{{ $scale->name }}</span>
                 <small>(no aliases found)</small>
             </div>

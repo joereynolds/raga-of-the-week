@@ -5,6 +5,5 @@
     <p>Raga of the week shows a different carnatic raga each week.</p>
     <p>This week's <strong>raga of the week</strong> is...</p>
 
-
     @include('raga', ['ragas' => $ragas])
 </x-layout>

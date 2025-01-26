@@ -4,7 +4,7 @@
     <h2>Melakarta Ragas</h2>
     @foreach($melakartas as $raga)
         <div
-            class="link-container"
+            class="py-2 px-4 bg-orange-100 mb-4"
         >
             {{ $raga->id }}.
             <a href="{{ route('raga', ['id' => $raga->id]) }}" >
@@ -12,13 +12,15 @@
             </a>
 
             <details>
-                <summary>Janyas</summary>
+                <summary><small>Janyas</small></summary>
                 <ul>
                     @foreach ($raga->janya as $janya)
                         <li>
-                            <a href="{{ route('raga', ['id' => $janya->raga->id]) }}" >
-                                {{ $janya->raga->name }}
-                            </a>
+                            <small>
+                                <a href="{{ route('raga', ['id' => $janya->raga->id]) }}" >
+                                    {{ $janya->raga->name }}
+                                </a>
+                            </small>
                         </li>
                     @endforeach
                 </ul>
@@ -29,7 +31,7 @@
     <h2>Janya Ragas</h2>
 
     @foreach($janyas as $raga)
-        <div class="display-flex space-between link-container">
+        <div class="flex justify-between py-3 px-3 bg-orange-100 mb-4">
             <a href="{{ route('raga', ['id' => $raga->id]) }}" >
                 {{ $raga->name }}
             </a>

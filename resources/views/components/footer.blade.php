@@ -1,6 +1,6 @@
 <footer>
 
-    <div class="link-container flex-container">
+    <div class="flex justify-between bg-orange-100 p-3 px-4">
         @if ($previousRagaId)
             <div>
                 <a href="{{ route('raga', ['id' => $previousRagaId])}}" >
@@ -9,12 +9,12 @@
             </div>
         @endif
 
-        <div class="text-align-center">
+        <div class="text-center">
             <a href="{{ route('random') }}">Random Raga</a>
         </div>
 
         @if ($nextRagaId)
-            <div class="text-align-right">
+            <div class="text-right">
                 <a href="{{ route('raga', ['id' => $nextRagaId])}}" >
                     Next
                 </a>
@@ -23,13 +23,12 @@
 
     </div>
 
-    <div class="flex-container space-between">
+    <div class="flex justify-between">
         <small>Corrections? <a href="https://github.com/joereynolds/raga-of-the-week/issues">raise an issue</a></small>
 
-        <small class="text-align-right">
+        <small class="text-right">
             <a href="https://github.com/joereynolds/raga-of-the-week">See the code</a>
         </small>
-
     </div>
 
 </footer>

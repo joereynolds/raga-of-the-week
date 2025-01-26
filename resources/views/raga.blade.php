@@ -6,7 +6,9 @@
         <p>{{$raga->name}} is number {{$raga->id}} of the Melakarta ragas.</p>
     @endif
 
-    <x-raga-table :raga="$raga"/>
+    <div class="mb-4">
+        <x-raga-table :raga="$raga"/>
+    </div>
 
     @isset ($raga->alsoKnownAs->westernScale)
         <p>In the western world it is known as the <strong>{{ $raga->alsoKnownAs->westernScale->name}}</strong> scale/mode.

@@ -9,7 +9,7 @@
         <script src="https://unpkg.com/tone"></script>
         <script defer src="{{asset('assets/js/app.js')}}"></script>
 
-        <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/compiled.css')}}">
     </head>
 
     <!-- Google tag (gtag.js) -->
@@ -22,11 +22,11 @@
       gtag('config', 'G-JYLQ9SLPVN');
     </script>
 
-    <body>
-        <header class="flex-container">
+    <body class="sm:m-auto sm:w-[440px]">
+        <header class="flex justify-between mb-4 font-bold">
             <a href="{{ route('weekly') }}">ROTW</a>
-            <a class="text-align-center" href="{{ route('index') }}">Ragas</a>
-            <a class="text-align-right" href="{{ route('scales') }}">Scales</a>
+            <a href="{{ route('index') }}">Ragas</a>
+            <a href="{{ route('scales') }}">Scales</a>
         </header>
 
         <main>{{ $slot }}</main>
