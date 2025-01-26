@@ -704,8 +704,13 @@ button:hover {
   font-weight: 700;
 }
 
+html {
+  background: #fff3e7;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: white;
 }
 
 .highlighted {
