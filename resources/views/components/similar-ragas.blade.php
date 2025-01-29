@@ -1,6 +1,6 @@
 <h3>Similar Ragas</h3>
 <p>A similar raga is one that differs by only one note</p>
-<p>Here's a list of closely related ragas</p>
+<p>Here's a list of closely related ragas:</p>
 
 <ul>
     @forelse($raga->similarRaga->take(5) as $similarRaga)
