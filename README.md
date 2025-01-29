@@ -2,16 +2,17 @@
 
 Raga of the week displays a random [carnatic raga](https://en.wikipedia.org/wiki/Raga) every week.
 
-<img src="https://i.imgur.com/xuDlfAQ.png"/>
+![image](https://github.com/user-attachments/assets/7128c0d0-dd8d-4a02-8ea9-17ded6640805)
+
 
 ### Features
 
 - An audio player to play the raga
 - Transpose ragas to different keys
-- A link through to janya (descendant ragas)
+- A link through to janya (descendant ragas) ragas
 - A list of ragas close in sound to the current raga
 - Intervallic formulas for the ragas
-- Shows the western equivalent of the raga if there is one
+- Show the western equivalent of the raga if there is one
 
 ### Running it
 
