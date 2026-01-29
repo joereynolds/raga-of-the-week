@@ -25,9 +25,14 @@
 
     <div class="flex justify-between mt-4">
         <div>
-            Corrections?
             <a href="https://github.com/joereynolds/raga-of-the-week/issues">
-                raise an issue
+                Raise an issue
+            </a>
+        </div>
+
+        <div>
+            <a href="{{ route('weeks', ['id' => $previousRagaId])}}" >
+                Previous weeks
             </a>
         </div>
 
