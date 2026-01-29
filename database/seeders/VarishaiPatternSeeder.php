@@ -9,6 +9,8 @@ class VarishaiPatternSeeder extends Seeder
 {
     public function run(): void
     {
+        DB::table('varishai_patterns')->delete();
+
         $patterns = [
             # Sarali
             ["varishai_id" => 1, "pattern_number" => 1],
@@ -23,6 +25,6 @@ class VarishaiPatternSeeder extends Seeder
             ["varishai_id" => 1, "pattern_number" => 10],
         ];
 
-        DB::table('varishai_pattern')->insert($patterns);
+        DB::table('varishai_patterns')->insert($patterns);
     }
 }
