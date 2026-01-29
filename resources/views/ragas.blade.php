@@ -1,7 +1,5 @@
 <x-layout>
-    <h1>All Ragas</h1>
-
-    <h2>Melakarta Ragas</h2>
+    <h1>Melakarta Ragas</h1>
     @foreach($melakartas as $raga)
         <div
             class="py-2 px-4 bg-orange-100 mb-4"
@@ -11,8 +9,8 @@
                 {{ $raga->name }}
             </a>
 
-            <details>
-                <summary><small>Janyas</small></summary>
+            <details class="mt-2">
+                <summary class="text-xs">Janyas</summary>
                 <ul>
                     @foreach ($raga->janya as $janya)
                         <li>

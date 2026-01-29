@@ -6,20 +6,14 @@
     body {
         @apply p-5
     }
-    h1 {
-        @apply text-3xl font-bold my-4
-    }
-    h2 {
+    h1, h2, h3 {
         @apply text-2xl font-bold my-4
     }
-    h3 {
-        @apply text-lg font-bold my-4
-    }
     p {
-        @apply my-2
+        @apply text-sm my-2
     }
     a {
-        @apply text-amber-500 underline;
+        @apply text-sm text-amber-700 underline;
     }
     table {
         @apply w-full
@@ -27,9 +21,11 @@
     tr {
         @apply even:bg-gray-200 odd:bg-gray-100 hover:bg-gray-300
     }
-    td {
+    details {
+        @apply text-sm;
     }
     li {
+        @apply text-sm;
         list-style: disc inside;
     }
     button {

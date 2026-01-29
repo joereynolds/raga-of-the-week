@@ -31,7 +31,7 @@
 </ul>
 
 @if ($raga->similarRaga->count() > 5)
-    <details>
+    <details class="my-4">
         <summary>See more</summary>
             <ul>
                 @foreach($raga->similarRaga->skip(5) as $similarRaga)
