@@ -11,5 +11,6 @@ class DatabaseSeeder extends Seeder
         $this->call(SwarasSeeder::class);
         $this->call(RagaSeeder::class);
         $this->call(WesternScalesSeeder::class);
+        $this->call(VarishaiSeeder::class);
     }
 }
