@@ -13,5 +13,6 @@ class DatabaseSeeder extends Seeder
         $this->call(WesternScalesSeeder::class);
         $this->call(VarishaiSeeder::class);
         $this->call(VarishaiPatternSeeder::class);
+        $this->call(SwaraRelativeNotationsSeeder::class);
     }
 }

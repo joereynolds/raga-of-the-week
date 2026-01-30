@@ -20,11 +20,13 @@ class VarishaiPatternSwarasSeeder extends Seeder
             ]);
 
             foreach ($patterns as $pattern) {
+
                 $swaras = json_decode(
-                    file_get_contents(__DIR__ . "/data/ragas/$varishai/$pattern"),
+                    file_get_contents(__DIR__ . "/data/varishai/$varishai/$pattern"),
                     flags: JSON_OBJECT_AS_ARRAY|JSON_THROW_ON_ERROR
                 );
 
+                var_dump($swaras);
                 /* DB::table('varishai_pattern_swaras')->insert($swaras); */
             }
         }

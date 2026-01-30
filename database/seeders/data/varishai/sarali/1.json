@@ -1,22 +1,70 @@
 [
     {
         "varishai_pattern_id": 1,
-        "swara_id": 1,
-        "order": 1
+        "order": 1,
+        "notation": "s"
     },
     {
         "varishai_pattern_id": 1,
-        "swara_id": 1,
         "order": 2
     },
     {
         "varishai_pattern_id": 1,
-        "swara_id": 1,
         "order": 3
     },
     {
         "varishai_pattern_id": 1,
-        "swara_id": 1,
         "order": 4
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 5,
+        "notation": "s"
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 6
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 7
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 8
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 9,
+        "notation": "s"
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 10
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 11
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 12
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 13,
+        "notation": "s"
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 14
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 15
+    },
+    {
+        "varishai_pattern_id": 1,
+        "order": 16
     }
 ]
