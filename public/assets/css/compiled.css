@@ -492,6 +492,10 @@ tr:hover {
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
+td {
+  padding: 0.25rem;
+}
+
 details {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -640,16 +644,12 @@ button:hover {
   margin-bottom: 1rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {

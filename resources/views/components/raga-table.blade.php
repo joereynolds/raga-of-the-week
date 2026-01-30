@@ -33,25 +33,25 @@
 
 <table class="text-sm w-full">
     <tr>
-        <td>Arohana</td>
+        <td class="font-bold">Arohana</td>
         @foreach ($raga->arohana as $arohana)
             <td>{{ $arohana->swara->display_notation }}</td>
         @endforeach
     </tr>
     <tr>
-        <td>Avarohana</td>
+        <td class="font-bold">Avarohana</td>
         @foreach ($raga->avarohana as $avarohana)
             <td>{{ $avarohana->swara->display_notation }}</td>
         @endforeach
     </tr>
     <tr>
-        <td>Notes</td>
+        <td class="font-bold">Notes</td>
         @foreach ($raga->arohana as $arohana)
             <td class="note">{{ $arohana->swara->note }}{{ $arohana->swara->scientific_pitch }}</td>
         @endforeach
     </tr>
     <tr>
-        <td>Formula</td>
+        <td class="font-bold">Formula</td>
         @foreach ($raga->arohana as $arohana)
             <td >{{ $arohana->swara->interval }}</td>
         @endforeach
