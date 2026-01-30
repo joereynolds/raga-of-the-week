@@ -20,20 +20,17 @@
 
 @php
 // assuming varishai of Sarali on first pattern for now
-
-$p = \App\Models\VarishaiPattern::find(1);
-dump($p);
-
+$swaras = \App\Models\VarishaiPatternSwara::where("varishai_pattern_id", 1)->get();
 @endphp
 
 <table class="text-sm w-full">
-    <tr>
-        <td>Arohana</td>
-        <td>Arohana</td>
-        <td>Arohana</td>
-        <td>Arohana</td>
-        <td>Arohana</td>
-        <td>Arohana</td>
-        <td>Arohana</td>
-    </tr>
+
+        @foreach ($swaras->chunk(8) as $chunk)
+            <tr>
+                @foreach ($chunk as $swara)
+                    <td>{{ $swara->swaraRelativeNotation->notation }}</td>
+                @endforeach
+            </tr>
+        @endforeach
+
 </table>
