@@ -2,69 +2,81 @@
     {
         "varishai_pattern_id": 1,
         "order": 1,
-        "notation": "s"
+        "swara_relative_notation_id": 1
     },
     {
         "varishai_pattern_id": 1,
-        "order": 2
+        "order": 2,
+        "swara_relative_notation_id": 2
     },
     {
         "varishai_pattern_id": 1,
-        "order": 3
+        "order": 3,
+        "swara_relative_notation_id": 3
     },
     {
         "varishai_pattern_id": 1,
-        "order": 4
+        "order": 4,
+        "swara_relative_notation_id": 4
     },
     {
         "varishai_pattern_id": 1,
         "order": 5,
-        "notation": "s"
+        "swara_relative_notation_id": 5
     },
     {
         "varishai_pattern_id": 1,
-        "order": 6
+        "order": 6,
+        "swara_relative_notation_id": 6
     },
     {
         "varishai_pattern_id": 1,
-        "order": 7
+        "order": 7,
+        "swara_relative_notation_id": 7
     },
     {
         "varishai_pattern_id": 1,
-        "order": 8
+        "order": 8,
+        "swara_relative_notation_id": 8
     },
     {
         "varishai_pattern_id": 1,
         "order": 9,
-        "notation": "s"
+        "swara_relative_notation_id": 8
     },
     {
         "varishai_pattern_id": 1,
-        "order": 10
+        "order": 10,
+        "swara_relative_notation_id": 7
     },
     {
         "varishai_pattern_id": 1,
-        "order": 11
+        "order": 11,
+        "swara_relative_notation_id": 6
     },
     {
         "varishai_pattern_id": 1,
-        "order": 12
+        "order": 12,
+        "swara_relative_notation_id": 5
     },
     {
         "varishai_pattern_id": 1,
         "order": 13,
-        "notation": "s"
+        "swara_relative_notation_id": 4
     },
     {
         "varishai_pattern_id": 1,
-        "order": 14
+        "order": 14,
+        "swara_relative_notation_id": 3
     },
     {
         "varishai_pattern_id": 1,
-        "order": 15
+        "order": 15,
+        "swara_relative_notation_id": 2
     },
     {
         "varishai_pattern_id": 1,
-        "order": 16
+        "order": 16,
+        "swara_relative_notation_id": 1
     }
 ]

@@ -26,8 +26,7 @@ class VarishaiPatternSwarasSeeder extends Seeder
                     flags: JSON_OBJECT_AS_ARRAY|JSON_THROW_ON_ERROR
                 );
 
-                var_dump($swaras);
-                /* DB::table('varishai_pattern_swaras')->insert($swaras); */
+                DB::table('varishai_pattern_swaras')->insert($swaras);
             }
         }
     }
