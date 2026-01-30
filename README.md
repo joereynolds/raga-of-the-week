@@ -2,7 +2,7 @@
 
 Raga of the week displays a random [carnatic raga](https://en.wikipedia.org/wiki/Raga) every week.
 
-![image](https://github.com/user-attachments/assets/7128c0d0-dd8d-4a02-8ea9-17ded6640805)
+<img width="498" height="861" alt="image" src="https://github.com/user-attachments/assets/8df98059-4761-4f23-9347-436127e9111b" />
 
 
 ### Features
