@@ -17,3 +17,23 @@
         <option>{{ $pattern->id }}</option>
     @endforeach
 </select>
+
+@php
+// assuming varishai of Sarali on first pattern for now
+
+$p = \App\Models\VarishaiPattern::find(1);
+dump($p);
+
+@endphp
+
+<table class="text-sm w-full">
+    <tr>
+        <td>Arohana</td>
+        <td>Arohana</td>
+        <td>Arohana</td>
+        <td>Arohana</td>
+        <td>Arohana</td>
+        <td>Arohana</td>
+        <td>Arohana</td>
+    </tr>
+</table>

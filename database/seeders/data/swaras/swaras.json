@@ -6,7 +6,8 @@
         "name_full": "Shadja",
         "note": "C",
         "interval": "1",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 1
     },
     {
         "notation": "R1",
@@ -15,7 +16,8 @@
         "name_full": "Shuddha Rishabha",
         "note": "Db",
         "interval": "b2",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 2
     },
     {
         "notation": "R2",
@@ -24,7 +26,8 @@
         "name_full": "Chatushruti Rishabha",
         "note": "D",
         "interval": "2",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 2
     },
     {
         "notation": "R3",
@@ -33,7 +36,8 @@
         "name_full": "Shatshruti Rishabha",
         "note": "D#",
         "interval": "#2",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 2
     },
     {
         "notation": "G1",
@@ -42,7 +46,8 @@
         "name_full": "Shuddha Gandhara",
         "note": "Ebb",
         "interval": "bb3",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 3
     },
     {
         "notation": "G2",
@@ -51,7 +56,8 @@
         "name_full": "Sadharana Gandhara",
         "note": "Eb",
         "interval": "b3",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 3
     },
     {
         "notation": "G3",
@@ -60,7 +66,8 @@
         "name_full": "Antara Gandhara",
         "note": "E",
         "interval": "3",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 3
     },
     {
         "notation": "M1",
@@ -69,7 +76,8 @@
         "name_full": "Shuddha Madhyama",
         "note": "F",
         "interval": "4",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 4
     },
     {
         "notation": "M2",
@@ -78,7 +86,8 @@
         "name_full": "Prati Madhyama",
         "note": "F#",
         "interval": "#4",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 4
     },
     {
         "notation": "P",
@@ -87,7 +96,8 @@
         "name_full": "Panchama",
         "note": "G",
         "interval": "5",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 5
     },
     {
         "notation": "D1",
@@ -96,7 +106,8 @@
         "name_full": "Shuddha Dhaivata",
         "note": "Ab",
         "interval": "b6",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 6
     },
     {
         "notation": "D2",
@@ -105,7 +116,8 @@
         "name_full": "Chatushruti Dhaivata",
         "note": "A",
         "interval": "6",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 6
     },
     {
         "notation": "D3",
@@ -114,7 +126,8 @@
         "name_full": "Shatshruti Dhaivata",
         "note": "A#",
         "interval": "#6",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 6
     },
     {
         "notation": "N1",
@@ -123,7 +136,8 @@
         "name_full": "Shuddha Nishada",
         "note": "Bbb",
         "interval": "bb7",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 7
     },
     {
         "notation": "N2",
@@ -132,7 +146,8 @@
         "name_full": "Kaishiki Nishada",
         "note": "Bb",
         "interval": "b7",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 7
     },
     {
         "notation": "N3",
@@ -141,7 +156,8 @@
         "name_full": "Kakali Nishada",
         "note": "B",
         "interval": "7",
-        "scientific_pitch": 4
+        "scientific_pitch": 4,
+        "swara_relative_notation_id": 7
     },
     {
         "notation": "$",
@@ -150,6 +166,7 @@
         "name_full": "Shadja",
         "note": "C",
         "interval": "8",
-        "scientific_pitch": 5
+        "scientific_pitch": 5,
+        "swara_relative_notation_id": 8
     }
 ]
