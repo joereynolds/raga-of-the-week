@@ -1,10 +1,9 @@
 <h2>Varisais</h2>
 
 <p>
-  A varisai is a sequence played for a raga.
-  It's used to practice the raga and improve your technique.
+    A varisai is a sequence played for a raga.
+    It's used to practice the raga and improve your technique.
 </p>
-
 
 <select>
     @foreach ($varishais as $varishai)
