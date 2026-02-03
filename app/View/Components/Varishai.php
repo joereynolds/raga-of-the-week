@@ -21,7 +21,9 @@ class Varishai extends Component
         return view(
             'components.varishai',
             [
-                'varishais' => ModelsVarishai::all(),
+                // TODO - limited to the first one, just get this one sorted and release
+                // others can follow after (then just remove the first() call)
+                'varishais' => [ModelsVarishai::all()->first()],
                 'patterns' => VarishaiPattern::all(),
                 'swaras' => $swaras
             ]

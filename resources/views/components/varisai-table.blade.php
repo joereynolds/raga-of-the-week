@@ -1,6 +1,5 @@
-<div id="varisai-table-container">
+<div id="varisai-table">
     @php
-    // Use passed swaras or default to first pattern
     if (!$swaras) {
         $swaras = \App\Models\VarishaiPatternSwara::where("varishai_pattern_id", $patternId ?? 1)->get();
     }
