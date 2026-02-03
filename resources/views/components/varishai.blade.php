@@ -7,12 +7,8 @@
 
 <div class="flex justify-between">
     <div>
-        <button
-            class="rounded-sm text-sm"
-            data-varisai-play
-        >
-            Play Varisai
-        </button>
+        <button data-varisai-play>Play Varisai</button>
+        <button data-stop-varisai>Stop</button>
     </div>
 
     <div>

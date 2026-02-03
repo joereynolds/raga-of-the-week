@@ -70,6 +70,15 @@ class Raga {
       }, notes, "up").start(0).stop(duration);
     }
 
+    stop() {
+      Tone.Transport.stop();
+      Tone.Transport.cancel();
+      // Clear all highlights
+      document.querySelectorAll('#raga-table td, #varisai-table table td').forEach(td => {
+          td.classList.remove('highlighted');
+      });
+    }
+
     transpose(amount) {
         this.transposition_amount += parseInt(amount)
         updateNotesInTable(amount)
@@ -121,6 +130,18 @@ document.querySelectorAll("[data-varisai-play]").forEach(button => {
     if (varisaiTable && varisaiTable.dataset.notes) {
       raga.playVarisai(JSON.parse(varisaiTable.dataset.notes));
     }
+  });
+});
+
+document.querySelectorAll("[data-stop-raga]").forEach(button => {
+  button.addEventListener('click', () => {
+    raga.stop();
+  });
+});
+
+document.querySelectorAll("[data-stop-varisai]").forEach(button => {
+  button.addEventListener('click', () => {
+    raga.stop();
   });
 });
 

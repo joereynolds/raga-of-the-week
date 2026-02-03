@@ -4,7 +4,6 @@
 
         <div>
             <button
-                class="rounded-sm text-sm"
                 data-notes='{
                     "arohana": [
                     @foreach ($raga->arohana as $arohana)
@@ -20,6 +19,7 @@
             >
                 Play Raga
             </button>
+            <button data-stop-raga>Stop</button>
         </div>
 
         <div>
