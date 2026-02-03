@@ -11,7 +11,7 @@
     </div>
 
     <div class="mb-4">
-        <x-varishai :raga="$raga"/>
+        <x-varishai :patternId="1"/>
     </div>
 
     @isset ($raga->alsoKnownAs->westernScale)

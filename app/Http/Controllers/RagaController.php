@@ -19,7 +19,7 @@ class RagaController extends Controller
             'weekly',
             [
                 'ragas' => [$raga],
-                'varishais' => $varishais
+                'varishais' => $varishais,
             ]
         );
     }
