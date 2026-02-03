@@ -1,10 +1,9 @@
-<div class="mb-4">
+<div class="mb-4" id="raga-table-container">
 
     <div class="flex justify-between">
 
         <div>
             <button
-                class="rounded-sm text-sm"
                 data-notes='{
                     "arohana": [
                     @foreach ($raga->arohana as $arohana)
@@ -20,6 +19,7 @@
             >
                 Play Raga
             </button>
+            <button data-stop-raga>Stop</button>
         </div>
 
         <div>
@@ -31,7 +31,7 @@
 
 </div>
 
-<table class="text-sm w-full">
+<table class="text-sm w-full" id="raga-table">
     <tr>
         <td class="font-bold">Arohana</td>
         @foreach ($raga->arohana as $arohana)

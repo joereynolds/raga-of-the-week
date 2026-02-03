@@ -8,6 +8,7 @@
 
         <script src="https://unpkg.com/tone"></script>
         <script defer src="{{asset('assets/js/app.js')}}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.8/dist/htmx.min.js"></script>
 
         <link rel="stylesheet" href="{{asset('assets/css/compiled.css')}}">
     </head>

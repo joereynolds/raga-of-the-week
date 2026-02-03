@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\RagaController;
 use App\Http\Controllers\ScalesController;
+use App\Http\Controllers\VarisaiController;
 use App\Http\Controllers\WeeksController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,3 +17,9 @@ Route::get('/raga/{id}', [RagaController::class, 'show'])->name('raga');
 Route::get('/scales', [ScalesController::class, 'index'])->name('scales');
 
 Route::get('/weeks', [WeeksController::class, 'index'])->name('weeks');
+
+Route::get('/varisai/{id}', [VarisaiController::class, 'show'])->name('varisai');
+
+// TODO - would like this to be /varisa/{id}/{patternId}
+// but the current way is way easier with htmx
+Route::get('/varisai-pattern', [VarisaiController::class, 'pattern'])->name('varisai-pattern');

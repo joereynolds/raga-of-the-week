@@ -6,8 +6,10 @@ class Raga {
     }
 
     play(notes) {
+      // Stop any currently playing audio first
+      this.stop();
 
-      Tone.Transport.stop().start();
+      Tone.Transport.start();
       const synth = new Tone.PolySynth().toDestination();
       synth.triggerAttackRelease(
           Tone.Frequency('C2').transpose(this.transposition_amount),
@@ -29,7 +31,7 @@ class Raga {
           )
 
           Tone.Draw.schedule(() => {
-              highlightTableColumn(i++);
+              highlightRagaTableColumn(i++);
           }, time);
       }, notes.arohana, "up").start(0).stop(arohanaDuration);
 
@@ -41,9 +43,45 @@ class Raga {
           )
 
           Tone.Draw.schedule(() => {
-              highlightTableColumn(j--);
+              highlightRagaTableColumn(j--);
           }, time);
         }, notes.avarohana, "up").start(arohanaDuration).stop(arohanaDuration + avarohanaDuration);
+    }
+
+    playVarisai(notes) {
+      // Stop any currently playing audio first
+      this.stop();
+
+      Tone.Transport.start();
+      const synth = new Tone.PolySynth().toDestination();
+      synth.triggerAttackRelease(
+          Tone.Frequency('C2').transpose(this.transposition_amount),
+          4
+      );
+
+      let i = 0;
+      const duration = notes.length / 2;
+
+      const pattern = new Tone.Pattern((time, note) => {
+          synth.triggerAttackRelease(
+              Tone.Frequency(note).transpose(this.transposition_amount),
+              '8n',
+              time
+          )
+
+          Tone.Draw.schedule(() => {
+              highlightVarisaiNote(i++);
+          }, time);
+      }, notes, "up").start(0).stop(duration);
+    }
+
+    stop() {
+      Tone.Transport.stop();
+      Tone.Transport.cancel();
+      // Clear all highlights
+      document.querySelectorAll('#raga-table td, #varisai-table table td').forEach(td => {
+          td.classList.remove('highlighted');
+      });
     }
 
     transpose(amount) {
@@ -54,13 +92,21 @@ class Raga {
 
 const raga = new Raga();
 
-function highlightTableColumn(columnNumber) {
-  document.querySelectorAll('table td').forEach(td => {
+function highlightRagaTableColumn(columnNumber) {
+  document.querySelectorAll('#raga-table td').forEach(td => {
       td.classList.remove('highlighted');
-      console.log('here')
       let index = [].indexOf.call(td.parentElement.children, td);
 
       if (index === columnNumber) {
+          td.classList.add('highlighted');
+      }
+  });
+}
+
+function highlightVarisaiNote(noteIndex) {
+  document.querySelectorAll('#varisai-table table td').forEach((td, index) => {
+      td.classList.remove('highlighted');
+      if (index === noteIndex) {
           td.classList.add('highlighted');
       }
   });
@@ -80,6 +126,27 @@ function updateNotesInTable(amount) {
 document.querySelectorAll("[data-notes]").forEach(button => {
   button.addEventListener('click', () => {
     raga.play(JSON.parse(button.dataset.notes))
+  });
+});
+
+document.querySelectorAll("[data-varisai-play]").forEach(button => {
+  button.addEventListener('click', () => {
+    const varisaiTable = document.getElementById('varisai-table');
+    if (varisaiTable && varisaiTable.dataset.notes) {
+      raga.playVarisai(JSON.parse(varisaiTable.dataset.notes));
+    }
+  });
+});
+
+document.querySelectorAll("[data-stop-raga]").forEach(button => {
+  button.addEventListener('click', () => {
+    raga.stop();
+  });
+});
+
+document.querySelectorAll("[data-stop-varisai]").forEach(button => {
+  button.addEventListener('click', () => {
+    raga.stop();
   });
 });
 
