@@ -1,11 +1,14 @@
 <div id="varisai-table" 
      data-notes='[
+         @php $first = true; @endphp
          @foreach ($swaras as $swara)
              @php
                  $actualSwara = $swara->swaraRelativeNotation->getSwaraForRaga($raga);
              @endphp
              @if($actualSwara)
-                 "{{ $actualSwara->note }}{{ $actualSwara->scientific_pitch }}"{{ $loop->last ? '' : ',' }}
+                 {{ $first ? '' : ',' }}
+                 "{{ $actualSwara->note }}{{ $actualSwara->scientific_pitch }}"
+                 @php $first = false; @endphp
              @endif
          @endforeach
      ]'>
