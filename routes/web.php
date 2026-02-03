@@ -19,4 +19,4 @@ Route::get('/scales', [ScalesController::class, 'index'])->name('scales');
 Route::get('/weeks', [WeeksController::class, 'index'])->name('weeks');
 
 Route::get('/varisai/{id}', [VarisaiController::class, 'show'])->name('varisai');
-Route::get('/varisai/{id}/{patternId}', [VarisaiController::class, 'pattern'])->name('varisai-pattern');
+Route::get('/varisai-pattern', [VarisaiController::class, 'pattern'])->name('varisai-pattern');

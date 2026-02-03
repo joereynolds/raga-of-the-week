@@ -6,7 +6,13 @@
 </p>
 
 <div id="varisai-controls">
-    <select id="varishai-select" name="varishai">
+    <select id="varishai-select" name="varishai"
+        hx-get="{{ route('varisai-pattern') }}"
+        hx-trigger="change"
+        hx-target="#varisai-table-container"
+        hx-swap="outerHTML"
+        hx-include="#pattern-select"
+    >
         @foreach ($varishais as $varishai)
             <option value="{{ $varishai->id }}" {{ $loop->first ? 'selected' : '' }}>{{ $varishai->varishai }}</option>
         @endforeach
@@ -15,16 +21,14 @@
     <select 
         id="pattern-select"
         name="pattern"
-        hx-trigger="change"
+        hx-get="{{ route('varisai-pattern') }}"
         hx-target="#varisai-table-container"
         hx-swap="outerHTML"
+        hx-trigger="change"
+        hx-include="#varishai-select"
     >
         @foreach ($patterns as $pattern)
-            <option value="{{ $pattern->id }}" 
-                    {{ $loop->first ? 'selected' : '' }}
-                    hx-get="{{ route('varisai-pattern', ['id' => $varishais->first()->id ?? 1, 'patternId' => $pattern->id]) }}">
-                Pattern {{ $pattern->id }}
-            </option>
+            <option value="{{ $pattern->id }}" {{ $loop->first ? 'selected' : '' }}>Pattern {{ $pattern->id }}</option>
         @endforeach
     </select>
 </div>
