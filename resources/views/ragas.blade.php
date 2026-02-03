@@ -2,7 +2,7 @@
     <h1>Melakarta Ragas</h1>
     @foreach($melakartas as $raga)
         <div
-            class="py-2 px-4 bg-orange-100 mb-4"
+            class="py-2 px-4 bg-orange-100 mb-4 text-sm"
         >
             {{ $raga->id }}.
             <a href="{{ route('raga', ['id' => $raga->id]) }}" >

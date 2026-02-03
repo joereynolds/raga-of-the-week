@@ -660,16 +660,6 @@ select:hover, option:hover, button:hover {
   display: table;
 }
 
-.size-6 {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.size-7 {
-  width: 1.75rem;
-  height: 1.75rem;
-}
-
 .size-4 {
   width: 1rem;
   height: 1rem;
@@ -694,15 +684,6 @@ select:hover, option:hover, button:hover {
 .bg-orange-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(255 246 231 / var(--tw-bg-opacity, 1));
-}
-
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
-.fill-amber-700 {
-  fill: #b45309;
 }
 
 .fill-amber-500 {
@@ -758,11 +739,6 @@ select:hover, option:hover, button:hover {
 .text-amber-700 {
   --tw-text-opacity: 1;
   color: rgb(180 83 9 / var(--tw-text-opacity, 1));
-}
-
-.text-amber-500 {
-  --tw-text-opacity: 1;
-  color: rgb(245 158 11 / var(--tw-text-opacity, 1));
 }
 
 html {

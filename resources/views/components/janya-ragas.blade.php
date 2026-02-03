@@ -1,6 +1,6 @@
 <h3>Janya Ragas</h3>
-<p>Janya ragas are ragas that are derived from the parent raga ({{$raga->name}}).</p>
-<p>Here are the Janya ragas for {{$raga->name}}:</p>
+<p>Janya ragas are ragas that are derived from the parent raga.</p>
+<p class="mb-4">Here are the Janya ragas for {{$raga->name}}</p>
 
 <table>
     <tr>

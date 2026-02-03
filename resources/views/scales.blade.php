@@ -18,7 +18,7 @@
             </div>
         @else
             <div class="flex justify-between px-4 py-3 bg-orange-100 mb-4">
-                <span>{{ $scale->name }}</span>
+                <span class="text-sm">{{ $scale->name }}</span>
                 <small>(no aliases found)</small>
             </div>
         @endisset
