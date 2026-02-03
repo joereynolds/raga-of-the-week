@@ -41,5 +41,5 @@ docker-compose run --rm php php artisan <command>
 ### Composer commands
 
 ```
-docker run --rm --interactive --tty  --volume $PWD:/app composer <command>
+docker-compose run --rm php composer <command>
 ```
