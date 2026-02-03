@@ -19,6 +19,7 @@
             hx-swap="outerHTML"
             hx-include="#pattern-select"
             hx-vals='{"raga_id": {{ $raga->id }}}'
+            onchange="if (typeof raga !== 'undefined') raga.stop();"
         >
             @foreach ($varishais as $varishai)
                 <option value="{{ $varishai->id }}" {{ $loop->first ? 'selected' : '' }}>{{ $varishai->varishai }}</option>
@@ -34,6 +35,7 @@
             hx-trigger="change"
             hx-include="#varishai-select"
             hx-vals='{"raga_id": {{ $raga->id }}}'
+            onchange="if (typeof raga !== 'undefined') raga.stop();"
         >
             @foreach ($patterns as $pattern)
                 <option value="{{ $pattern->id }}" {{ $loop->first ? 'selected' : '' }}>{{ $pattern->id }}</option>

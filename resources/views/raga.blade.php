@@ -10,9 +10,11 @@
         <x-raga-table :raga="$raga"/>
     </div>
 
-    <div class="mb-4">
-        <x-varishai :raga="$raga" :patternId="1"/>
-    </div>
+    @if (!$raga->isJanya)
+        <div class="mb-4">
+            <x-varishai :raga="$raga" :patternId="1"/>
+        </div>
+    @endif
 
     @isset ($raga->alsoKnownAs->westernScale)
         <p>In the western world it is known as the <strong>{{ $raga->alsoKnownAs->westernScale->name}}</strong> scale/mode.
