@@ -29,7 +29,7 @@ class Raga {
           )
 
           Tone.Draw.schedule(() => {
-              highlightTableColumn(i++);
+              highlightRagaTableColumn(i++);
           }, time);
       }, notes.arohana, "up").start(0).stop(arohanaDuration);
 
@@ -41,7 +41,7 @@ class Raga {
           )
 
           Tone.Draw.schedule(() => {
-              highlightTableColumn(j--);
+              highlightRagaTableColumn(j--);
           }, time);
         }, notes.avarohana, "up").start(arohanaDuration).stop(arohanaDuration + avarohanaDuration);
     }
@@ -78,10 +78,9 @@ class Raga {
 
 const raga = new Raga();
 
-function highlightTableColumn(columnNumber) {
-  document.querySelectorAll('table td').forEach(td => {
+function highlightRagaTableColumn(columnNumber) {
+  document.querySelectorAll('#raga-table td').forEach(td => {
       td.classList.remove('highlighted');
-      console.log('here')
       let index = [].indexOf.call(td.parentElement.children, td);
 
       if (index === columnNumber) {
