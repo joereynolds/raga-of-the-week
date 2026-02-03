@@ -1,4 +1,14 @@
-<div id="varisai-table">
+<div id="varisai-table" 
+     data-notes='[
+         @foreach ($swaras as $swara)
+             @php
+                 $actualSwara = $swara->swaraRelativeNotation->getSwaraForRaga($raga);
+             @endphp
+             @if($actualSwara)
+                 "{{ $actualSwara->note }}{{ $actualSwara->scientific_pitch }}"{{ $loop->last ? '' : ',' }}
+             @endif
+         @endforeach
+     ]'>
     @php
     if (!$swaras) {
         $swaras = \App\Models\VarishaiPatternSwara::where("varishai_pattern_id", $patternId ?? 1)->get();

@@ -9,6 +9,7 @@
     <div>
         <button
             class="rounded-sm text-sm"
+            data-varisai-play
         >
             Play Varisai
         </button>
@@ -21,6 +22,7 @@
             hx-target="#varisai-table"
             hx-swap="outerHTML"
             hx-include="#pattern-select"
+            hx-vals='{"raga_id": {{ $raga->id }}}'
         >
             @foreach ($varishais as $varishai)
                 <option value="{{ $varishai->id }}" {{ $loop->first ? 'selected' : '' }}>{{ $varishai->varishai }}</option>
@@ -35,6 +37,7 @@
             hx-swap="outerHTML"
             hx-trigger="change"
             hx-include="#varishai-select"
+            hx-vals='{"raga_id": {{ $raga->id }}}'
         >
             @foreach ($patterns as $pattern)
                 <option value="{{ $pattern->id }}" {{ $loop->first ? 'selected' : '' }}>{{ $pattern->id }}</option>
@@ -45,5 +48,5 @@
 </div>
 
 <div class="mt-4">
-    <x-varisai-table :swaras="$swaras" :pattern-id="1" />
+    <x-varisai-table :swaras="$swaras" :pattern-id="1" :raga="$raga" />
 </div>

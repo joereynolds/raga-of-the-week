@@ -2,6 +2,7 @@
 
 namespace App\View\Components;
 
+use App\Models\Raga;
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\Database\Eloquent\Collection;
@@ -14,7 +15,8 @@ class VarisaiTable extends Component
      */
     public function __construct(
         public ?Collection $swaras = null,
-        public ?int $patternId = 1
+        public ?int $patternId = 1,
+        public ?Raga $raga = null
     ) {
         //
     }
