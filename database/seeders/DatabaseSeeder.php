@@ -15,5 +15,6 @@ class DatabaseSeeder extends Seeder
         $this->call(VarishaiSeeder::class);
         $this->call(VarishaiPatternSeeder::class);
         $this->call(VarishaiPatternSwarasSeeder::class);
+        $this->call(PreviousWeeksSeeder::class);
     }
 }
