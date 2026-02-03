@@ -6,8 +6,10 @@ class Raga {
     }
 
     play(notes) {
+      // Stop any currently playing audio first
+      this.stop();
 
-      Tone.Transport.stop().start();
+      Tone.Transport.start();
       const synth = new Tone.PolySynth().toDestination();
       synth.triggerAttackRelease(
           Tone.Frequency('C2').transpose(this.transposition_amount),
@@ -47,7 +49,10 @@ class Raga {
     }
 
     playVarisai(notes) {
-      Tone.Transport.stop().start();
+      // Stop any currently playing audio first
+      this.stop();
+
+      Tone.Transport.start();
       const synth = new Tone.PolySynth().toDestination();
       synth.triggerAttackRelease(
           Tone.Frequency('C2').transpose(this.transposition_amount),
