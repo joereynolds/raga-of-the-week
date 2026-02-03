@@ -5,8 +5,7 @@ class Raga {
         this.transposition_amount = 0
     }
 
-    play(notes) {
-      // Stop any currently playing audio first
+    play(element, notes) {
       this.stop();
 
       Tone.Transport.start();
@@ -16,23 +15,25 @@ class Raga {
           4
       );
 
+
       let i = 1;
       let j = notes.avarohana.length;
       const arohanaDuration = notes.arohana.length / 2;
       const avarohanaDuration = notes.avarohana.length / 2;
 
       const pattern = new Tone.Pattern((time, note) => {
-          console.log(note + '4');
-          console.log(this.transposition_amount);
           synth.triggerAttackRelease(
               Tone.Frequency(note).transpose(this.transposition_amount),
               '8n',
               time
           )
 
-          Tone.Draw.schedule(() => {
-              highlightRagaTableColumn(i++);
-          }, time);
+          if (typeof(element.dataset.noHighlight) === "undefined") {
+              Tone.Draw.schedule(() => {
+                  highlightRagaTableColumn(i++);
+              }, time);
+          }
+
       }, notes.arohana, "up").start(0).stop(arohanaDuration);
 
         const reversePattern = new Tone.Pattern((time, note) => {
@@ -42,14 +43,17 @@ class Raga {
               time
           )
 
-          Tone.Draw.schedule(() => {
-              highlightRagaTableColumn(j--);
-          }, time);
+          if (typeof(element.dataset.noHighlight) === "undefined") {
+              Tone.Draw.schedule(() => {
+                  highlightRagaTableColumn(j--);
+              }, time);
+          }
+
+
         }, notes.avarohana, "up").start(arohanaDuration).stop(arohanaDuration + avarohanaDuration);
     }
 
     playVarisai(notes) {
-      // Stop any currently playing audio first
       this.stop();
 
       Tone.Transport.start();
@@ -123,14 +127,14 @@ function updateNotesInTable(amount) {
     });
 }
 
-document.querySelectorAll("[data-notes]").forEach(button => {
-  button.addEventListener('click', () => {
-    raga.play(JSON.parse(button.dataset.notes))
+document.querySelectorAll("[data-notes]").forEach(el => {
+  el.addEventListener('click', () => {
+    raga.play(el, JSON.parse(el.dataset.notes))
   });
 });
 
-document.querySelectorAll("[data-varisai-play]").forEach(button => {
-  button.addEventListener('click', () => {
+document.querySelectorAll("[data-varisai-play]").forEach(el => {
+  el.addEventListener('click', () => {
     const varisaiTable = document.getElementById('varisai-table');
     if (varisaiTable && varisaiTable.dataset.notes) {
       raga.playVarisai(JSON.parse(varisaiTable.dataset.notes));
@@ -138,20 +142,14 @@ document.querySelectorAll("[data-varisai-play]").forEach(button => {
   });
 });
 
-document.querySelectorAll("[data-stop-raga]").forEach(button => {
-  button.addEventListener('click', () => {
+document.querySelectorAll("[data-stop]").forEach(el => {
+  el.addEventListener('click', () => {
     raga.stop();
   });
 });
 
-document.querySelectorAll("[data-stop-varisai]").forEach(button => {
-  button.addEventListener('click', () => {
-    raga.stop();
-  });
-});
-
-document.querySelectorAll("[data-transpose]").forEach(button => {
-  button.addEventListener('click', () => {
-    raga.transpose(button.dataset.transpose);
+document.querySelectorAll("[data-transpose]").forEach(el => {
+  el.addEventListener('click', () => {
+    raga.transpose(el.dataset.transpose);
   });
 });

@@ -21,7 +21,7 @@
     tr {
         @apply even:bg-gray-200 odd:bg-gray-100 hover:bg-gray-300;
     }
-    td {
+    th, td {
         @apply p-1;
     }
     details {

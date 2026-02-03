@@ -8,7 +8,7 @@
 <div class="flex justify-between">
     <div>
         <button data-varisai-play>Play Varisai</button>
-        <button data-stop-varisai>Stop</button>
+        <button data-stop>Stop</button>
     </div>
 
     <div>

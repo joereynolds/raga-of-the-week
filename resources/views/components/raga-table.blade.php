@@ -19,7 +19,7 @@
             >
                 Play Raga
             </button>
-            <button data-stop-raga>Stop</button>
+            <button data-stop>Stop</button>
         </div>
 
         <div>
