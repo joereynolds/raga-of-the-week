@@ -41,11 +41,6 @@
         },
         {
             "raga_id": 54,
-            "swara_id": 1,
-            "order": 7
-        },
-        {
-            "raga_id": 54,
             "swara_id": 17,
             "order": 7
         }
@@ -58,43 +53,38 @@
         },
         {
             "raga_id": 54,
-            "swara_id": 1,
+            "swara_id": 16,
             "order": 0
         },
         {
             "raga_id": 54,
-            "swara_id": 16,
+            "swara_id": 13,
             "order": 1
         },
         {
             "raga_id": 54,
-            "swara_id": 13,
+            "swara_id": 10,
             "order": 2
         },
         {
             "raga_id": 54,
-            "swara_id": 10,
+            "swara_id": 9,
             "order": 3
         },
         {
             "raga_id": 54,
-            "swara_id": 9,
+            "swara_id": 7,
             "order": 4
         },
         {
             "raga_id": 54,
-            "swara_id": 7,
+            "swara_id": 2,
             "order": 5
         },
         {
             "raga_id": 54,
-            "swara_id": 2,
-            "order": 6
-        },
-        {
-            "raga_id": 54,
             "swara_id": 1,
-            "order": 7
+            "order": 6
         }
     ]
 }
