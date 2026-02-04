@@ -25,7 +25,10 @@
 
     <div class="flex justify-between mt-4">
         <div>
-            <a href="https://github.com/joereynolds/raga-of-the-week/issues">
+            <a
+                hx-on:click="document.getElementById('issue').classList.toggle('hidden')"
+                href="#"
+            >
                 Raise an issue
             </a>
         </div>
@@ -42,5 +45,7 @@
             </a>
         </div>
     </div>
+
+    <x-issue :raga="$raga"/>
 
 </footer>
