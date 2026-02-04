@@ -40,4 +40,9 @@
 
     <x-similar-ragas :raga="$raga"/>
 @endforeach
-<x-footer :previousRagaId="$raga->previous" :nextRagaId="$raga->next"></x-footer>
+<x-footer
+    :raga="$raga"
+    :previousRagaId="$raga->previous"
+    :nextRagaId="$raga->next"
+>
+    </x-footer>

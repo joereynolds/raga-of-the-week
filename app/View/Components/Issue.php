@@ -7,17 +7,15 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class Footer extends Component
+class Issue extends Component
 {
-    public function __construct(
-        public Raga $raga,
-        public ?int $previousRagaId,
-        public ?int $nextRagaId,
-    ) {
+    public function __construct(public Raga $raga)
+    {
+        //
     }
 
     public function render(): View|Closure|string
     {
-        return view('components.footer');
+        return view('components.issue');
     }
 }

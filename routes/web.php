@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\IssueController;
 use App\Http\Controllers\RagaController;
 use App\Http\Controllers\ScalesController;
 use App\Http\Controllers\VarisaiController;
@@ -18,8 +19,11 @@ Route::get('/scales', [ScalesController::class, 'index'])->name('scales');
 
 Route::get('/weeks', [WeeksController::class, 'index'])->name('weeks');
 
+Route::post('/issue', [IssueController::class, 'store'])->name('issue');
+
 Route::get('/varisai/{id}', [VarisaiController::class, 'show'])->name('varisai');
 
 // TODO - would like this to be /varisa/{id}/{patternId}
 // but the current way is way easier with htmx
 Route::get('/varisai-pattern', [VarisaiController::class, 'pattern'])->name('varisai-pattern');
+
