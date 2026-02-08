@@ -19,6 +19,7 @@ Route::get('/scales', [ScalesController::class, 'index'])->name('scales');
 
 Route::get('/weeks', [WeeksController::class, 'index'])->name('weeks');
 
+Route::get('/issue', [IssueController::class, 'index'])->name('issues');
 Route::post('/issue', [IssueController::class, 'store'])->name('issue');
 
 Route::get('/varisai/{id}', [VarisaiController::class, 'show'])->name('varisai');

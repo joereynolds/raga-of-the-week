@@ -8,6 +8,11 @@ use Illuminate\View\View;
 
 class IssueController extends Controller
 {
+    public function index(): View
+    {
+        return view('issues', ['issues' => Issue::all()]);
+    }
+
     public function store(Request $request): View
     {
         Issue::create([
