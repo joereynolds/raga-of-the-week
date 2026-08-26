@@ -1,8 +1,9 @@
 <x-layout>
 
 <div>
+    <h2>{{ $chakra->name }}</h2>
     <p>
-        {{ $chakra->name }} is number {{ $chakra->id }} of the <a href=" {{ route('chakra-index') }}">chakras</a>.
+        {{ $chakra->name }} is number {{ $chakra->id }} of the 12 <a href=" {{ route('chakra-index') }}">chakras</a>.
     </p>
 
     <p>

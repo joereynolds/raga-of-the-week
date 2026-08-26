@@ -6,6 +6,12 @@
         <p>{{$raga->name}} is number {{$raga->id}} of the Melakarta ragas.</p>
     @endif
 
+    @if (!$raga->isJanya)
+        <p>It belongs to chakra number {{ $raga->chakra->id }},
+            <a href="{{ route('chakra', ['id' => $raga->chakra->id]) }}">{{ $raga->chakra->name }}</a>.
+        </p>
+    @endif
+
     <div class="mb-4">
         <x-raga-table :raga="$raga"/>
     </div>
