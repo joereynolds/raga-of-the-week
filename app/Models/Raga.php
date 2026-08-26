@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
+use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 
 class Raga extends Model
 {
@@ -49,6 +49,19 @@ class Raga extends Model
     public function janya(): HasMany
     {
         return $this->hasMany(MelakartaJanyaLink::class);
+    }
+
+    public function chakra(): HasOneThrough
+    {
+        // confusing...
+        return $this->hasOneThrough(
+            Chakra::class,
+            ChakraRagaLink::class,
+            'raga_id',  // foreign key on chakra_links table
+            'id', // foreign key on chakra
+            'id', // local raga key
+            'chakra_id' // local key on chakra_links table
+        );
     }
 
     protected function isJanya(): Attribute

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ChakraController;
 use App\Http\Controllers\IssueController;
 use App\Http\Controllers\RagaController;
 use App\Http\Controllers\ScalesController;
@@ -9,10 +10,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [RagaController::class, 'weekly'])->name('weekly');
 
+Route::get('/chakra', [ChakraController::class, 'index'])->name('chakra-index');
+Route::get('/chakra/{id}', [ChakraController::class, 'show'])->name('chakra');
+
 Route::get('/raga', [RagaController::class, 'index'])->name('index');
-
 Route::get('/raga/random', [RagaController::class, 'random'])->name('random');
-
 Route::get('/raga/{id}', [RagaController::class, 'show'])->name('raga');
 
 Route::get('/scales', [ScalesController::class, 'index'])->name('scales');

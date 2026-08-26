@@ -8,6 +8,7 @@ class DatabaseSeeder extends Seeder
 {
     public function run(): void
     {
+        // Order matters, don't mess with this.
         $this->call(SwaraRelativeNotationsSeeder::class);
         $this->call(SwarasSeeder::class);
         $this->call(RagaSeeder::class);
@@ -16,5 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call(VarishaiPatternSeeder::class);
         $this->call(VarishaiPatternSwarasSeeder::class);
         $this->call(PreviousWeeksSeeder::class);
+        $this->call(ChakrasSeeder::class);
+        $this->call(ChakraRagaLinkSeeder::class);
     }
 }
