@@ -16,5 +16,6 @@ class DatabaseSeeder extends Seeder
         $this->call(VarishaiPatternSeeder::class);
         $this->call(VarishaiPatternSwarasSeeder::class);
         $this->call(PreviousWeeksSeeder::class);
+        $this->call(ChakrasSeeder::class);
     }
 }
